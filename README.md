@@ -15,10 +15,10 @@
 
 **FILE STRUCTURE:**
 - Project root folder
- - View
- - Controllers
- - Models
- - Interfaces
+  - View
+  - Controllers
+  - Models
+  - Interfaces
 
 **CODING NAME CONVENTIONS:**
 - We follow Python Enhancement Proposal (PEP8) 
@@ -32,9 +32,9 @@
 
 **Example CLASSES, FUNCTIONS AND VARIABLES (More an example than an exact list):** 
 - GHRepository [Class] 
- - private url [Variable]
- - private repo_name [Variable]
- - private has_GHA [Variable]
- - set_variable [Funciton]
+  - private url [Variable]
+  - private repo_name [Variable]
+  - private has_GHA [Variable]
+  - set_variable [Funciton]
 - WebScraper [Class] 
- - main_loop [Function]
+  - main_loop [Function]
