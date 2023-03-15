@@ -21,7 +21,8 @@
         * Interfaces
 
  #### CODING NAME CONVENTIONS:
-    * We follow Python Enhancement Proposal (PEP8) [Link to PEP8](https://peps.python.org/pep-0008/)
+    * We follow Python Enhancement Proposal (PEP8) 
+    * [PEP8](https://peps.python.org/pep-0008/)
       
 
  #### DESIGN PATTERN:
