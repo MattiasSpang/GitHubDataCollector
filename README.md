@@ -4,7 +4,7 @@
 - Asyncio (A asyncrounus library)
 - BeautifulSoup (A web scraping library)
 - csv (Python built in csv handling library)
-- TKinter (A ui application library)
+- TKinter (A UI application library)
 
 **STEPS:**
 1. Listen for user settings input. 
