@@ -11,7 +11,12 @@ def test_create_and_get_data_from_repository():
 
     print(repo.get_repository_data_by_name(RepositoryData.NAME.name))
     
-def test_user_settings_from_view():
+def test_save_interval_from_view():
     print(View.set_save_interval())
+    
+def test_set_stop_from_view():
+    print(View.set_stop())
 
 test_create_and_get_data_from_repository()
+#test_save_interval_from_view()
+#test_set_stop_from_view()
