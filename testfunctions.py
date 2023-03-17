@@ -16,6 +16,9 @@ def test_save_interval_from_view():
     
 def test_set_stop_from_view():
     print(View.set_stop())
+    
+def test_set_start_from_view():
+    print(View.set_start())
 
 test_create_and_get_data_from_repository()
 #test_save_interval_from_view()
