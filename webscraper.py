@@ -2,7 +2,8 @@ import asyncio
 from bs4 import BeautifulSoup
 import aiohttp
 from ghrepository import GHRepository
-import csvHandler
+from csvhandler import CsvHandler
+from repositorydataenum import RepositoryData
 
 class WebScraper:
 
@@ -14,34 +15,40 @@ class WebScraper:
         self.log: list = []
 
         # data
-        self.urls = []
-
-    def load_urls_from_file(file_path: str, column_containing_url: int) -> list:
-        file = open(file_path, "r")
-
-        #for row in file:
-
-
-    def write_to_file(file_path: str):
-        pass
+        self.urls: list = []
 
     async def fetch(self,session: aiohttp.ClientSession, url: str) -> GHRepository:
-        pass
+        print("fetching for url: ", url)
+        print("---------------------------------------------------------------------------------")
 
 
     async def run(self):
+
+        csv_handler = CsvHandler
+        tasks = []
+        file_name = "5000csv.csv"
+        delimiter = ";"
+
 
         # --------------------------
         # call view functions here to gather settings info
         # --------------------------
 
+        #---------------------------
+        # Get urls here
+        #---------------------------
+        input_data = csv_handler.readCsvFile(file_name=file_name, delimiter=delimiter)
+        for row in input_data["rows"]:
+            self.urls.append(row[RepositoryData.NAME.value])
+
         # prepare a task for every repository
-        tasks = []
+        
         async with aiohttp.ClientSession() as session:
             for url in self.urls:
                 tasks.append(self.fetch(session, url))
 
             repositories = await asyncio.gather(*tasks)
+            print(repositories)
 
 
     def write_log_to_file():

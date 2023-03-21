@@ -1,6 +1,7 @@
 from ghrepository import GHRepository
 from repositorydataenum import RepositoryData
 from view import View
+from csvhandler import CsvHandler
 
 
 def test_create_and_get_data_from_repository():
@@ -20,6 +21,20 @@ def test_set_stop_from_view():
 def test_set_start_from_view():
     print(View.set_start())
 
-test_create_and_get_data_from_repository()
+def test_read_csv_file():
+    csv_handler = CsvHandler
+    file = csv_handler.readCsvFile("5000csv.csv",";")
+
+    for row in file["rows"]:
+        print(row[RepositoryData.NAME.value])
+        print(type(row))
+
+def test_create_csv_file():
+    data = {"header" : ["htest1","htest2"], "rows" : [["rtest1","rtest2"], ["rtest1.1","rtest1.2"]]}
+    ret_msg = CsvHandler.createCsvFile(data=data,wanted_file_name="testcsv.csv")
+    print(ret_msg)
+
+#test_create_and_get_data_from_repository()
 #test_save_interval_from_view()
 #test_set_stop_from_view()
+test_create_csv_file()

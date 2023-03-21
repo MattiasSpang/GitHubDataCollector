@@ -21,3 +21,9 @@ class GHRepository:
 
     def add_data_by_name(self, name: RepositoryData, data):
         self.data[name] = data
+
+    def toString(self):
+        pass
+
+    def to_csv_row(self):
+        pass
