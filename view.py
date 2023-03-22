@@ -16,3 +16,17 @@ class View:
 			print("At which number of repositories do you want to stop?")
 			answer = int(input())
 			return answer
+	
+	def set_input_file_name():
+		answer = ""
+		print("'What is the name of the file you want to get urls from?")
+		answer = input()
+		return answer
+	
+	def set_input_file_delimiter():
+		answer = ""
+		print("'What delimiter does that file use?")
+		answer = input()
+		return answer
+	
+	

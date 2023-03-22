@@ -25,5 +25,12 @@ class GHRepository:
     def toString(self):
         pass
 
+    def set_url(self, url: str):
+        self.url = url
+
     def to_csv_row(self):
-        pass
+        csv_row = []
+        csv_row.append(self.url)
+        csv_row.append(self.data[RepositoryData.HAS_GHA.name])
+
+        return csv_row

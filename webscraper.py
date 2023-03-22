@@ -6,6 +6,7 @@ from csvhandler import CsvHandler
 from repositorydataenum import RepositoryData
 from datetime import datetime
 from random import randint
+from view import View
 
 class WebScraper:
 
@@ -20,6 +21,12 @@ class WebScraper:
         self.github_url: str = "https://www.github.com/"
         self.nr_of_errors: int = 0
 
+        # settings
+        self.wanted_file_name = "temp_name.csv"
+        self.file_name = "simplecsv.csv"
+        self.delimiter = ";"
+        self.nr_of_repos_scraped = 0
+
         # data
         self.urls: list = []
 
@@ -31,8 +38,11 @@ class WebScraper:
         repo = GHRepository(url=url)
 
         main_page = await self.get_page_main_from_url(url=url, session=session)
+        #issues_page = await self.get_page_issues_from_url(url=url, session=session)
+        has_gha = await self.get_has_gha_from_page(url=url,session=session,main_page_text=main_page)
         
-        print(main_page)
+        repo.set_url(url=url)
+        repo.add_data_by_name(RepositoryData.HAS_GHA.name, has_gha)
 
         return repo
         
@@ -44,34 +54,48 @@ class WebScraper:
         print("Started running web scraping session.")
         
         tasks = []
-        file_name = "simplecsv.csv"
-        delimiter = ";"
+        
+
 
 
         # --------------------------
         # call view functions here to gather settings info
         # --------------------------
+        self.file_name = View.set_input_file_name()
+        self.delimiter = View.set_input_file_delimiter()
 
         #---------------------------
         # Get urls here
         #---------------------------
-        self.extract_urls_from_file(file_name=file_name, delimiter=delimiter)
+        self.extract_urls_from_file(file_name=self.file_name, delimiter=self.delimiter)
 
         # prepare a task for every repository
         
-        async with aiohttp.ClientSession() as session:
+        req_headers = {
+            "Authorization" : "token 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"
+        }
+        async with aiohttp.ClientSession(headers=req_headers) as session:
             for url in self.urls:
                 tasks.append(self.fetch(session, url))
 
             repositories = await asyncio.gather(*tasks)
             
+            print("starting to write csv file...")
+            headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name]
+            rows = []
             for repo in repositories:
                 if isinstance(repo, GHRepository):
-                    # this is where we start to write to a csv file. 
-                    print("writing to file")
-                
+
+                    rows.append(repo.to_csv_row())
+                    self.nr_of_repos_scraped += 1
                 else:
                     self.write_to_log("Error: repo is not stored as a GHRepository object.")
+            
+            data_dict = {"header": headers, "rows" : rows}
+            CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
+            print("done writing to file!")
+
+        self.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
         self.write_to_log("Errors on run: " + str(self.nr_of_errors))
         self.write_log_to_file()
         print("Finished running web scraping session...")
@@ -95,13 +119,33 @@ class WebScraper:
         log_file.writelines(self.log)
         print("Wrote to new log file: " + log_file_name)
 
-
-    async def get_has_gha_from_page(self, url: str, session):
+    async def get_has_gha_from_page(self, url: str, session: aiohttp.ClientSession, main_page_text: str) -> bool:
         """
         This function takes a url to a repo and adds its GitHub Actions folder and checks if there are
         any GitHub Actions. It returns true if there are GitHub Actions and false if not. 
         """
-        pass
+
+        bs_soup = BeautifulSoup(main_page_text, "html.parser")
+        results = bs_soup.find_all("a", title=".github", href=True)
+
+        if len(results) > 0:
+            
+            workflows_url = "https://github.com" + results[0]["href"] + "/workflows"
+            print(workflows_url)
+            try:
+                async with session.get(workflows_url) as response:
+                    # 1. Extracting the Text:
+                    if response.status == 200:
+                        return True
+                    else:
+                        return False
+                
+            except Exception as e:
+                self.write_to_log(str(e) + ":   for repository: " + url)
+                self.nr_of_errors += 1
+                print(str(e))
+        else:
+            return False
 
     async def get_page_main_from_url(self, url:str, session) -> str:
         """
@@ -119,7 +163,6 @@ class WebScraper:
             self.write_to_log(str(e) + ":   for repository: " + url)
             self.nr_of_errors += 1
             print(str(e))
-
 
     async def get_page_issues_from_url(self, url:str, session) -> str:
         """

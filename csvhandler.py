@@ -48,7 +48,7 @@ class CsvHandler:
         print("begin writing to file...")
         
         try:
-            file = open(wanted_file_name, 'w+')
+            file = open(wanted_file_name, 'w+', newline='')
         except:
             return "OPEN_FILE_ERROR"
 
