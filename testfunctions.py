@@ -2,6 +2,10 @@ from ghrepository import GHRepository
 from repositorydataenum import RepositoryData
 from view import View
 from csvhandler import CsvHandler
+from webscraper import WebScraper
+import asyncio
+from bs4 import BeautifulSoup
+import aiohttp
 
 
 def test_create_and_get_data_from_repository():
@@ -22,7 +26,7 @@ def test_set_start_from_view():
     print(View.set_start())
 
 def test_read_csv_file():
-    csv_handler = CsvHandler
+    csv_handler = CsvHandler()
     file = csv_handler.readCsvFile("5000csv.csv",";")
 
     for row in file["rows"]:
@@ -34,7 +38,14 @@ def test_create_csv_file():
     ret_msg = CsvHandler.createCsvFile(data=data,wanted_file_name="testcsv.csv")
     print(ret_msg)
 
+async def test_fetch_function():
+    scraper = WebScraper()
+    
+    async with aiohttp.ClientSession() as session:
+            await scraper.fetch(session=session,url="https://www.svt.se/")
+
 #test_create_and_get_data_from_repository()
 #test_save_interval_from_view()
 #test_set_stop_from_view()
-test_create_csv_file()
+#test_create_csv_file()
+asyncio.run(test_fetch_function()) 
