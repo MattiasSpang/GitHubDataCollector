@@ -20,6 +20,7 @@ class WebScraper:
         self.log: list = []
         self.github_url: str = "https://www.github.com/"
         self.nr_of_errors: int = 0
+        self.nr_of_repos_scraped = 0
 
         # settings
         self.wanted_file_name = "temp_name.csv"
@@ -32,18 +33,21 @@ class WebScraper:
 
     # -------------------------------------------------------------- FETCH
     async def fetch(self,session: aiohttp.ClientSession, url: str) -> GHRepository:
-        print("fetching for url: ", url)
-        print("---------------------------------------------------------------------------------")
+        #print("fetching for url: ", url)
+        #print("---------------------------------------------------------------------------------")
 
         repo = GHRepository(url=url)
 
         main_page = await self.get_page_main_from_url(url=url, session=session)
         #issues_page = await self.get_page_issues_from_url(url=url, session=session)
         has_gha = await self.get_has_gha_from_page(url=url,session=session,main_page_text=main_page)
-        
+        await self.print_rate_limit(session=session)
         repo.set_url(url=url)
         repo.add_data_by_name(RepositoryData.HAS_GHA.name, has_gha)
 
+
+
+        print("Done fetching a repo!")
         return repo
         
         
@@ -55,9 +59,6 @@ class WebScraper:
         
         tasks = []
         
-
-
-
         # --------------------------
         # call view functions here to gather settings info
         # --------------------------
@@ -77,7 +78,7 @@ class WebScraper:
         async with aiohttp.ClientSession(headers=req_headers) as session:
             for url in self.urls:
                 tasks.append(self.fetch(session, url))
-
+                
             repositories = await asyncio.gather(*tasks)
             
             print("starting to write csv file...")
@@ -128,10 +129,9 @@ class WebScraper:
         bs_soup = BeautifulSoup(main_page_text, "html.parser")
         results = bs_soup.find_all("a", title=".github", href=True)
 
-        if len(results) > 0:
+        if results != None and len(results) > 0:
             
             workflows_url = "https://github.com" + results[0]["href"] + "/workflows"
-            print(workflows_url)
             try:
                 async with session.get(workflows_url) as response:
                     # 1. Extracting the Text:
@@ -144,25 +144,29 @@ class WebScraper:
                 self.write_to_log(str(e) + ":   for repository: " + url)
                 self.nr_of_errors += 1
                 print(str(e))
+                return False
         else:
             return False
 
-    async def get_page_main_from_url(self, url:str, session) -> str:
+    async def get_page_main_from_url(self, url:str, session: aiohttp.ClientSession) -> str:
         """
         This function gets the code from a repos main page.
         It returns it as text. 
         """
         try:
+
             async with session.get(url) as response:
                 # 1. Extracting the Text:
                 page_text = await response.text()
 
+
                 return page_text
-                
+
         except Exception as e:
             self.write_to_log(str(e) + ":   for repository: " + url)
             self.nr_of_errors += 1
             print(str(e))
+            return "Error"
 
     async def get_page_issues_from_url(self, url:str, session) -> str:
         """
@@ -183,3 +187,11 @@ class WebScraper:
             self.write_to_log(str(e) + ":   for repository: " + issues_url)
             self.nr_of_errors += 1
             print(str(e))
+            return "Error"
+
+    async def print_rate_limit(self, session: aiohttp.ClientSession):
+        async with session.get("https://api.github.com/rate_limit") as response:
+            print("#######################################################################")
+            print("reate limit: ")
+            print(await response.json())
+            print("#######################################################################")
