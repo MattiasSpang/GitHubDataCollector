@@ -20,7 +20,7 @@ class WebScraper:
         self.log: list = []
         self.github_url: str = "https://www.github.com/"
         self.nr_of_errors: int = 0
-        self.nr_of_repos_scraped = 0
+        self.nr_of_repos_scraped = 1
 
         # settings
         self.wanted_file_name = "temp_name.csv"
@@ -38,16 +38,10 @@ class WebScraper:
 
         repo = GHRepository(url=url)
 
-        main_page = await self.get_page_main_from_url(url=url, session=session)
-        #issues_page = await self.get_page_issues_from_url(url=url, session=session)
-        has_gha = await self.get_has_gha_from_page(url=url,session=session,main_page_text=main_page)
-        await self.print_rate_limit(session=session)
+        #await self.print_rate_limit(session=session)
         repo.set_url(url=url)
-        repo.add_data_by_name(RepositoryData.HAS_GHA.name, has_gha)
+        
 
-
-
-        print("Done fetching a repo!")
         return repo
         
         
@@ -55,6 +49,7 @@ class WebScraper:
 
     async def run(self):
 
+        self.write_to_log("Program started")
         print("Started running web scraping session.")
         
         tasks = []
@@ -72,10 +67,10 @@ class WebScraper:
 
         # prepare a task for every repository
         
-        req_headers = {
-            "Authorization" : "token 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"
-        }
-        async with aiohttp.ClientSession(headers=req_headers) as session:
+        #req_headers = {
+        #    "Authorization" : "token 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"
+        #}
+        async with aiohttp.ClientSession() as session:
             for url in self.urls:
                 tasks.append(self.fetch(session, url))
                 
@@ -95,9 +90,10 @@ class WebScraper:
             data_dict = {"header": headers, "rows" : rows}
             CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
             print("done writing to file!")
-
+            await self.print_rate_limit(session=session)
         self.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
         self.write_to_log("Errors on run: " + str(self.nr_of_errors))
+        self.write_to_log("Program Ended")
         self.write_log_to_file()
         print("Finished running web scraping session...")
     # ----------------------------------------------------------------------------- Help functions
@@ -109,8 +105,8 @@ class WebScraper:
             self.urls.append(self.github_url + row[RepositoryData.NAME.value])
 
     def write_to_log(self, msg: str):
-        date = str(datetime.now().date())
-        self.log.append("\n" + "Timestamp: " + date + "  : " +msg) 
+        now = str(datetime.now())
+        self.log.append("\n" + "Timestamp: " + now + "  : " +msg) 
 
     def write_log_to_file(self):
         date = str(datetime.now().date())
@@ -119,75 +115,6 @@ class WebScraper:
         log_file = open(log_file_name, "w+")
         log_file.writelines(self.log)
         print("Wrote to new log file: " + log_file_name)
-
-    async def get_has_gha_from_page(self, url: str, session: aiohttp.ClientSession, main_page_text: str) -> bool:
-        """
-        This function takes a url to a repo and adds its GitHub Actions folder and checks if there are
-        any GitHub Actions. It returns true if there are GitHub Actions and false if not. 
-        """
-
-        bs_soup = BeautifulSoup(main_page_text, "html.parser")
-        results = bs_soup.find_all("a", title=".github", href=True)
-
-        if results != None and len(results) > 0:
-            
-            workflows_url = "https://github.com" + results[0]["href"] + "/workflows"
-            try:
-                async with session.get(workflows_url) as response:
-                    # 1. Extracting the Text:
-                    if response.status == 200:
-                        return True
-                    else:
-                        return False
-                
-            except Exception as e:
-                self.write_to_log(str(e) + ":   for repository: " + url)
-                self.nr_of_errors += 1
-                print(str(e))
-                return False
-        else:
-            return False
-
-    async def get_page_main_from_url(self, url:str, session: aiohttp.ClientSession) -> str:
-        """
-        This function gets the code from a repos main page.
-        It returns it as text. 
-        """
-        try:
-
-            async with session.get(url) as response:
-                # 1. Extracting the Text:
-                page_text = await response.text()
-
-
-                return page_text
-
-        except Exception as e:
-            self.write_to_log(str(e) + ":   for repository: " + url)
-            self.nr_of_errors += 1
-            print(str(e))
-            return "Error"
-
-    async def get_page_issues_from_url(self, url:str, session) -> str:
-        """
-        This function returns the HTML code for a repos issues page. 
-        It takes an url and adds issues page on to it. 
-        It returns the page as text. 
-        """
-
-        issues_url = url + "\issues"
-        try:
-            async with session.get(issues_url) as response:
-                # 1. Extracting the Text:
-                page_text = await response.text()
-
-                return page_text
-                
-        except Exception as e:
-            self.write_to_log(str(e) + ":   for repository: " + issues_url)
-            self.nr_of_errors += 1
-            print(str(e))
-            return "Error"
 
     async def print_rate_limit(self, session: aiohttp.ClientSession):
         async with session.get("https://api.github.com/rate_limit") as response:
