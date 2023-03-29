@@ -7,3 +7,4 @@ from enum import Enum
 class RepositoryData(Enum):
     NAME = 0
     HAS_GHA = 1
+    NR_OF_STARS = 12

@@ -34,6 +34,7 @@ class WebScraper:
 
         # data
         self.urls: list = []
+        self.repo_list: list = []
 
     # -------------------------------------------------------------- FETCH
     async def fetch(self,session: aiohttp.ClientSession, url: str) -> GHRepository:
@@ -43,6 +44,8 @@ class WebScraper:
         repo = GHRepository(url=url)
 
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
+        
+        
 
         print(await self.get_remaining_calls_rate_limit(session=session))
         return repo
@@ -64,9 +67,13 @@ class WebScraper:
         self.delimiter = View.set_input_file_delimiter()
 
         #---------------------------
+        # Get repo list here
+        #---------------------------
+        self.repo_list = CsvHandler.readCsvFile(self.file_name, self.delimiter)
+        #---------------------------
         # Get urls here
         #---------------------------
-        self.extract_urls_from_file(file_name=self.file_name, delimiter=self.delimiter)
+        self.extract_urls_from_dict(file_name=self.file_name, delimiter=self.delimiter)
 
         # prepare a task for every repository
 
@@ -121,11 +128,14 @@ class WebScraper:
         print("Finished running web scraping session...")
     # ----------------------------------------------------------------------------- Help functions
 
-    def extract_urls_from_file(self, file_name, delimiter):
-        csv_handler = CsvHandler
-        input_data = csv_handler.readCsvFile(file_name=file_name, delimiter=delimiter)
-        for row in input_data["rows"]:
+    def extract_urls_from_dict(self):
+        for row in self.repo_list["rows"]:
             self.urls.append(row[RepositoryData.NAME.value])
+            
+    def extract_stars_from_dict(self):
+        for row in self.repo_list["rows"]:
+            self.urls.append(row[RepositoryData.NR_OF_STARS.value])
+            
 
     def write_to_log(self, msg: str):
         now = str(datetime.now())
