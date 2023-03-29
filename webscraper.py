@@ -153,7 +153,7 @@ class WebScraper:
     
 
     async def get_remaining_calls_rate_limit(self, session: aiohttp.ClientSession):
-        async with session.get("https://api.github.com/rate_limit") as response:
+        async with session.get("https://api.github.com/rate_limit", ssl=False) as response:
             json_resp = await response.json()
             replaced_json_resp = str(json_resp).replace("\'", "\"")
 
@@ -163,7 +163,7 @@ class WebScraper:
             
     async def check_if_has_gha(self, session: aiohttp.ClientSession, url: str) -> bool:
          print("https://api.github.com/repos/"+url+"/actions/workflows")
-         async with session.get("https://api.github.com/repos/"+url+"/actions/workflows") as response:
+         async with session.get("https://api.github.com/repos/"+url+"/actions/workflows", ssl=False) as response:
             json_resp = await response.json()
             replaced_json_resp = str(json_resp).replace("\'", "\"")
 
