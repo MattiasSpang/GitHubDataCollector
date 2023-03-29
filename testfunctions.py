@@ -44,8 +44,19 @@ async def test_fetch_function():
     async with aiohttp.ClientSession() as session:
             await scraper.fetch(session=session,url="https://www.svt.se/")
 
+async def test_get_rate_limit():
+    scraper = WebScraper()
+
+    req_headers = {
+            "Authorization" : "token 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"
+        }
+    async with aiohttp.ClientSession(headers=req_headers) as session:
+        print(await scraper.get_remaining_calls_rate_limit(session=session))
+
+    
+
 #test_create_and_get_data_from_repository()
 #test_save_interval_from_view()
 #test_set_stop_from_view()
 #test_create_csv_file()
-asyncio.run(test_fetch_function()) 
+asyncio.run(test_get_rate_limit()) 

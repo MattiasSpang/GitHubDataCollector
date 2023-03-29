@@ -66,3 +66,32 @@ class CsvHandler:
 
         return "SUCCESS"
     
+    def write_to_csv_file(data: dict, file_name: str) -> str: # returns true if success and return false if error
+        """
+        Creates a csv file from two lists . Can return 3 different messages. 
+            * SUCCESS - If the function excecuted as intended.
+            * OPEN_FILE_ERROR - The function did not manage to open the file.
+            * WRITE_FILE_ERROR - The function did not manage to write to file.
+            \n
+        If a call to this function is made try to handle the different errors.
+        """
+        print("begin writing to file...")
+        
+        try:
+            file = open(file_name, 'w', newline='')
+        except:
+            return "OPEN_FILE_ERROR"
+
+        csv_writer = csv.writer(file)
+
+        try: 
+            csv_writer.writerows(data["rows"])
+        except:
+            "WRITE_FILE_ERROR"
+
+        file.close()
+
+        print("done!")
+
+        return "SUCCESS"
+    
