@@ -31,6 +31,8 @@ class CsvHandler:
             "rows"      : rows
         }
 
+        print(csvDict["rows"])
+
         file.close()
 
         return csvDict

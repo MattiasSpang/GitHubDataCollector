@@ -47,7 +47,7 @@ class WebScraper:
         
         
 
-        print(await self.get_remaining_calls_rate_limit(session=session))
+        #print(await self.get_remaining_calls_rate_limit(session=session))
         return repo
         
         
@@ -73,7 +73,8 @@ class WebScraper:
         #---------------------------
         # Get urls here
         #---------------------------
-        self.extract_urls_from_dict(file_name=self.file_name, delimiter=self.delimiter)
+        self.extract_urls_from_dict()
+
 
         # prepare a task for every repository
 
@@ -167,8 +168,6 @@ class WebScraper:
             replaced_json_resp = str(json_resp).replace("\'", "\"")
 
             json_object = json.loads(replaced_json_resp, object_hook=lambda d: SimpleNamespace(**d))
-
-            print(json_object)
 
             try:
                 if json_object.total_count > 0:

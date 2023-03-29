@@ -1,500 +1,500 @@
-repository;language;architecture;community;continuous_integration;documentation;history;issues;license;size;unit_test;stars;scorebased_org;randomforest_org;scorebased_utl;randomforest_utl
-matplotlib/matplotlib.github.com;Python;0.770463;2;0;0.014931;2.297872;0.212766;0;1575488;0.013242;5;1;1;1;1
-NCIP/c3pr-docs;Java;0.997449;3;0;0.087444;1.434211;0.0;0;765164;0.0;0;0;0;1;0
-AnXgotta/Sur;C++;0.714286;1;0;0.123698;0.0;0.0;0;2155;0.0;0;0;0;0;0
-bigloupe/SoS-JobScheduler;Java;0.957573;3;1;0.315557;11.428571;0.0;1;657960;0.007257;1;1;0;1;0
-barons/zf_shop;Ruby;0.381323;3;0;0.327179;0.0;0.0;1;472610;0.055335;0;1;0;1;1
-uzleo/hiwi;C++;0.865123;2;0;0.218128;15.8;0.0;1;170144;0.011772;0;1;0;1;0
-berlinonline/banned_books;PHP;0.44;4;0;0.017882;5.0;0.0;1;399320;0.0;0;1;0;1;0
-pszabolcs/canvasandroid;Java;0.988235;4;0;0.136708;32.666668;0.0;0;119414;0.0;0;0;0;1;0
-mk12/mycraft;Java;0.662614;1;0;0.326084;3.583333;0.0;1;134913;0.117074;7;1;0;1;0
-BulldogDrummond/etmod;C;0.820513;1;0;0.085501;0.0;0.0;0;220996;0.00994;0;0;0;1;0
-ryseto/stodyn;C++;0.943548;1;0;0.14322;0.0;0.0;1;228026;0.0;0;0;0;1;0
-UfSoft/ILog;Python;0.666667;1;0;0.186233;14.166667;0.0;0;6004;0.0;0;0;0;1;0
-nix858/osu;C++;1.0;1;0;0.18365;0.0;0.0;0;3648;0.0;0;0;0;0;0
-WilbertHo/foobar;Python;0.705882;2;0;0.320261;4.666667;0.0;0;210;0.251282;0;1;0;1;0
-kaludis/epoll-echo-server;C;1.0;1;0;0.36478;0.0;0.0;0;303;0.090592;0;0;0;1;0
-Jarcionek/MTG-Deck-Builder;Java;0.983051;1;0;0.014853;0.0;0.0;0;3051;0.514811;0;0;0;1;0
-mtolly/gamesaves;Ruby;1.0;1;0;0.031056;26.666668;0.0;0;159;0.0;0;0;0;1;0
-caseyjames/myJavaProjects;Java;0.966667;1;0;0.397315;86.0;0.0;0;9447;0.169928;0;0;0;1;0
-pranjal-goswami/Inscribe;PHP;0.721154;2;0;0.185236;38.0;2.0;1;24807;0.0;1;1;1;1;1
-nicholash/access-tools;Python;0.96;2;0;0.239261;16.6;0.0;1;3813;0.03447;0;1;0;1;1
-alexyem0222/amazon;Java;0.791667;1;0;0.028372;6.692308;0.0;0;2500;0.720548;0;0;0;1;0
-DanyTlaw/Haggis;Java;0.636364;2;0;0.138528;27.0;8.333333;0;4689;0.0;1;0;1;1;1
-mattwalker101/CIS-040-Cplusplus;C++;0.75;1;0;0.235821;27.0;0.0;0;2307;0.0;0;0;0;1;0
-markcwal/TwitterClient;Java;0.818182;2;0;0.177322;0.0;0.0;0;686;0.0;0;0;0;1;0
-zombietango/Public-Tools;Python;0.0;1;0;0.04;0.0;0.0;0;73;0.0;0;0;0;0;0
-hotosm/hot-exports;Ruby;0.59322;4;0;0.131047;2.46875;2.96875;1;86596;0.53206;16;1;1;1;1
-Cyberrebell/doctrine-db-patcher;PHP;0.6;2;0;0.165365;0.0;0.0;1;741;0.111853;0;1;0;1;1
-ladamalina/yii2-smsc;PHP;0.0;1;0;0.247863;1.2;0.0;1;258;0.0;8;0;0;1;1
-marrok/windowsphone-httpserver;C#;0.811321;2;0;0.067549;0.0;0.0;0;2748;0.0;1;0;0;1;0
-stefanil/JFXControls;Java;0.875;1;0;0.208364;25.666668;5.0;1;5550;0.037926;0;1;1;1;1
-TheOfficialStinger/FreeAssassin;C#;0.928571;1;0;0.07;0.0;0.0;1;565;0.0;0;0;0;1;0
-smreidy113/Robockey2013;C;0.852941;2;0;0.232774;0.0;0.0;0;7254;0.0;0;0;0;1;0
-mariol3/presenze_volley;Ruby;0.305882;1;0;0.260239;6.363636;0.818182;0;1768;0.266667;0;0;1;1;1
-wockenfuss/portal;Ruby;0.565737;1;0;0.14839;11.428571;0.0;0;8823;0.434873;0;0;0;1;0
-sesvxace/tracer;Ruby;0.0;2;0;0.672414;7.0;0.0;0;143;0.0;0;0;0;1;0
-dankeezer/shainagates;Ruby;0.26;1;0;0.402935;17.0;0.0;0;1178;0.178295;0;0;0;1;0
-jagoda/chef-strider;Ruby;0.2;1;1;0.011605;0.0;0.0;0;553;0.707006;1;0;0;1;0
-aisola/ObjectWeb;Python;0.8;1;0;0.394534;5.0625;0.5625;1;976;0.081143;22;1;1;1;1
-BigHedGames/shape-master;C#;0.818182;2;0;0.220481;0.0;0.0;0;1393;0.0;0;0;0;1;0
-caorun0728/zuidianpu.com;PHP;0.0;2;0;0.0;2.666667;0.0;0;14;0.0;0;0;0;1;0
-noyg12-meet/MEET-YL2;Python;0.333333;3;0;0.386986;0.857143;0.0;0;189;0.028986;0;0;0;1;0
-dorkrawk/bird-watcher;Ruby;0.75;1;0;0.141243;8.0;0.0;0;156;0.0;1;0;0;1;0
-i80586/RCache;PHP;1.0;2;0;0.549425;6.916667;0.583333;0;279;0.0;1;0;0;1;1
-codylerum/simple-identity;Java;0.818182;1;0;0.121094;0.6;0.0;1;225;0.0;0;0;0;1;1
-chrspeich/TheOS;C;0.24;1;0;0.45719;33.0;0.0;1;2655;0.0;1;0;0;1;1
-fabregas/nimbusfs-client;Python;0.821918;1;0;0.065979;19.6;0.0;0;9096;0.182234;2;0;0;1;0
-cedricmessiant/bobtemplates.ecreall;Python;0.176471;2;1;0.12;2.791667;0.0;1;701;0.342342;0;1;0;1;1
-JPII/sandbox;Java;1.0;2;0;0.006;4.526316;0.052632;0;1021;0.0;0;0;0;1;1
-smcgrath/azathoth-server;Python;0.75;1;0;0.244726;8.0;0.0;0;546;0.0;1;0;0;1;0
-mental/bloopsaphone;C;1.0;3;0;0.026675;12.428571;0.0;1;3138;0.0;125;1;0;1;0
-alcides/alcides-bliki;Python;0.421053;1;0;0.021352;1.781818;0.0;0;1101;0.223377;7;0;0;1;0
-paulb896/iStock-Rails-Tutorial-Project;Ruby;0.4;2;0;0.403682;0.0;0.0;0;1125;0.170765;0;0;0;1;0
-schimar/gbs;Python;0.75;2;0;0.195876;3.346154;0.0;1;969;0.0;2;1;0;1;1
-adrian-bl-hox-jb/android_system_netd;C++;1.0;5;0;0.167647;4.5;0.0;1;5850;0.0;0;1;0;1;0
-zemlanin/Libr;Python;0.75;1;0;0.014164;0.0;0.0;0;348;0.0;0;0;0;0;0
-ObiWahn/weechat-remote-notify;Python;0.0;2;0;0.285068;1.083333;0.041667;1;159;0.0;0;0;0;1;1
-onethreeseven/hrsfans-retreat;Python;1.0;1;0;0.071977;25.428572;0.0;1;3;0.0;0;0;0;1;0
-stephentu/forwarder;Python;1.0;1;0;0.141732;0.0;0.0;0;130;0.0;2;0;0;0;0
-ryansb/gitwarrior;Python;0.666667;0;0;0.29064;0.0;0.0;0;232;0.0;8;0;0;0;0
-brandur/casseo;Ruby;0.625;1;0;0.061333;0.0;0.0;0;417;0.0;11;0;0;0;0
-plexinc/plex-home-theater-public;C;0.852308;3;0;0.160882;13.917808;0.356164;1;2854947;0.099804;341;1;1;1;1
-DrKLO/Telegram;C;0.810573;1;0;0.220572;17.647058;57.529411;1;345079;0.56274;4396;1;1;1;1
-QuantumBadger/RedReader;Java;0.994975;1;1;0.161295;26.173912;8.782609;1;24578;0.0;538;1;1;1;1
-fzaninotto/Faker;PHP;0.997041;44;1;0.087905;29.512196;13.439024;1;56326;0.034134;7867;1;1;1;1
-unbit/uwsgi;C;0.97561;5;1;0.063989;79.0;18.4;1;96949;0.0;1302;1;1;1;1
-bagder/curl;C;0.90161;8;1;0.239475;69.396225;3.641509;1;139709;0.150401;2665;1;1;1;1
-jfeinstein10/SlidingMenu;Java;0.942857;4;0;0.211891;14.461538;27.115385;1;4170;0.0;8939;1;1;1;1
-liuliu/ccv;C;0.899225;1;1;0.290646;15.842105;2.421053;1;145095;0.74297;5062;1;1;1;1
-schacon/ruby-git;Ruby;0.956522;10;1;0.143228;4.476744;2.581395;1;3853;0.444247;1062;1;1;1;1
-coleifer/peewee;Python;0.945946;1;1;0.087148;27.865385;10.865385;1;20881;0.026266;2560;1;1;1;1
-mitchellh/vagrant;Ruby;0.974128;3;1;0.129264;131.596771;89.629028;1;71428;0.353269;11303;1;1;1;1
-maraujop/django-crispy-forms;Python;0.527778;2;1;0.150399;14.567568;5.581081;1;5094;0.17121;2268;1;1;1;1
-antirez/redis;C;0.856187;2;0;0.166095;112.430557;34.652779;1;119632;0.165989;16713;1;1;1;1
-sebastianbergmann/phpunit;PHP;0.957071;2;1;0.363236;45.076923;16.567308;1;22636;0.624396;4994;1;1;1;1
-mr-bar/OnionScraper;C;0.27577;1;0;0.189378;0.0;0.0;1;3091835;0.00484;0;0;0;1;0
-panzb/my_repository;Java;0.9;2;0;0.092117;0.0;0.0;1;8383;0.0;0;0;0;1;0
-sskjames/tamilunicodeconverter;Java;1.0;1;0;0.199344;0.0;0.0;1;984;0.420959;0;0;0;1;1
-geni-lab/itf_identify_objects;Python;0.0;2;0;0.57508;0.0;0.0;0;134;0.0;0;0;0;1;0
-sskjames/openlpwebapp;Python;0.4;1;0;0.135945;0.0;0.0;0;378;0.034722;0;0;0;1;0
-liangshulsh/src;C#;0.918089;1;0;0.187118;0.0;0.0;1;150489;0.028997;0;0;0;1;0
-nivertius/perfectable;Java;0.827309;1;0;0.040841;0.0;0.0;0;8292;0.094829;0;0;0;1;0
-howardxu/SCTest;C++;1.0;1;0;0.005917;0.0;0.0;0;171;0.0;0;0;0;0;0
-LeoYan/ArduinoLib;C++;1.0;1;0;0.283767;0.0;0.0;1;580;0.0;1;0;0;1;0
-sskjames/simpleopenlpimporter;Java;1.0;1;0;0.02447;0.115385;0.0;0;598;0.363462;0;0;0;1;0
-aisk/leancloud-python-test-app;Python;0.0;1;0;0.0;0.0;0.0;0;16;0.0;1;0;0;0;0
-scott-be/povfan;Python;0.5;1;0;0.017241;6.0;0.0;0;116;0.0;0;0;0;1;0
-sbohlen/common-logging-elmah;C#;0.375;0;0;0.215774;0.0;0.0;0;532;0.175926;2;0;0;1;0
-jason-wan/LeetCode;C;0.0;2;0;0.0;0.0;0.0;0;20;0.0;0;0;0;0;0
-drupalprojects/inject;PHP;0.950311;1;0;0.447373;5.0;0.0;0;9720;0.005969;0;0;0;1;0
-will3942/Statusboard_tasks;Ruby;0.777778;0;0;0.0;0.0;0.0;0;355;0.0;3;0;0;0;0
-McCraftaholics/WarpPortals-AnalyticsServer;Java;0.785714;1;0;0.031609;0.0;0.0;0;337;0.0;0;0;0;0;0
-UniTime/cpsolver;Java;1.0;1;0;0.321909;10.0;0.0;1;60488;0.0;10;0;0;1;0
-ngladitz/emma;Java;1.0;1;0;0.262465;0.0;0.0;0;23711;0.0;0;0;0;0;0
-Trololoshe4ki/Forest;Java;0.333333;1;0;0.367284;0.0;0.0;0;410;0.0;0;0;0;0;0
-ahad82/citrix;PHP;0.333333;0;0;0.244898;0.0;0.0;0;114;0.0;1;0;0;0;0
-nwoow/blog;PHP;0.333333;1;1;0.402797;0.0;0.0;0;1342;0.00312;0;0;0;1;0
-googleinurl/vBulletin-5.1.2-SQL-Injection;PHP;0.0;1;0;0.105263;0.0;0.0;0;133;0.0;1;0;0;0;0
-kmcmorrow/ruby-flappy-tk;Ruby;1.0;0;0;0.066351;0.0;0.0;0;197;0.0;1;0;0;0;0
-rmosolgo/jsx-ruby;Ruby;0.636364;1;1;0.046875;0.0;0.0;0;159;0.508621;1;0;0;0;0
-rock-image-processing/image_processing-libelas;C++;1.0;5;0;0.295198;0.727273;0.0;1;8292;0.0;0;0;0;1;1
-toulet/abps;C++;1.0;1;0;0.429054;0.0;0.0;0;219;0.0;0;0;0;0;0
-paguiar/udem-vas-raspberry;C;0.625;1;0;0.108742;0.0;0.0;0;1257;0.0;0;0;0;0;0
-paguiar/raspberry-gpu-stereo;C++;0.277778;1;0;0.232132;0.0;0.0;1;6528;0.049781;0;0;0;1;0
-scwuhao/stereo;C++;0.888889;2;0;0.085672;0.0;0.0;0;619;0.0;1;0;0;1;0
-htmgarcia/mod_lastworks;PHP;0.857143;1;0;0.18578;0.0;0.0;1;737;0.0;0;0;0;1;0
-eran-levy/ELPocket;Python;0.0;1;0;0.153846;0.0;0.0;0;67;0.0;0;0;0;0;0
-iSawyer/machine-learning-practice;Python;0.0;1;0;0.496454;0.0;0.0;0;73;0.0;0;0;0;0;0
-AppFactoryOrg/app-factory;Java;0.0;1;0;0.026379;0.0;0.0;1;8674;0.0;2;0;0;1;0
-Nudies/lapw;Python;0.8;1;0;0.053968;0.0;0.0;0;314;0.0;0;0;0;0;0
-shixiaoyu/pygoogle;Python;0.5;1;0;0.196347;0.0;0.0;0;178;0.0;0;0;0;0;0
-tommy-muehle/silex-doctrine-orm-service-provider;PHP;0.333333;0;1;0.221453;0.0;0.0;1;254;0.242857;2;0;0;1;1
-Neo-DW/HRTF;C;0.636364;0;0;0.246174;0.0;0.0;0;26111;0.0;1;0;0;0;0
-maxdemarzi/archetype_api;Java;0.891892;0;0;0.018671;0.0;0.0;0;3606;0.538012;4;0;0;1;0
-JsonHunt/mobile-app-scaffolding;Java;0.0;1;0;0.098646;0.0;0.0;0;8773;0.0;0;0;0;0;0
-bettse/libfreefare;C;0.912281;1;0;0.179542;0.0;0.0;1;11205;0.388305;0;0;0;1;1
-zoukyle/python-photo-tools;Python;1.0;1;0;0.045455;0.0;0.0;0;84;0.0;0;0;0;0;0
-cmorsics/SimpleWebApi2;C#;0.861111;1;0;0.068732;0.0;0.0;0;57268;0.0;0;0;0;0;0
-rkp8000/hypothesize;Python;0.166667;1;0;0.296296;0.0;0.0;0;8679;0.0;0;0;0;0;0
-aripddev/bireyselinisiyatif.org;PHP;0.0;1;0;0.108855;0.0;0.0;1;2194;0.0;0;0;0;1;1
-elwebmaster/crowd.gq-client;Python;0.0;1;0;0.0;0.0;0.0;1;106;0.0;0;0;0;0;0
-Welon5656/media-app-for-android;Java;0.166667;1;0;0.112075;0.0;0.0;0;1228;0.0;0;0;0;0;0
-spininertia/w2v4j;Java;1.0;1;0;0.159358;0.0;0.0;0;856;0.038567;1;0;0;1;0
-catoenm/E-MERGE;Java;0.5;0;0;0.115067;0.0;0.0;0;2038;0.522111;1;0;0;1;0
-vanqard/passman;PHP;1.0;1;0;0.552147;0.0;0.0;1;224;0.0;2;0;0;1;0
-HiraokaHyperTools/jtifedit3;C#;0.777778;0;0;0.108614;0.0;0.0;1;5226;0.0;0;0;0;1;0
-visit-vis/VisIt;C;0.949644;0;0;0.345599;0.0;0.0;1;2132264;0.108429;0;0;0;1;0
-marcsstevenson/OvenSimCordova;Java;0.959184;1;0;0.251203;0.0;0.0;1;26267;0.0;0;0;0;1;0
-fuzyll/coppermind;Ruby;0.416667;1;0;0.215884;0.0;0.0;1;876;0.0;0;0;0;1;0
-gheydon/pheanstalk-worker;PHP;0.666667;1;1;0.232877;0.0;0.0;0;247;0.310924;1;0;0;1;0
-Swanson-Hysell-Group/SAM_Header;Python;0.666667;1;0;0.282203;0.0;0.0;0;9345;0.0;0;0;0;0;0
-ChrisGerrard/TableauToolsRuby;Ruby;1.0;1;0;0.078456;0.0;0.0;0;740;0.0;3;0;0;0;0
-Frozenme/cquptque;PHP;0.849231;1;0;0.297569;0.0;0.0;1;49008;0.011122;0;0;0;1;0
-MagIciaNGTAO/leetcode;Java;0.938095;1;0;0.114469;0.0;0.0;0;13130;0.518108;0;0;0;1;0
-usher123/datastructure-of-python;Python;0.0;1;0;0.0;0.0;0.0;0;32;0.0;0;0;0;0;0
-aditya7iyengar/UDPFileTransfer;C;0.5;1;0;0.0;0.0;0.0;0;196;0.0;0;0;0;0;0
-ubernostrum/django-flashpolicies;Python;0.363636;1;1;0.407609;0.0;0.0;1;545;0.527027;2;0;0;1;1
-haveTryTwo/mystl;C++;0.96875;0;0;0.069959;0.0;0.0;0;9585;0.0;3;0;0;0;0
-yangqing0314/CircelProgressTime;Java;0.6;1;0;0.4941;0.0;0.0;0;345;0.0;1;0;0;0;0
-ftes/de.ftes.uon.seng2200.pa2;Java;1.0;1;0;0.214629;0.0;0.0;0;838;0.234356;0;0;0;1;0
-kmels/opengl-basics;C;1.0;1;0;0.137529;0.0;0.0;0;419;0.0;1;0;0;0;0
-springprojects/spring-boot-showcase;Java;0.86;1;0;0.209754;0.0;0.0;1;2275;0.158587;1;0;0;1;1
-tgibbons-students-css/VogellaDatabaseAsg10Start;Java;0.571429;3;0;0.095238;0.0;0.0;0;606;0.0;0;0;0;1;0
-patcon/city-of-toronto-agendas;Ruby;0.0;1;0;0.0;0.0;0.0;0;1;0.0;0;0;0;0;0
-tcz001/marsrover;Ruby;0.818182;1;0;0.049618;0.0;0.0;0;249;0.445783;0;0;0;1;0
-prachiyshah/CoreNettyProject;Java;0.983871;1;0;0.252204;0.0;0.0;1;20861;0.004533;0;0;0;1;0
-ShreyasRaj/IndiaPostPackageServiceRepo;Java;0.9375;1;0;0.018784;0.0;0.0;0;1100;0.0;0;0;0;0;0
-larryli/PuTTY;C;0.873016;0;0;0.194461;0.0;0.0;1;93161;0.83159;67;0;0;1;0
-petercrlane/uhferret-gem;C++;1.0;0;0;0.126205;0.0;0.0;1;10060;0.012951;2;0;0;1;1
-nicksummers/pyprojects;Python;0.0;1;0;0.0;0.0;0.0;0;2;0.0;0;0;0;0;0
-awslabs/eb-docker-nginx-proxy;PHP;0.0;0;0;0.0;0.0;0.0;1;79;0.0;27;0;0;0;0
-ivadelic/ruby_fundamentals_1;Ruby;0.25;1;0;0.2;0.0;0.0;0;32;0.0;0;0;0;0;0
-gleicon/locust-swarm;Python;1.0;1;0;0.011561;0.0;0.0;0;203;0.0;16;0;0;0;0
-tsinux/JavaSE;Java;0.018519;1;0;0.235861;0.0;0.0;0;1189;0.0;0;0;0;0;0
-romipetrelis/miscellanea;C#;0.4375;1;0;0.077303;0.0;0.0;0;489;0.0;0;0;0;0;0
-richardtin/android-customization-autotool;Python;0.56;1;0;0.10444;0.0;0.0;0;1450;0.455944;0;0;0;1;0
-helensee/Systems-Programming;C;0.466667;1;0;0.203173;0.0;0.0;0;2059;0.0;0;0;0;0;0
-morganestes/memcached-admin;PHP;0.892857;1;0;0.380771;0.0;0.0;1;2280;0.0;0;0;0;1;0
-chrisvfritz/prelangtest;Ruby;0.449438;1;0;0.546547;0.0;0.0;0;1303;0.05418;0;0;0;1;0
-MatheusDMD/MatheusMarotzke_EP2;Python;0.0;1;0;0.020772;0.0;0.0;0;330;0.0;0;0;0;0;0
-nkmrtty/SlackLogger;Python;1.0;0;0;0.070312;0.0;0.0;1;136;0.0;1;0;0;1;0
-richardwxn/text-classification-project;Python;0.5;1;0;0.007009;0.0;0.0;0;425;0.0;0;0;0;0;0
-brianbier/LearnRubyTheHardWay;Ruby;0.1;1;0;0.308989;0.0;0.0;0;126;0.0;0;0;0;0;0
-shradhag/OPENLearn;Python;0.6;0;0;0.028001;0.0;0.0;0;9961;0.052133;1;0;0;1;1
-richzeng/pvcam_dlm;C++;0.857143;1;0;0.387463;17.0;0.0;0;1671;0.0;1;0;0;1;0
-richzeng/DLM_resources;C++;1.0;1;0;0.158892;8.0;0.0;0;577;0.0;1;0;0;1;0
-qguv/pennant;Python;0.307692;1;0;0.111324;0.0;0.0;1;540;0.002283;3;0;0;1;0
-eteran/edb-debugger;C++;0.896552;1;0;0.258576;4.761905;0.0;1;35626;0.0;177;0;0;1;1
-jaeg/HTTPSMocker;C#;0.333333;1;0;0.174118;0.0;0.0;0;345;0.0;0;0;0;0;0
-richzeng/xinput_dlm;C++;1.0;1;0;0.091684;0.0;0.0;0;426;0.0;1;0;0;0;0
-liuguichao/RealSenceInterface;C++;0.810811;1;0;0.193573;0.0;0.0;0;3199;0.0;1;0;0;0;0
-vanevery/JSON-with-gson-Example;Java;0.5;1;0;0.416357;0.0;0.0;0;157;0.0;0;0;0;0;0
-clyver/GroupFitnessAutomation;Python;1.0;1;0;0.410526;0.0;0.0;0;56;0.0;0;0;0;0;0
-popkc/OnelineReader;C++;0.518519;1;0;0.1071;0.0;0.0;1;5276;0.0;0;0;0;1;0
-jxcangel/local_tools;Python;0.8;1;0;0.272727;0.0;0.0;0;606;0.0;0;0;0;0;0
-rmsor/waa_practice;Java;0.357143;1;0;0.118508;0.0;0.0;0;4396;0.0;0;0;0;0;0
-Superjisan/Stormy;Java;0.25;1;0;0.066667;0.0;0.0;0;484;0.0;0;0;0;0;0
-insoo078/kobis-utils;Java;0.960938;2;0;0.219638;0.0;0.0;0;29326;0.004095;0;0;0;1;0
-goliatone/rfid-poc;Python;0.0;1;0;0.030303;0.0;0.0;0;127;0.0;0;0;0;0;0
-woonkij/Crowdsourced;Python;1.0;1;0;0.005575;0.0;0.0;0;4523;0.0;0;0;0;0;0
-mstivali/Stivali.InterviewPractice.LinkedLists;C++;0.0;1;0;0.06982;0.0;0.0;0;413;0.0;0;0;0;0;0
-kahnjw/k-and-r;C;0.5;1;0;0.130435;0.0;0.0;0;22;0.0;0;0;0;0;0
-yishuangxi/yishuangxi;Python;0.428571;1;0;0.027778;0.0;0.0;0;37;0.0;0;0;0;0;0
-bbemis017/StudentManagement;Java;1.0;1;0;0.229846;0.0;0.0;0;449;0.0;0;0;0;0;0
-MontanaMax/uVa-Online-Judge;C++;0.25;1;0;0.153846;0.0;0.0;0;156;0.0;0;0;0;0;0
-HAProxy/haproxy-1.3;C;0.732824;1;0;0.272611;2.325581;0.0;1;27937;0.058234;0;1;0;1;1
-jasondcamp/stuff;Ruby;0.068966;1;0;0.37415;0.0;0.0;0;450;0.055556;0;0;0;1;0
-tung987/torrentflux-ng;PHP;0.779497;0;0;0.198919;0.0;0.0;1;207694;0.037949;2;0;0;1;0
-tdfischer/spacewiki;Python;0.0;1;0;0.125;0.0;0.0;1;8;0.0;5;0;0;1;0
-AllenDowney/ThinkPythonSolutions;Python;0.0;1;0;0.0;0.0;0.0;0;0;0.0;3;0;0;0;0
-si-yao/chat-room;Java;0.933333;0;0;0.168088;0.0;0.0;0;1408;0.0;1;0;0;0;0
-changmu/Snake;C;0.666667;1;0;0.014778;0.0;0.0;0;205;0.0;0;0;0;0;0
-TASVideos/gens-rerecording;C++;0.81681;0;0;0.102718;0.0;0.0;1;155560;0.183172;5;0;0;1;1
-wiki-w/google;Java;0.984;3;0;0.160875;0.833333;0.0;1;30784;0.0;0;0;0;1;1
-billcchung/TaiwanCoffeePrices;Java;0.6;1;0;0.165746;0.0;0.0;0;640;0.0;0;0;0;0;0
-visit-vis/VisIt29RC_Trunk;C;0.949644;6;0;0.346761;61.0;0.0;1;2130478;0.0;0;1;0;1;0
-astronomerdamo/gcp_mcmc_speed;C++;0.0;1;0;0.119741;0.0;0.0;1;304;0.0;2;0;0;1;1
-fsong/conference-cloud;C;0.5;0;0;0.0;0.0;0.0;0;10;0.0;0;0;0;0;0
-VDFaller/Brewery;Python;0.0;1;0;0.323529;0.0;0.0;0;1090;0.0;1;0;0;0;0
-edkotkas/Falling-PyBlocks;Python;0.0;1;0;0.293447;0.0;0.0;0;250;0.0;0;0;0;0;0
-dspiegs/DiceChallengeMVVM;C#;0.347826;1;0;0.301741;0.0;0.0;0;1077;0.0;0;0;0;0;0
-scottmwinters/projects;C;1.0;1;0;0.007143;0.0;0.0;0;140;0.0;0;0;0;0;0
-mjulian/pysnmp-examples;Python;0.0;0;0;0.192982;0.0;0.0;1;64;0.0;1;0;0;1;0
-roryg11/dog_park_api;Ruby;0.074074;1;0;0.483728;0.0;0.0;0;361;0.041667;0;0;0;1;0
-eejdoowad/vessel-features;C++;1.0;1;0;0.144279;0.0;0.0;1;387;0.0;0;0;0;1;1
-kristinabrown/robot-world;Ruby;0.777778;1;0;0.0;0.0;0.0;0;269;0.0;0;0;0;0;0
-eteubert/file-cloud;Ruby;0.0;1;0;0.021739;0.0;0.0;1;69;0.0;2;0;0;1;0
-lucascc4/LucasCostanzo_EP2;Python;0.0;1;0;0.046053;0.0;0.0;0;145;0.0;0;0;0;0;0
-MarceloAlves/GroceryList;Ruby;0.0;1;0;0.0;0.0;0.0;0;31;0.0;2;0;0;0;0
-evnit/hardware_qcom_msm8660;C++;0.772093;1;0;0.158381;0.0;0.0;1;112717;0.037299;0;0;0;1;0
-wangjia55/CircleChooseDisc;Java;0.333333;2;0;0.072626;0.0;0.0;0;370;0.0;3;0;0;1;0
-williamsmj/skeleton;Python;0.5;1;0;0.0;0.0;0.0;0;31;0.32;0;0;0;0;0
-caseyboardman/ArduinoMorseCode;C++;1.0;1;0;0.137681;0.0;0.0;0;127;0.0;0;0;0;0;0
-KonstantinSimeonov/Telerik-Academy-Exam-Tasks;C#;0.77;1;0;0.068089;0.0;0.0;0;4115;0.0;0;0;0;0;0
-ShinChven/SpringApp;Java;0.666667;1;0;0.241818;0.0;0.0;0;496;0.0;0;0;0;0;0
-drakemain/RockPaperScissors;C#;0.0;1;0;0.0;0.0;0.0;0;206;0.0;0;0;0;0;0
-ekzhu/datasketch;Python;0.6;1;1;0.204334;0.0;0.0;1;266;0.267206;60;0;0;1;1
-mugshepherd/StepStepStep;Ruby;0.666667;1;0;0.534884;0.0;0.0;0;133;0.73;0;0;0;0;0
-AlexanderDzhoganov/Skylines-ImprovedAssetsPanel;C#;0.857143;1;0;0.065058;0.0;0.0;1;893;0.0;2;0;0;1;0
-PunchApp/volley;Java;0.970588;1;0;0.360346;0.0;0.0;1;4549;0.087248;0;0;0;1;0
-nathan-osman/flackbot-qt;C++;0.75;1;0;0.543353;0.0;0.0;0;205;0.0;0;0;0;0;0
-mihail-ek/ActiveAdmin-with-Books;Ruby;0.152542;1;0;0.508642;0.0;0.0;0;949;0.202174;0;0;0;1;0
-LimboSoftware/RPI-SimpleMotor;Python;0.0;1;0;0.157895;0.0;0.0;0;79;0.0;0;0;0;0;0
-Becksteinlab/hop;Python;0.962963;1;0;0.177836;0.0;0.0;1;36504;0.010085;2;0;0;1;0
-gabrielgcf/GabrielFranca_EP2;Python;0.875;1;0;0.088592;0.0;0.0;0;751;0.0;0;0;0;0;0
-abtin/bigdata;Java;1.0;1;0;0.038388;0.0;0.0;0;663;0.0;0;0;0;0;0
-JvalantPatel/AvailabilityManager;Java;0.555556;2;0;0.155763;0.0;0.0;0;271;0.059041;0;0;0;1;0
-The-WUUSTER/Randoms;Java;0.222222;1;0;0.057173;0.0;0.0;0;907;0.0;0;0;0;0;0
-RedhawkSDR/RBDSDecoder;C++;0.666667;3;0;0.261751;2.166667;0.0;1;1613;0.0;0;1;0;1;1
-adamzolotarev/FileWatcherToFTP;C#;0.75;1;0;0.085227;0.0;0.0;0;319;0.0;1;0;0;0;0
-saintlaurent/triumf_laravel;PHP;0.078947;1;0;0.526535;0.0;0.0;0;936;0.02926;2;0;0;1;0
-azwan082/nc-boot-completed;Python;1.0;1;0;0.264368;0.0;0.0;1;167;0.0;2;0;0;1;1
-noelmkawano/digits;Java;0.636364;1;0;0.085555;0.0;0.0;1;2154;0.244318;0;0;0;1;1
-stephensanchez/familiar;Java;0.222222;1;0;0.372781;0.0;0.0;0;250;0.0;0;0;0;0;0
-StephenCleary/ArraySegments;C#;0.75;1;1;0.370588;0.0;0.0;1;218;0.153846;0;0;0;1;1
-yterajima/middleman-generator-tag;Ruby;0.285714;1;1;0.09375;0.0;0.0;1;88;0.0;0;0;0;1;1
-kutala/z_test;Java;0.5;1;0;0.0;0.0;0.0;0;120;0.0;0;0;0;0;0
-thiguetta/elastiky-framework;Java;0.6875;1;0;0.165508;0.0;0.0;1;602;0.019643;2;0;0;1;0
-daixiaoyu/WenChuan;Java;0.918367;1;0;0.022559;0.0;0.0;0;3163;0.018825;0;0;0;1;0
-coronalabs/plugins-source-native-popup-social;Java;0.6;4;0;0.337177;1.1;0.0;1;1207;0.0;1;0;0;1;1
-martina3203/Simple-Chat-Server;C++;1.0;1;0;0.072581;0.0;0.0;0;230;0.0;0;0;0;0;0
-zenspider/graphics;Ruby;0.888889;1;0;0.055807;0.0;0.0;0;626;0.0;19;0;0;0;0
-cenwright/lab_5_exercise;Ruby;0.5;1;0;0.038462;0.0;0.0;0;25;0.0;0;0;0;0;0
-ksamdev/gmock;C++;0.905405;1;1;0.223621;0.0;0.0;1;153248;0.863707;0;0;0;1;1
-coronalabs/plugins-source-google-iap-v3;Java;0.764706;1;0;0.296828;3.0625;0.0;1;2350;0.0;2;0;0;1;1
-miguelslemos/Ecommerce;Java;0.782609;1;0;0.093596;0.0;0.0;0;2944;0.0;0;0;0;0;0
-herlitzj/besteats;Ruby;1.0;1;0;0.281818;0.0;0.0;0;79;0.0;0;0;0;0;0
-1and1get2/voodoohda-code;C++;0.594203;1;0;0.15705;0.0;0.0;1;34358;0.0;0;0;0;1;0
-vsaravind007/SocketIO4Net.CS.Tutorial;C#;0.666667;0;0;0.004128;0.0;0.0;0;35449;0.0;5;0;0;0;0
-TechplexEngineer/OmniNode;Java;0.785714;1;0;0.239136;0.0;0.0;0;2807;0.007895;0;0;0;1;0
-flacjacket/pywayland;Python;0.8;1;1;0.441709;0.0;0.0;1;1202;0.236842;3;0;0;1;1
-takuya3211/LersserKai;C++;0.846154;1;0;0.135164;0.0;0.0;0;4090;0.0;0;0;0;0;0
-fastcat-co/fastcatsearch;Java;0.957354;1;0;0.215334;0.0;0.0;1;102131;0.084718;44;0;0;1;0
-maximkfd/cpplab10_11_12;C++;0.0;1;0;0.426471;0.0;0.0;0;78;0.0;0;0;0;0;0
-LingZhong/thesis;Java;0.99;1;0;0.212218;0.0;0.0;1;32106;0.073542;0;0;0;1;0
-ariutta/target-interaction-finder;Python;0.625;1;0;0.123596;0.0;0.0;1;510;0.190476;1;0;0;1;0
-EduardoCalle/ServiceBoot;Java;0.5;1;0;0.095455;0.0;0.0;0;434;0.0;0;0;0;0;0
-rilsikane/dlt-nrct;Java;0.973451;1;0;0.272928;0.0;0.0;1;36332;0.02735;0;0;0;1;0
-coronalabs/plugins-source-pasteboard;Java;0.533333;3;0;0.374722;1.368421;0.0;1;1405;0.0;0;0;0;1;1
-IMORALESNW/HealthyApp;Java;0.25;1;0;0.090244;0.0;0.0;0;409;0.0;0;0;0;0;0
-heyitsmartin/Double-Hash-Table;C++;0.0;2;0;0.0;0.0;0.0;0;159;0.0;0;0;0;0;0
-alldayiwonder/bigdata_notes;Python;0.5;1;0;0.230769;0.0;0.0;0;203;0.0;0;0;0;0;0
-j0hnlam/60-340-Final-Project;C++;1.0;1;0;0.350133;0.0;0.0;0;391;0.0;0;0;0;0;0
-kennyweigel/learn-django;Python;0.307692;1;0;0.181818;0.0;0.0;0;174;0.006711;0;0;0;1;0
-crazytaxi/wastebin;Java;0.0;1;0;0.0;0.0;0.0;0;7;0.0;1;0;0;0;0
-brocoppler/dasm;C++;0.0;1;0;0.615385;0.0;0.0;0;5;0.0;0;0;0;0;0
-klcathy/CS144;Java;0.947368;1;0;0.001232;0.0;0.0;1;433681;0.0;0;0;0;1;0
-neureal/noo4j-core;Java;1.0;0;0;0.219318;0.0;0.0;1;2159;0.0;2;0;0;1;0
-fuddlebunker/Stack;C++;0.857143;1;0;0.418824;0.0;0.0;0;247;0.0;0;0;0;0;0
-neureal/noo4j-daemon;Java;1.0;0;0;0.054842;0.0;0.0;1;3093;0.258301;1;0;0;1;1
-ARGutierrez/Pongo;C++;0.8;1;0;0.007407;0.0;0.0;0;134;0.0;1;0;0;0;0
-LimboSoftware/Raspberry-Pi-wifi-Remote-Control-Car;Python;0.0;1;0;0.157895;0.0;0.0;0;79;0.0;0;0;0;0;0
-justinsb/google-perftools;C++;0.860606;1;0;0.211455;1.236364;0.0;1;78852;0.165104;1;0;0;1;1
-slsp8752/underwater-battle-simulator;Python;1.0;1;0;0.172638;0.0;0.0;0;258;0.0;0;0;0;0;0
-Jafnee/aberquota;Python;0.5;1;0;0.015075;0.0;0.0;0;243;0.0;1;0;0;0;0
-ehsalazar/contacts;Ruby;0.179487;1;0;0.356076;0.0;0.0;0;30359;0.2;0;0;0;1;0
-tessgriffin/robot_world;Ruby;0.777778;1;0;0.003058;0.0;0.0;0;7242;0.0;0;0;0;0;0
-takuya3211/Lesserpyon3;C++;0.857143;2;0;0.120339;0.666667;0.0;0;3421;0.0;0;0;0;1;0
-ganeshramesh/hashing_library;Python;0.5;1;0;0.019048;0.0;0.0;1;105;0.0;0;0;0;1;0
-brotherBear/aor-java-neo;Java;1.0;1;0;0.018779;0.0;0.0;0;212;0.281437;0;0;0;1;0
-ParhelicMedia/random-imgur;Python;0.0;2;0;0.160584;1.8;0.0;0;146;0.0;3;0;0;1;0
-ankurdave/part;C++;1.0;1;0;0.146364;0.0;0.0;1;4590;0.468647;15;0;0;1;1
-frankjtc/BasicXMLReaderApp;C#;0.333333;1;0;0.146199;0.0;0.0;0;141;0.0;0;0;0;0;0
-buremba/netty-rest;Java;0.714286;1;0;0.063563;0.0;0.0;1;1050;0.0;13;0;0;1;0
-butlersrepos/dungeon-digger;Java;0.933333;2;0;0.107384;3.473684;0.0;0;5170;0.0;0;0;0;1;0
-JasonLong-7/12306-for-pc;C#;0.714286;1;0;0.179811;0.0;0.0;0;3766;0.0;4;0;0;0;0
-simonsmadsen/resource-manager;PHP;0.5;1;0;0.0;0.0;0.0;0;517;0.0;0;0;0;0;0
-murph141/LED3;C;0.727273;1;0;0.203683;0.0;0.0;0;2935;0.0;0;0;0;0;0
-simonsmadsen/ResourceManager;PHP;0.5;1;0;0.0;0.0;0.0;0;517;0.0;0;0;0;0;0
-williambogaiv/morse-codec;C#;0.6;1;0;0.121519;0.0;0.0;1;346;0.410377;0;0;0;1;1
-JCDias/CadastroUsuarios;Java;0.666667;1;0;0.1091;0.0;0.0;0;1772;0.0;0;0;0;0;0
-nebathemonk/BattleTest;C#;0.625;1;0;0.189303;0.0;0.0;0;1540;0.0;0;0;0;0;0
-ddboline/kaggle_msft_malware_classification;Python;0.75;1;0;0.033639;0.0;0.0;0;327;0.0;0;0;0;0;0
-kiasaki/learn-lisp;C;0.833333;1;0;0.10643;0.0;0.0;1;2826;0.0;3;0;0;1;0
-tecnomatico/SiTuMO;PHP;0.67377;2;0;0.330218;0.0;0.0;1;97783;0.0;0;0;0;1;0
-ryanlederman/furr;C++;0.890476;0;0;0.145975;0.0;0.0;1;26814;0.012785;1;0;0;1;1
-jipson7/sortingComparison-ScalaVsJava;Java;1.0;1;0;0.04021;0.0;0.0;0;613;0.0;0;0;0;0;0
-bsergent/RealMail;Java;0.0;1;0;0.525532;0.0;0.0;0;223;0.0;2;0;0;0;0
-jGaboardi/FacilityLocation;Python;1.0;1;0;0.391608;0.0;0.0;1;176;0.0;1;0;0;1;0
-ElliotLockerman/termbreak;C++;0.956522;1;0;0.103295;0.0;0.0;0;1019;0.0;0;0;0;0;0
-DeyAbhishek/Web-Development-Projects;Java;0.588235;0;0;0.082414;0.0;0.0;1;10650;0.0;0;0;0;1;0
-tecnomatico/AsistenciaTecnomatica;Java;0.833333;2;0;0.181335;15.0;0.0;0;6623;0.0;0;0;0;1;0
-mateobossio/Seguimiento-Disciplinario;Java;0.8;1;0;0.137395;0.0;0.0;0;2775;0.0;0;0;0;0;0
-mammon-ircd/mammon;Python;0.833333;1;0;0.236856;0.0;0.0;1;1513;0.0;29;0;0;1;0
-GoogleCloudPlatform/oldisim;C++;0.70797;2;0;0.112637;0.0;0.0;1;171597;0.0;8;0;0;1;0
-bhogancvtc/ruby_test_setup;Ruby;0.5;1;0;0.0;0.0;0.0;0;40;0.142857;0;0;0;0;0
-arruda/estatistica-github;Python;0.0;1;0;0.242857;0.0;0.0;0;82;0.0;1;0;0;0;0
-bsjhx/petulant-octo-ninja;Java;0.0;1;0;0.0;0.0;0.0;0;7;1.0;0;0;0;0;0
-gio0/contestapp;Ruby;0.09375;1;0;0.484225;0.0;0.0;0;450;0.066667;0;0;0;1;0
-mathewreny/ARM230Compiler;Java;1.0;1;0;0.139414;0.0;0.0;0;5099;0.0;0;0;0;0;0
-mdall/GuyCamping;PHP;0.302632;1;0;0.171621;0.0;0.0;0;13560;0.009599;0;0;0;1;0
-kennethlim206/wordFrequencyCalculator;Java;1.0;1;0;0.246094;0.0;0.0;0;581;0.0;0;0;0;0;0
-jclayton23/Java;Java;0.5;1;0;0.0;0.0;0.0;0;96;0.0;0;0;0;0;0
-AToyama/Forca;Python;0.0;1;0;0.046154;0.0;0.0;0;124;0.0;0;0;0;0;0
-kennethlim206/worldFrequencyCalculator;Java;1.0;1;0;0.246094;0.0;0.0;0;581;0.0;0;0;0;0;0
-tosswill/postgres_test;Ruby;0.264706;0;0;0.050384;0.0;0.0;0;8152;0.272321;4;0;0;1;0
-Ly-Jia/Devoxx.NET;C#;0.909091;1;0;0.184795;0.0;0.0;0;3551;0.099864;0;0;0;1;0
-drew-russell/OEM-Community-Check;Python;0.0;1;0;0.146853;0.0;0.0;1;126;0.0;1;0;0;1;0
-LuminateWireless/grpc;C;0.847199;4;1;0.280354;21.0;0.0;1;112696;0.044171;0;1;0;1;1
-shirtsgroup/basisanalyze;Python;0.833333;1;0;0.232525;0.0;0.0;1;4327;0.0;0;0;0;1;0
-occprogramming/text-based-game;C++;1.0;2;0;0.346971;0.0;0.0;0;830;0.0;1;0;0;1;0
-DrewDahlman/gulpRails;Ruby;0.809701;1;0;0.171324;0.0;0.0;1;38997;0.476104;6;0;0;1;0
-jfache/user-status;PHP;0.6;1;0;0.272201;0.0;0.0;0;403;0.0;0;0;0;0;0
-atelierabbey/Socialbox;PHP;1.0;0;0;0.235412;0.0;0.0;1;459;0.0;1;0;0;1;0
-pramodramesh15/Codename-Moonshine;C#;0.933333;1;0;0.255435;0.0;0.0;0;822;0.0;0;0;0;0;0
-resbaz/nltk;Python;0.285714;1;0;0.099262;0.0;0.0;0;30192;0.0;14;0;0;0;0
-pennlabs/Penn-Book-Bazaar;PHP;0.813333;0;0;0.162334;0.0;0.0;1;10056;0.0;0;0;0;1;0
-LianyouXian/PHPadvClassSpring2015;PHP;0.2;1;0;0.033333;0.0;0.0;0;30;0.0;0;0;0;0;0
-dbbaskette/phd3-hawq-aws;Python;0.75;1;0;0.047945;0.0;0.0;0;989;0.0;5;0;0;0;0
-ceztko/SccAutoSwitcher;C#;0.428571;1;0;0.083333;0.0;0.0;1;649;0.0;3;0;0;1;0
-Complexible/stardog-spring;Java;1.0;1;0;0.36999;0.0;0.0;1;2153;0.403618;12;0;0;1;1
-BradSegel/repository;PHP;0.714286;1;0;0.341346;0.0;0.0;0;138;0.0;0;0;0;0;0
-bradfordkyle11/class-scheduler;Java;0.916667;1;0;0.114308;0.0;0.0;0;4506;0.0;0;0;0;0;0
-jwworth/scrapp;Ruby;0.272727;1;0;0.38836;2.0;0.0;1;1210;0.08079;0;0;0;1;1
-marcinwol/mwdcmconverter;C++;0.7;1;0;0.17902;0.0;0.0;1;3468;0.0;0;0;0;1;0
-Stuv7CB/opticlabGUI;Java;1.0;1;0;0.059025;0.0;0.0;0;2757;0.0;0;0;0;0;0
-x2bus/WeatherBoard;C++;1.0;1;0;0.178295;0.0;0.0;0;138;0.0;1;0;0;0;0
-cep11p/feicurza2015;PHP;0.208333;1;0;0.192039;0.0;0.0;0;1160;0.104651;0;0;0;1;0
-StepLidia/codingground;Java;0.0;1;0;0.0;0.0;0.0;0;7;0.0;0;0;0;0;0
-nheinbaugh/HeinbaughPitchApi;C#;0.875;1;0;0.042525;0.0;0.0;0;4159;0.0;0;0;0;0;0
-dklisiaris/bookshark-http-api;Ruby;0.365854;1;0;0.407708;0.0;0.0;1;1556;0.300813;0;0;0;1;0
-mattvperry/Mumble.NET;C#;0.916667;1;1;0.027258;0.0;0.0;1;15658;0.0;0;0;0;1;1
-Boshchuk/ptur;C#;0.608696;1;0;0.300635;0.0;0.0;0;1101;0.0;0;0;0;0;0
-aivascu/ndddsample;C#;0.834081;2;0;0.046651;5.263158;0.0;1;109766;0.30392;1;1;0;1;1
-elitwin/netzke_issues;Ruby;0.121951;1;0;0.34072;0.0;0.0;0;522;0.061303;1;0;0;1;0
-xinyu-liu/Car-Park-System;Java;1.0;2;0;0.33091;0.0;0.0;0;1772;0.0;0;0;0;1;0
-alexoro/android-root-device-detector;Java;0.0;0;0;0.107143;0.0;0.0;0;125;0.0;1;0;0;0;0
-tannerwj/byu-cs236-project5;C++;0.769231;1;0;0.180895;0.0;0.0;0;2178;0.0;0;0;0;0;0
-Shikkic/c2107;C;0.0;1;0;0.054187;0.0;0.0;0;192;0.0;0;0;0;0;0
-thiagofalmeida/sample_app;Ruby;0.09375;1;0;0.402357;0.0;0.0;0;397;0.171053;0;0;0;1;0
-mit09/my-mapreduce;Java;0.142857;2;0;0.037037;0.0;0.0;0;1222;0.0;0;0;0;1;0
-LOS/PUD;Python;0.0;0;0;0.0;0.0;0.0;0;0;0.0;3;0;0;0;0
-alochoa/Public;Ruby;0.5;1;0;0.064516;0.0;0.0;0;29;0.0;0;0;0;0;0
-TymchenkoIvan/study;Java;0.5;1;0;0.012019;0.0;0.0;0;1644;0.0;0;0;0;0;0
-eduartheinen/sample_app;Ruby;0.151515;1;0;0.453704;0.0;0.0;0;396;0.15894;0;0;0;1;0
-CXgamer/MC-ticker;Java;0.950413;1;0;0.123685;0.0;0.0;1;11090;0.054931;9;0;0;1;1
-MisterDr/S-c-ript;C;0.685976;2;0;0.111657;0.0;0.0;1;87746;0.050132;0;1;0;1;0
-guwu/cs544;C;0.375;1;0;0.224925;0.0;0.0;0;12148;0.037362;0;0;0;1;0
-mindwebpl/tracker;PHP;1.0;1;0;0.218085;0.0;0.0;0;147;0.0;1;0;0;0;0
-lernerc/3200Project;C++;0.953488;1;0;0.109878;0.0;0.0;0;4893;0.0;0;0;0;0;0
-ivivapi/jogo-forca-6;Python;0.0;1;0;0.013245;0.0;0.0;0;149;0.0;0;0;0;0;0
-bitcraft/retrogamelib;Python;0.863636;1;0;0.05202;0.0;0.0;1;3102;0.0;2;0;0;1;0
-alperakcan/algorithms;C;0.971429;0;0;0.04849;0.0;0.0;1;3695;0.355079;1;0;0;1;1
-MavenDevoxxFR2015/demos;Java;1.0;1;0;0.166205;0.0;0.0;1;303;0.2;1;0;0;1;1
-IgnNat/addressgrabber;PHP;0.5;2;0;0.190337;0.0;0.0;0;553;0.0;0;0;0;1;0
-POMStrap/pomstrap3;Java;1.0;1;0;0.035503;0.0;0.0;0;326;0.0;4;0;0;0;0
-dcapwell/jmh-tests;Java;0.875;1;0;0.04579;0.0;0.0;1;937;0.135076;0;0;0;1;0
-aaronchien/UCSD-Dining-Dollars;Java;0.666667;1;0;0.046908;0.0;0.0;0;469;0.0;0;0;0;0;0
-gforti/PHPadvClassSpring2015;PHP;0.666667;1;0;0.418033;0.0;0.0;0;143;0.0;0;0;0;0;0
-pekarchuk/Twitter-parser;Python;0.0;1;0;0.25;0.0;0.0;1;73;0.0;0;0;0;1;0
-fishfillet/rotten_mangoes;Ruby;0.261538;1;0;0.326409;0.0;0.0;0;874;0.174107;0;0;0;1;0
-nhurman/ngcategorizer;Python;1.0;1;0;0.178248;0.0;0.0;1;546;0.0;0;0;0;1;0
-DonnoDK/LWTML;C++;0.75;1;0;0.029516;0.0;0.0;0;900;0.0;1;0;0;0;0
-Regalis/regalis-lis;C;0.928571;1;0;0.468254;0.0;0.0;1;416;0.0;1;0;0;1;0
-jaherne/FoolFotoForensics;Python;1.0;0;0;0.356589;0.0;0.0;1;110;0.0;1;0;0;1;0
-icol2006/appCSV;Java;0.6;1;0;0.158784;0.0;0.0;0;249;0.0;0;0;0;0;0
-lesliekimm/POLYNOMIALS;C++;1.0;1;0;0.089744;0.0;0.0;0;781;0.0;0;0;0;0;0
-codeTao42/recipe_box;Ruby;0.128205;1;0;0.294643;0.0;0.0;0;647;0.070588;0;0;0;1;0
-bobanpaul/MySampleProject;Java;0.0;1;0;0.4;0.0;0.0;0;6;0.0;0;0;0;0;0
-btokumi15/btokumi-SecretCode;Java;1.0;1;0;0.0;0.0;0.0;0;27;0.0;0;0;0;0;0
-lesliekimm/AVL_TREES;C++;1.0;1;0;0.114716;0.0;0.0;0;764;0.0;0;0;0;0;0
-Tibolte/ElasticDownload;Java;0.75;1;0;0.108137;0.0;0.0;1;958;0.0;1117;0;0;1;0
-cristeam2/Networking-models-generator;C++;0.0;1;0;0.169935;0.0;0.0;0;138;0.0;0;0;0;0;0
-lesliekimm/MINELOGS;C++;1.0;1;0;0.246358;0.0;0.0;0;2897;0.0;0;0;0;0;0
-stickfigure/meatography;Python;0.5;1;0;0.236111;0.0;0.0;0;221;0.0;0;0;0;0;0
-dspiegs/DiceChallenge;C#;0.833333;1;0;0.081559;0.0;0.0;1;97172;0.0;0;0;0;1;0
-lesliekimm/REFUGEE_PROJECT;C++;1.0;1;0;0.144573;0.0;0.0;0;1781;0.0;0;0;0;0;0
-dabassett/shibbolite;Ruby;0.614035;1;0;0.188377;0.0;0.0;1;1302;0.460302;0;0;0;1;1
-Shanmathi1/MSGSP-implementation;Java;1.0;1;0;0.21609;0.0;0.0;0;838;0.0;0;0;0;0;0
-mmaldonado730/Battleship;Ruby;0.0;1;0;0.063158;0.0;0.0;0;191;0.0;0;0;0;0;0
-AlexAbraham1/YUClubs;Java;0.966667;1;0;0.061422;0.0;0.0;1;2505;0.0;0;0;0;1;0
-kodi-czsk/plugin.video.pohadkar.cz;Python;1.0;0;0;0.187279;0.0;0.0;1;230;0.0;0;0;0;1;0
-tjouan/ept-metanibble;C;0.805556;1;0;0.057105;0.132075;0.0;1;88100;0.0;0;0;0;1;0
-oleguchok/AdBoard;C#;0.631579;1;0;0.215345;0.0;0.0;1;19173;0.0;0;0;0;1;0
-RiverTaig/HelloGit;C#;0.5;1;0;0.24;0.0;0.0;0;76;0.0;0;0;0;0;0
-nikit-cpp/VkCachingPlayer;Java;0.823529;1;0;0.02429;0.0;0.0;0;2129;0.308999;0;0;0;1;0
-NiceBlueEyes/learnPhp;PHP;1.0;1;0;0.441176;0.0;0.0;0;19;0.0;0;0;0;0;0
-pritamkesh/AccelerometerProject;Java;0.5;1;0;0.149485;0.0;0.0;0;330;0.0;0;0;0;0;0
-Lokistark/MyApplication;Java;0.25;1;0;0.076132;0.0;0.0;0;485;0.0;0;0;0;0;0
-danxexe/livesketch;Ruby;0.857143;1;0;0.23951;0.0;0.0;1;870;0.0;0;0;0;1;0
-tompauwaert/one-off-projects;Python;0.0;1;0;0.517857;0.0;0.0;1;27;0.0;0;0;0;1;0
-jmarsico/ofxSM16716;C++;1.0;1;0;0.405405;0.0;0.0;0;135;0.0;0;0;0;0;0
-giovanni-da-rumore/Chess;Ruby;1.0;1;0;0.085271;0.0;0.0;0;236;0.0;0;0;0;0;0
-jmarsico/sm16716_driver;C;0.032258;1;0;0.605426;0.0;0.0;1;509;0.0;0;0;0;1;0
-pedrecal/grupoestudo;C++;0.7;1;0;0.028571;0.0;0.0;0;408;0.0;0;0;0;0;0
-AdaptiveSystem/finalproject;Java;1.0;1;0;0.131488;0.0;0.0;0;252;0.0;0;0;0;0;0
-acl9es/GhostHunter;Java;0.25;1;0;0.093909;0.0;0.0;0;393;0.0;0;0;0;0;0
-mollihua/molecular-dynamics-analysis;Python;0.0;1;0;0.203883;0.0;0.0;0;84;0.0;0;0;0;0;0
-nsantek/Kalkulator_za_Lovra;C#;0.333333;1;0;0.2277;0.0;0.0;0;323;0.0;0;0;0;0;0
-BrassGoggledCoders/FantasyKingdoms;Java;0.875;1;0;0.187613;0.0;0.0;0;1392;0.0;1;0;0;0;0
-harmjan/network-security;C++;0.555556;1;0;0.281385;0.0;0.0;0;539;0.0;0;0;0;0;0
-Bobberclobber/Simple-Platform-Game;Java;1.0;1;0;0.449839;0.0;0.0;0;2051;0.0;0;0;0;0;0
-ahrenstein/ChefRecipe-linux-tweak;Ruby;0.1;1;0;0.230769;0.0;0.0;1;200;0.514793;0;0;0;1;0
-RiverTaig/RiversRepository;C#;0.5;1;0;0.252492;0.0;0.0;0;225;0.0;0;0;0;0;0
-c-mars/future.sample;Java;1.0;1;0;0.087719;0.0;0.0;0;104;0.0;0;0;0;0;0
-ahmetkucuk/personilized-education;Python;0.333333;1;0;0.037559;0.0;0.0;0;822;0.0;0;0;0;0;0
-apranav19/FP_With_Python;Python;0.333333;2;0;0.319149;0.0;0.0;0;35;0.0;0;0;0;1;0
-FelipeGCF/FelipeFranca_EP2;Python;0.307692;1;0;0.059867;0.0;0.0;0;848;0.0;0;0;0;0;0
-zonalhi/zh-cpp-lib;C++;0.666667;1;0;0.252525;0.0;0.0;1;86;0.0;0;0;0;1;0
-nusait/nuauth5-test;PHP;0.135593;1;0;0.164575;0.0;0.0;0;12931;0.01458;0;0;0;1;0
-kmjungersen/PyHeader;Python;0.333333;1;0;0.042105;0.0;0.0;0;93;0.0;0;0;0;0;0
-bweisiger15/Tic-Tac-Toe;Java;0.0;1;0;0.022059;0.0;0.0;0;133;0.0;0;0;0;0;0
-CityofSantaMonica/Orchard.Socrata;C#;0.833333;1;0;0.027714;0.0;0.0;1;1633;0.0;0;0;0;1;0
-aioverlord/toy_app;Ruby;0.184211;1;0;0.381595;0.0;0.0;0;581;0.206009;0;0;0;1;0
-QIICR/PET-IndiC;Python;1.0;1;0;0.196613;0.0;0.0;0;2569;1.0;0;0;0;1;0
-huntdog1541/theoryhomework1;Java;0.0;1;0;0.0;0.0;0.0;0;10;0.0;0;0;0;0;0
-edfullest/Mi-Primera-Applet;Java;0.75;1;0;0.220823;0.0;0.0;0;1609;0.0;0;0;0;0;0
-wpsitecare/disable-yoast-admin-columns;PHP;1.0;1;0;0.582822;0.0;0.0;0;86;0.0;4;0;0;0;0
-initialxy/parcelable-generator;Python;0.0;1;0;0.353086;0.0;0.0;1;299;0.0;0;0;0;1;0
-audamob/Snoopy;C#;0.454545;1;0;0.197303;0.0;0.0;0;25105;0.0;0;0;0;0;0
-finbarr/kickstarter_stripe;Ruby;0.952381;20;1;0.015815;9.652174;0.0;1;2676;0.413819;0;1;1;1;1
-ddarwin/Example-Glassfish;Java;0.0;1;0;0.133333;0.0;0.0;0;52;0.0;0;0;0;0;0
-wware/dumb-epydoc-project;Python;1.0;1;0;0.698413;0.0;0.0;0;23;0.0;0;0;0;0;0
-puppetlabs/puppetlabs-chronos;Ruby;0.125;1;1;0.09188;0.0;0.0;1;473;0.232558;2;0;0;1;1
-kiei925-s15/essential_ruby;Ruby;0.166667;1;0;0.4375;0.0;0.0;0;171;0.0;0;0;0;0;0
-PIfagor/Checkers;Java;1.0;1;0;0.068841;0.0;0.0;0;259;0.0;0;0;0;0;0
-veronicaaruquipa/pm-cucumber-tests-ruby;Ruby;0.714286;1;0;0.02212;20.0;0.0;0;1081;0.0;1;0;0;1;0
-ivlab/Spatialize;C++;1.0;1;0;0.241877;0.0;0.0;1;443;0.0;1;0;0;1;1
-ronak1790/Contested_Massive_Multiplayer_Online_Role_Playing_Game;Java;1.0;1;0;0.161064;0.0;0.0;0;3344;0.0;0;0;0;0;0
-HaikuArchives/GenesisCommander;C++;1.0;1;0;0.119694;0.0;0.0;1;6680;0.0;0;0;0;1;0
-lcacciagioni/mocker-python;Python;0.0;1;0;0.035714;0.0;0.0;1;34;0.0;0;0;0;1;0
-XXMrHyde/android_packages_apps_DKLauncher;Java;0.993939;1;0;0.197261;0.0;0.0;1;58572;0.005643;1;0;0;1;0
-pgaufillet/vasco;C++;0.779661;1;0;0.185426;5.0;0.0;1;23889;0.0;0;0;0;1;1
-MonstroVini/A-forca0;Python;1.0;1;0;0.069992;0.0;0.0;0;1156;0.0;0;0;0;0;0
-graph1994/8-Block-Puzzle;C++;0.0;1;0;0.02449;0.0;0.0;0;246;0.0;0;0;0;0;0
-Shidachi2805/CC_EatGateWebServiceCSharp;C#;0.625;2;0;0.046296;0.0;0.0;1;197804;0.0;0;0;0;1;0
-james-w/notlang;Python;0.892857;1;0;0.054444;0.0;0.0;0;3653;0.485934;0;0;0;1;0
-Drblake/Comp291-Proj2;Python;1.0;1;0;0.087948;0.0;0.0;0;566;0.0;1;0;0;0;0
-TheJefe/gplan;Ruby;1.0;1;0;0.052198;0.0;0.0;0;379;0.0;0;0;0;0;0
-pablobastidasv/JaasJEE;Java;0.5;1;0;0.036;0.0;0.0;0;278;0.0;0;0;0;0;0
-nak1b/PHP-Simple-Contact-Form;PHP;0.0;1;0;0.151515;0.0;0.0;0;92;0.0;0;0;0;0;0
-caywood/marc_tracker_api;PHP;0.0;1;0;0.0;0.0;0.0;0;12;0.0;0;0;0;0;0
-eggars/learn_to_test;Ruby;0.205882;1;0;0.423664;0.0;0.0;0;516;0.318182;0;0;0;1;0
-Ivan-Castro/RNAtk;Python;0.833333;1;0;0.351862;0.0;0.0;1;1213;0.0;1;0;0;1;0
-ovidiub13/KubuntuAdverticaLightChild;PHP;0.25;1;0;0.105919;0.0;0.0;1;574;0.0;1;0;0;1;1
-truegff/MeLearningC;C;0.125;1;0;0.266968;0.0;0.0;0;165;0.0;0;0;0;0;0
-msommariva/MRT_DDS_FUSION;C++;0.9375;1;0;0.023684;0.0;0.0;0;1484;0.0;0;0;0;0;0
-banno/graphite-setup;Ruby;0.333333;1;0;0.090141;0.0;0.0;1;336;0.2;9;0;0;1;0
-Turkey2349/Call_Of_Minecraft-Zombies;Java;0.988764;1;0;0.091735;0.0;0.0;0;10597;0.0;6;0;0;0;0
-AndreFSilveira/sample-App;Ruby;0.09375;1;0;0.400338;0.0;0.0;0;400;0.171053;0;0;0;1;0
-byrddroppings/EventSourcingDemo;C#;0.717949;1;0;0.09825;0.0;0.0;1;1435;0.0;0;0;0;1;1
-kbogtob/Themextractor;Ruby;0.75;1;0;0.112179;0.0;0.0;1;910;0.112172;0;0;0;1;0
-arek3108/nowe;Java;0.727273;6;0;0.151703;6.0;0.0;0;1370;0.0;0;0;0;1;0
-patrickcgray/scratch_space;Python;0.5;1;0;0.046053;0.0;0.0;0;148;0.0;0;0;0;0;0
-DannyB91/code;C++;0.0;1;0;0.0;0.0;0.0;0;20;0.0;0;0;0;0;0
-core-attack/AuthWithSocNetworks;Ruby;0.236842;1;0;0.428934;0.0;0.0;0;675;0.229333;0;0;0;1;0
-edubossa/WebSocket;Java;0.75;1;0;0.233221;0.0;0.0;0;914;0.0;0;0;0;0;0
-raphaelgolzmoura/RaphaelGolz_EP2;Python;1.0;1;0;0.090909;0.0;0.0;0;520;0.0;0;0;0;0;0
-micahhausler/python3-utils;Python;0.5;1;1;0.183445;0.0;0.0;1;365;0.370536;1;0;0;1;1
-schmengler/comparable-filesystem;PHP;1.0;1;1;0.433673;0.0;0.0;1;407;0.715789;0;0;0;1;1
-railsfrickler/fib;Ruby;0.666667;1;1;0.0;0.0;0.0;0;48;0.459459;0;0;0;0;0
-remgodow/ngnProject;Java;1.0;1;0;0.018987;0.0;0.0;0;310;0.0;0;0;0;0;0
-wujek-srujek/Conti;Java;0.333333;1;0;0.06812;0.0;0.0;0;378;0.0;0;0;0;0;0
-PaulMuriithi/FrequencyCalculator;Java;0.0;1;0;0.347826;0.0;0.0;0;51;0.0;0;0;0;0;0
-andy120/Tut4-Mystack;C++;0.4;1;0;0.188976;0.0;0.0;0;103;0.0;0;0;0;0;0
-OskarJJ/MyCompass;Java;0.5;1;0;0.074499;0.0;0.0;0;682;0.0;0;0;0;0;0
-kesaulova/university;Python;1.0;1;0;0.289277;0.0;0.0;0;855;0.0;1;0;0;0;0
-yiminliu/CollegeSearch;Java;0.829787;1;0;0.164201;0.0;0.0;0;3390;0.112659;0;0;0;1;0
-victorevector/Genetics-and-Drugs;Python;0.783901;1;0;0.2385;0.0;0.0;1;157933;0.173686;1;0;0;1;0
-coxley/interface_monitor;Python;0.666667;1;0;0.170213;0.0;0.0;1;157;0.0;0;0;0;1;0
-MacBohn/wordpress;PHP;0.967936;1;0;0.283728;0.0;0.0;1;247346;0.0;0;0;0;1;0
-Steague/Rev-Job-Sniper;PHP;0.988636;1;0;0.423204;0.0;0.0;0;2088;0.0;0;0;0;0;0
-omokoro/mastermind;Ruby;0.0;1;0;0.0;0.0;0.0;0;2;0.0;0;0;0;0;0
-adirsolo/CouponSystemProject;C#;0.5;1;0;0.003333;0.0;0.0;0;102217;0.270408;0;0;0;1;0
-digidotcom/python-wvalib;Python;0.789474;1;1;0.313751;0.0;0.0;1;1818;0.174561;5;0;0;1;1
-cristinaluengoagullo/Algoritmia;C++;1.0;0;0;0.201917;0.0;0.0;0;1249;0.0;0;0;0;0;0
-Shidachi2805/CC_EatGateAndroidApp;Java;0.923077;2;0;0.156813;4.5;0.0;0;5374;0.0;0;0;0;1;0
-cchevez/TP1_POO_Parqueo;Java;0.5;2;0;0.135452;0.0;0.0;0;1551;0.0;0;0;0;1;0
-joakimalgroy/ip-location-map;Python;0.5;2;0;0.0;0.0;0.0;0;40;0.0;46;0;0;0;0
-evercoders/obstakles;C#;0.714286;1;0;0.480471;0.0;0.0;1;3791;0.0;0;0;0;1;0
-halfjew22/CountdownTimer;Java;0.722222;1;0;0.090544;0.0;0.0;0;2085;0.007937;0;0;0;1;0
-Skywinder9/2D-Group-Project;C#;0.625;1;0;0.048661;0.0;0.0;0;7351;0.0;0;0;0;0;0
-0xANDREW/niagara-wishlist-exporter;Python;0.0;1;0;0.070707;0.0;0.0;0;93;0.0;0;0;0;0;0
-RaulB01/WithMath;Java;0.0;1;0;0.157895;0.0;0.0;0;16;0.0;0;0;0;0;0
-HonzaMD/Krkal3;C#;0.924485;1;0;0.151783;0.0;0.0;1;102552;0.0;0;0;0;1;0
-sergiokulchytsky/oracle_jdbc_client;Java;0.0;1;0;0.102151;0.0;0.0;0;167;0.0;0;0;0;0;0
-joaopapereira/milhoes;Ruby;0.222222;1;0;0.28635;0.0;0.0;0;977;0.22963;0;0;0;1;0
-Freezard/android-robber-translator;Java;1.0;1;0;0.125;0.0;0.0;0;651;0.0;0;0;0;0;0
-seppeljordan/haskell-ffi-test;C;0.0;1;0;0.175;0.0;0.0;0;37;0.0;0;0;0;0;0
-jsifuentes/Directory-Sync;Python;0.0;2;0;0.0;0.0;0.0;0;70;0.0;0;0;0;0;0
+name,isFork,commits,branches,defaultBranch,releases,contributors,license,watchers,stargazers,forks,size,createdAt,pushedAt,updatedAt,homepage,mainLanguage,totalIssues,openIssues,totalPullRequests,openPullRequests,lastCommit,lastCommitSHA,hasWiki,isArchived	
+sparklemotion/nokogiri,false,6783,32,main,49,217,MIT License,161,5994,905,31940,2008-07-14T03:34:32,2023-03-22T01:14:58,2023-03-25T07:30:40,https://nokogiri.org/,C,1870,95,877,15,2023-03-22T01:14:56,17a510edbdf4cbe9a0c995372433276a79616366,true,false	
+jeresig/processing-js,true,3613,1,master,23,34,Other,72,1740,5,41895,2008-05-12T06:19:10,2018-12-04T10:20:56,2020-04-25T09:57:40,http://processingjs.org/,Java,0,0,16,1,2012-07-30T04:30:00,02363398a823eae731cafa180a5581fe353397bf,true,false	
+dustin/java-memcached-client,false,979,6,master,93,35,MIT License,65,486,404,5026,2008-02-29T09:22:38,2020-12-01T08:46:25,2020-12-01T08:46:19,http://code.google.com/p/spymemcached/,Java,,,49,28,2020-12-01T08:46:13,fd1447f38f4db8b719387366419fe476df01957d,true,false	
+davidb/scala-maven-plugin,false,1048,4,master,0,59,The Unlicense,21,528,146,6372,2008-05-31T09:02:12,2023-03-06T07:44:48,2023-02-16T09:14:17,https://davidb.github.io/scala-maven-plugin/,Java,266,1,406,4,2023-03-06T07:44:46,d51f59557a9007f354df924f85c71bc797d81e2b,true,false	
+clarkware/jdepend,false,28,1,master,2,2,MIT License,37,440,98,1255,2008-08-21T09:34:50,2020-04-10T10:28:06,2020-12-08T08:06:49,,Java,12,7,7,5,2020-03-06T06:59:19,7fe00cb07b0f6fad0022c71d56f1a32529e42811,true,false	
+tcurdt/jdeb,false,936,6,master,0,62,Apache License 2.0,22,398,166,5160,2008-10-03T11:46:26,2023-03-02T02:15:15,2023-03-08T01:41:29,https://github.com/tcurdt/jdeb,Java,196,30,308,10,2023-03-02T02:14:45,512e702881b377947b6bfba701d5e94588575560,false,false	
+rictic/code_swarm,false,381,4,master,0,14,GNU General Public License v3.0,16,355,62,37650,2008-07-26T09:22:13,2014-01-12T06:31:00,2020-11-12T07:43:18,http://code.google.com/p/codeswarm/,Java,10,6,7,0,2014-01-12T06:30:58,ddf0ffeff1e3d4c13adb7ebc58e71d622906f013,true,false	
+mth/yeti,false,2980,2,master,0,6,Other,17,219,16,8209,2008-05-19T07:53:44,2021-09-01T02:32:32,2021-09-02T10:37:06,http://mth.github.io/yeti/,Java,9,3,14,0,2021-09-01T02:32:08,de5e56ceda4678f4ad2678bbd6afec7ac3afdfa2,false,false	
+myabc/nbgit,false,203,3,master,4,6,Other,9,187,12,4755,2008-03-22T06:13:32,2010-11-12T11:12:14,2019-08-13T01:22:14,http://nbgit.org/,Java,0,0,1,0,2010-11-12T11:10:37,fea0ed6ae1641664736a0775b1fe27db35ff77aa,false,false	
+cyberfox/jbidwatcher,false,1551,7,master,51,4,Other,40,178,66,128890,2008-04-08T10:26:02,2019-10-22T03:47:18,2020-02-27T12:20:42,http://www.jbidwatcher.com,Java,0,0,7,2,2018-02-20T10:45:39,2816fb9d78fec14cb18e012c22527320a8905e7e,false,false	
+mheath/adbcj,false,251,1,master,0,1,Apache License 2.0,14,140,27,1577,2008-05-02T12:04:03,2015-06-16T10:55:07,2020-03-18T11:01:45,,Java,1,0,2,1,2015-06-16T10:55:07,669b302c106551287cf2352101f3e131bb858015,true,false	
+rikrd/geomerative,false,321,5,master,0,6,GNU General Public License v3.0,17,139,26,10871,2008-06-27T09:48:18,2019-03-14T10:02:28,2020-04-20T09:01:31,http://www.ricardmarxer.com/geomerative,Java,7,4,4,0,2019-03-14T10:02:09,5e2d1ebcaffc3a5537de3825e4fab87cc17c01ea,true,false	
+raykrueger/hibernate-memcached,false,142,5,master,0,5,Apache License 2.0,26,111,93,186,2008-05-27T02:39:55,2022-11-24T02:27:52,2022-12-03T04:11:31,http://code.google.com/p/hibernate-memcached/,Java,12,3,8,3,2015-03-24T01:05:50,638dd68a70a7d11b14a8c98254db8cbe1b146ed9,true,true	
+slagyr/limelight,false,968,1,master,1,9,MIT License,9,109,16,48293,2008-06-06T04:34:58,2012-08-28T05:07:40,2020-03-18T12:23:26,http://limelight.8thlight.com,Java,6,5,6,0,2012-08-28T05:07:31,2e8db684771587422d55a9329e895481e9b56a26,true,false	
+fbrunel/twitterdroid,false,62,1,master,3,3,Other,3,82,22,1767,2008-04-05T06:18:03,2012-04-05T07:26:14,2020-03-03T03:25:37,,Java,1,1,1,0,2012-04-05T07:26:14,f68e0719b72b08c7ffd02be5cac5d1251b8b703b,true,false	
+mhroth/jvsthost,false,160,2,master,0,3,GNU Lesser General Public License v3.0,15,73,25,2856,2008-09-23T11:04:13,2012-06-14T11:38:36,2020-04-21T02:55:00,,Java,7,6,2,1,2012-06-14T08:02:18,0944bf84db9cc5bdac32c2ee4b6de8a43d8e6a0a,true,false	
+n0ha/yui-compressor-ant-task,false,118,2,master,1,5,,3,58,18,13808,2008-06-08T10:22:17,2018-03-19T03:10:54,2020-03-12T12:17:20,,Java,7,4,16,1,2017-12-28T08:30:52,f7d07568c018e9e7032affdae6f80deacc15d697,true,false	
+bmc/javautil,false,713,2,master,10,3,Other,6,56,26,7453,2008-09-10T03:27:08,2019-08-14T05:58:22,2019-08-13T01:34:40,http://software.clapper.org/javautil/,Java,15,4,7,4,2017-03-23T02:45:13,a146ece36f6053bc287bf2cb42fbd427b23863c5,true,false	
+britt/hivedb,false,594,10,master,5,3,GNU Lesser General Public License v2.1,8,44,14,1839,2008-03-21T09:27:39,2020-10-13T09:45:12,2019-10-14T11:50:00,http://www.hivedb.org,Java,0,0,5,5,2008-12-18T07:41:22,09efeffda5f9fb9619358a274801a569b525dca7,true,false	
+clarkware/junitperf,false,6,1,master,1,,Other,11,36,11,95,2008-08-21T09:28:25,2017-01-20T06:21:49,2020-08-30T11:33:18,,Java,1,1,1,0,2017-01-20T06:21:42,0eace56460d0467a12c154d281ad344636eb609d,true,false	
+earl/rhino-mirror,false,2719,1,master,0,0,Other,1,32,13,10108,2008-09-25T12:54:39,2011-05-10T10:32:12,2019-11-21T09:55:02,https://github.com/mozilla/rhino,Java,0,0,0,0,2011-05-10T09:52:49,014787f34aaa35b5dd4592e0f3cbc800d8f324c8,false,true	
+tcurdt/jdependency,false,414,2,master,0,15,Apache License 2.0,10,48,21,5838,2008-10-05T12:38:39,2023-03-02T01:29:15,2023-02-20T04:40:55,http://github.com/tcurdt/jdependency,Java,16,0,134,0,2023-03-02T01:29:11,9a00830b12abbaa4f8523679ddaf5573b39ca62d,false,false	
+bobmcwhirter/jboss-rails,false,264,1,master,3,1,Other,4,28,5,938,2008-09-05T09:15:21,2009-05-04T11:09:36,2019-08-13T01:34:16,,Java,0,0,0,0,2009-05-04T11:08:12,c0809da9a4ee8afad56b37547fafce25e2bc1232,true,false	
+simonpk/j2me-oauth,false,8,1,master,0,1,Other,6,28,18,167,2008-03-04T07:08:18,2009-05-19T06:20:16,2019-08-13T01:21:45,,Java,1,1,1,1,2009-05-19T05:55:56,bf67e5c689a8e0f1747512ead40fc5c5905f5c48,true,false	
+stephenh/joist,false,1575,7,master,153,5,Other,8,27,11,58227,2008-09-26T11:39:03,2019-09-02T05:34:56,2019-09-06T02:53:08,http://joist.ws,Java,4,1,15,2,2019-09-02T05:34:52,41dda3478a6a163d914a49191fbe4cb6d28c54e4,false,false	
+bcotton/selenium-grid,false,531,2,master,0,1,,8,25,52,25118,2008-08-22T11:49:50,2008-08-21T06:28:27,2019-10-30T03:22:37,http://selenium-grid.openqa.org,Java,0,0,0,0,2008-08-21T06:27:35,9d05140058657ecca7942b0bdfc62d570bca11d2,true,false	
+eml/java-mogilefs,false,2,1,master,0,0,,4,24,14,603,2008-05-07T05:35:23,2008-05-07T05:50:45,2019-08-13T01:24:10,,Java,1,1,0,0,2008-05-07T05:50:22,78b3dd25b9cae999147d7b523b626bf52a4f3a91,true,false	
+burris/dwr,false,2100,2,master,0,0,Apache License 2.0,4,23,15,98082,2008-09-26T08:11:10,2019-10-21T09:34:22,2020-03-21T02:30:48,http://directwebremoting.org,Java,0,0,1,1,2009-01-09T09:54:21,a8c6765f82266b738a030010b920d682edb6c348,true,false	
+relevance/java-tdd,false,44,1,master,0,1,Other,35,22,4,14372,2008-07-09T02:50:25,2008-07-23T01:45:35,2019-12-20T08:54:28,http://thinkrelevance.com,Java,0,0,0,0,2008-07-22T10:36:34,20720c98971b1417d1dd542bd211481013aaa4d4,true,false	
+aschearer/shade,false,521,1,master,0,3,Other,2,21,8,11733,2008-09-11T01:23:38,2013-08-19T07:58:02,2019-08-13T01:34:46,http://github.com/aschearer/shade/wikis,Java,0,0,0,0,2013-08-19T07:57:44,47e1f68defb7c34ccb092f3ab24d984c692718f0,true,false	
+nmerouze/qtjruby-core,false,31,1,master,2,1,MIT License,3,19,1,136,2008-08-05T01:01:26,2009-01-06T11:39:46,2019-08-13T01:30:51,http://qtjruby.org,Java,1,1,0,0,2009-01-06T11:39:35,b3c1613f6db454cf83a8dd6ef02cfb68a5609276,true,false	
+olabini/jvyamlb,false,90,1,master,5,1,MIT License,3,17,4,1780,2008-06-21T01:23:21,2015-03-18T06:45:59,2019-08-13T01:27:17,http://code.google.com/p/jvyamlb,Java,3,1,0,0,2015-03-18T06:45:56,4730b5463e9dda32060e51dd02cd927ee43c4a5e,true,false	
+fudge/gitidea,false,2,1,master,0,0,,3,17,3,431,2008-04-09T09:16:49,2008-07-16T06:31:56,2019-08-13T01:22:45,,Java,0,0,0,0,2008-06-30T10:51:03,e9d575c727d9fb8df34a0be083fc539df72f6cd1,true,false	
+victorr/jsqueak,false,23,1,master,0,2,,3,17,11,455,2008-06-24T12:12:04,2021-02-23T02:12:35,2021-02-23T02:12:38,http://research.sun.com/projects/JSqueak/,Java,1,1,2,0,2021-02-23T02:12:35,111a9105d2629f965eebf7eaa902cb5fa736bc6c,true,false	
+identityxx/penrose-server,false,1009,1,master,0,2,Other,7,14,8,86431,2008-06-12T08:54:33,2009-04-10T05:03:43,2019-08-13T01:26:37,http://penrose.fedorahosted.org,Java,0,0,0,0,2009-04-10T05:02:34,b25edf727f6a26b18842a165b8f55fcdcbb91c9e,true,false	
+jonas/nbgit,true,200,7,master,0,6,Other,3,14,0,4353,2008-09-03T01:11:59,2010-07-01T01:33:25,2019-08-13T01:33:58,http://nbgit.googlecode.com/,Java,0,0,0,0,2010-07-01T01:01:52,180f329511e0b694a8ad4281cd21598d57953bd9,true,false	
+bmc/curn,false,1064,2,master,9,1,Other,4,14,6,5506,2008-09-10T03:30:41,2017-04-11T03:42:22,2020-04-24T02:13:10,http://software.clapper.org/curn/,Java,8,6,1,0,2017-04-11T03:42:21,84d6f49245ae29a291b637442652b9053cfde723,true,false	
+jkriss/monomic,false,46,2,master,1,1,MIT License,2,13,2,9224,2008-05-11T01:41:38,2009-01-03T03:31:13,2019-08-13T01:24:22,http://jklabs.net/monomic,Java,1,0,0,0,2009-01-03T03:30:55,66bbe92d6531f56bc09f1f1835dfb9e02c028470,true,false	
+simonpk/fireeagle-updater-midlet,false,6,1,master,0,1,Other,5,13,3,283,2008-03-04T09:44:14,2009-12-07T05:02:44,2019-08-13T01:21:46,,Java,0,0,0,0,2009-12-07T05:02:21,7b1912e50c64ec1acb5cd7eebf09da7aa971ccb0,true,false	
+adimit/werti,false,460,7,master,3,3,Other,3,13,2,3109,2008-07-03T10:47:41,2010-12-04T02:41:06,2019-08-13T01:28:20,,Java,0,0,0,0,2009-06-03T10:14:29,c4dd20f15e9d6be3aa3f0c21a16745b19a4c9448,true,false	
+northern-bites/tool,false,304,2,master,0,5,,7,13,15,1283,2008-07-24T05:33:10,2010-05-03T08:12:00,2019-08-13T01:29:54,http://robocup.bowdoin.edu/blog,Java,0,0,0,0,2010-04-26T08:04:24,bb920272beef46a6e2c0c71eccbcfdbd893f51aa,true,false	
+egonw/gtd,false,177,1,master,0,1,,3,12,3,750,2008-09-29T11:26:42,2012-02-28T06:21:26,2019-08-13T01:36:35,,Java,2,2,0,0,2012-02-28T05:05:53,8088b38fb0005e26af92c5f25cf78c4b6a24e3da,true,false	
+britt/github-java,false,22,2,master,0,,GNU General Public License v2.0,3,12,1,24,2008-04-21T10:57:11,2020-10-13T09:16:10,2020-03-03T09:04:40,,Java,1,0,1,1,2013-08-22T03:47:30,6c36af8811f8a99b5655034ebaf9f45903b5027c,true,false	
+alandipert/campfireclient,false,27,1,master,0,0,,3,12,3,7221,2008-09-24T04:22:55,2008-09-29T05:30:45,2019-08-13T01:36:07,http://alan.dipert.org/,Java,0,0,0,0,2008-09-29T05:30:09,3200be7ac86fdf45255c4f3b12726930d55cdaa1,true,false	
+mtodd/halcyon-clients,false,2,1,master,0,1,,2,11,2,826,2008-05-02T02:27:54,2008-05-02T03:22:46,2019-08-13T01:23:55,http://halcyon.rubyforge.org/,Java,0,0,0,0,2008-05-02T03:19:29,fc104ed89aa797a9aed526eea98dbf827b96667c,true,false	
+jaroslawr/xpl,false,41,1,master,0,1,,2,11,4,1846,2008-09-25T12:37:23,2013-12-20T05:59:03,2019-08-13T01:36:17,,Java,0,0,0,0,2013-12-20T05:59:02,bae2e3ee201b4f3725818daf4a518e56db0b512c,true,false	
+toddlipcon/cassandra,false,62,2,master,0,1,Apache License 2.0,2,11,3,9676,2008-07-29T07:02:32,2008-08-03T12:11:47,2019-08-13T01:30:16,http://code.google.com/p/the-cassandra-project/,Java,0,0,0,0,2008-08-03T12:11:30,3b4bac8e561f5a4c2e0873226cd50a5b6cad305c,true,false	
+mojodna/searchable,false,115,2,master,0,0,,3,11,6,2677,2008-05-11T09:42:23,2019-08-12T11:22:08,2020-03-19T04:59:16,,Java,0,0,1,1,2008-05-11T09:52:13,b09461c7207822c0a8da00324b4bc06ab19981f3,true,false	
+bobmcwhirter/drools,false,6313,4,master,0,0,Apache License 2.0,2,11,7,986962,2008-08-31T09:57:57,2019-11-07T05:36:05,2019-08-13T01:33:42,,Java,0,0,2,2,2008-08-30T11:20:26,62a0a5907ca1f4505cea2f4c55302da846b1cc75,true,false	
+we4tech/semantic-repository,false,24,2,master,1,0,,2,10,1,1446,2008-04-19T07:52:05,2019-08-12T11:20:42,2019-08-13T01:23:19,http://hasan.we4tech.com,Java,0,0,1,1,2009-03-18T08:49:07,1aa2d4a74eda7332fa56e478fa6c7c7f8f282c73,true,false	
+aosp-mirror/platform_frameworks_base,false,804147,426,master,0,,Other,904,10268,6191,2903744,2008-10-21T06:20:37,2023-01-09T09:15:20,2023-01-17T06:56:38,,Java,0,0,126,5,2023-01-17T04:20:47,486bbbd398cce9c8f7420f34a0eb587e5246aa0d,false,false	
+junit-team/junit4,false,2506,5,main,13,146,Eclipse Public License 1.0,593,8408,3195,24329,2009-01-13T03:41:26,2023-02-07T03:44:22,2023-02-12T05:31:49,https://junit.org/junit4,Java,823,107,897,19,2023-02-07T03:44:22,e50487c97a8ae9a3168df89751457ba4cfab4d2a,true,false	
+yui/yuicompressor,false,513,2,master,42,42,Other,188,2917,660,6402,2008-12-05T07:13:24,2020-09-24T07:49:44,2020-12-09T01:18:48,http://yui.github.com/yuicompressor/,Java,221,137,115,21,2019-05-22T12:01:00,cf0497e53fffe4ddbd50e71518c40e0c07d120de,false,false	
+mongodb/mongo-java-driver,false,8103,41,master,130,155,Apache License 2.0,221,2535,1464,115063,2009-01-15T03:16:29,2023-03-08T03:07:29,2023-03-04T01:57:59,https://mongodb.github.io/mongo-java-driver,Java,0,0,1093,9,2023-03-03T06:06:44,e9a4bd8a498097553661201f5486f7f54a41920e,true,false	
+unclebob/fitnesse,false,6018,4,master,6,110,Other,155,1889,697,74204,2008-12-06T07:38:59,2023-03-07T03:06:10,2023-03-13T01:22:32,fitnesse.org,Java,737,88,676,7,2023-02-27T04:57:51,0a41d4b486390f697a7194bbcd20ae746b919ddc,true,false	
+connectbot/connectbot,false,2123,11,main,522,54,Apache License 2.0,122,2020,601,8553,2009-02-06T05:52:35,2023-02-20T11:58:00,2023-02-23T04:30:06,https://connectbot.org,Java,495,288,739,7,2023-02-18T04:32:45,2f95265b13a5931d270b4233f6b0d7e360a2eb31,true,false	
+bpellin/keepassdroid,false,1255,8,master,62,40,Other,93,1333,346,13172,2009-01-05T10:01:52,2022-10-07T02:46:26,2022-10-06T02:40:44,http://www.keepassdroid.com,Java,380,273,110,16,2022-10-07T02:46:06,3ec252b8955ebf1424ac4c0071f7a101b7813108,true,false	
+rnewson/couchdb-lucene,false,1127,18,master,7,23,Apache License 2.0,36,763,144,3563,2009-01-25T03:37:12,2022-02-04T12:46:20,2022-02-04T10:32:49,,Java,241,71,49,12,2022-02-04T12:46:02,8423f15c345a873bc49da863fafe7212203b7164,false,false	
+kungfoo/geohash-java,false,220,9,master,0,16,Other,65,890,300,579,2008-12-29T09:30:32,2022-04-04T07:31:06,2022-03-24T09:42:40,,Java,34,4,25,0,2022-04-04T07:31:06,6e9a2ba881cbfee23721b7c017c5717647beed20,true,false	
+nodebox/nodebox,false,1931,23,master,7,14,GNU General Public License v2.0,69,677,90,144737,2009-02-10T04:28:47,2022-02-18T12:42:58,2022-02-20T04:01:50,https://www.nodebox.net/,Java,409,169,44,9,2022-02-18T12:41:48,0e9278a572379020bbed230bb0c78ce48a27e900,true,false	
+myabc/markdownj,false,101,4,master,4,5,BSD 3-Clause New or Revised License,39,432,94,1346,2008-10-18T12:41:07,2017-12-07T01:59:42,2020-04-20T06:19:51,http://markdownj.org,Java,34,25,4,1,2016-12-01T02:32:29,f8ed00caeb69fc602aa2209812d953c26c2a4263,true,false	
+aosp-mirror/platform_dalvik,false,8836,239,master,988,69,Other,83,432,259,48261,2008-10-21T06:19:57,2018-09-05T07:13:26,2020-12-08T09:24:23,,Java,,,6,0,2020-11-23T07:27:12,35e485b68acd8742901bad5625c4b73a715ed6b8,false,false	
+aosp-mirror/platform_packages_apps_settings,false,104076,409,master,0,143,,65,472,670,1210466,2008-10-21T06:20:54,2022-11-25T03:42:16,2022-12-01T07:01:31,,Java,0,0,20,3,2022-12-07T08:43:10,eef6d0cb24731903e3b056708e73477347838f52,false,false	
+cwensel/cascading,false,2514,25,4.5,0,28,Other,34,335,228,33233,2009-02-04T05:52:06,2023-01-06T07:01:51,2023-01-12T03:44:15,http://cascading.wensel.net/,Java,22,10,68,1,2022-08-31T03:10:32,246692bcd4a68bed73f64e5549d3c436abc23c2e,false,false	
+aosp-mirror/platform_packages_apps_contacts,false,21955,211,master,859,68,Other,38,288,232,121218,2008-10-21T06:20:46,2019-09-08T12:27:06,2020-04-22T06:44:52,,Java,0,0,2,0,2020-04-28T08:06:31,b1e0af7b95dd2c1e13c8755568e9b5f545b7c01a,false,false	
+bwaldvogel/liblinear-java,false,336,4,main,0,8,BSD 3-Clause New or Revised License,33,303,140,3243,2008-10-20T12:33:23,2022-05-22T08:05:55,2022-03-25T02:17:04,https://liblinear.bwaldvogel.de,Java,23,5,21,0,2022-05-22T08:05:54,d52c06d5f56e1608142ad741f1b13116820127c7,true,false	
+rj/irccat,false,48,1,master,0,10,GNU General Public License v2.0,20,279,41,2362,2009-01-08T10:43:14,2018-11-14T03:13:30,2020-12-03T09:20:14,http://www.metabrew.com/article/how-we-use-irc-at-lastfm/,Java,1,0,19,5,2018-11-14T03:13:29,aa9579fb18b697a32b9f6df822417f962ae30a67,true,true	
+aosp-mirror/platform_packages_apps_music,false,1734,210,master,859,26,Other,49,280,234,3936,2008-10-21T06:20:52,2019-09-24T02:52:10,2020-03-18T11:01:46,,Java,0,0,0,0,2020-04-28T08:52:47,20dfa269dd50ba588db9484b1731b7af8346ebcd,false,false	
+aosp-mirror/platform_packages_apps_calendar,false,6554,209,master,859,36,Other,50,270,183,20660,2008-10-21T06:20:45,2019-09-05T09:02:45,2020-04-20T08:51:26,,Java,0,0,1,0,2020-03-31T10:09:28,4e61d58c911919e5ddaba11ce29709837e5374d0,false,false	
+cucumber-attic/cuke4duke,false,649,16,master,31,22,MIT License,28,261,73,15939,2009-01-28T02:31:23,2011-11-22T09:30:54,2019-09-26T02:29:12,http://wiki.github.com/aslakhellesoy/cuke4duke,Java,118,39,13,7,2011-11-22T09:30:53,87af9daf1afb0edccae219f69278fd74139a4a66,true,true	
+prevayler/prevayler,false,655,6,master,28,12,Other,30,258,57,6687,2008-10-26T04:25:25,2020-12-24T03:45:26,2020-12-24T03:45:28,http://www.prevayler.org/,Java,7,2,22,0,2020-12-24T03:43:55,f52736da5a2d7d87ef7a5cc4c2d0597df535b1cc,true,false	
+mikereedell/sunrisesunsetlib-java,false,72,3,master,0,4,Apache License 2.0,19,286,66,238,2008-12-03T12:39:29,2022-08-10T12:49:56,2022-08-13T02:24:07,http://mikereedell.github.com/sunrisesunsetlib-java/,Java,36,25,9,5,2017-07-30T10:52:15,6e6de23f1d11429eef58de2541582cbde9b85b92,true,false	
+talios/clojure-maven-plugin,false,545,15,develop,0,36,,17,242,80,616,2009-02-01T12:55:39,2023-02-14T08:01:38,2023-02-14T09:36:08,,Java,64,26,60,5,2023-02-14T08:01:31,0e171e486db3e54f89836dae269037f27f3bc0c3,true,false	
+aosp-mirror/platform_packages_apps_mms,false,5343,58,master,210,28,Other,33,206,241,19999,2008-10-21T06:20:51,2018-08-27T08:06:24,2020-09-16T02:04:30,,Java,,,7,0,2015-08-06T05:37:45,7ae6586cfd67ae225316dea84cca6b97cd5bb334,false,false	
+bndtools/bndtools,false,3563,5,master,72,28,Eclipse Public License 1.0,37,197,98,436155,2009-02-13T09:39:29,2018-12-06T09:51:20,2020-01-25T09:56:12,https://github.com/bndtools/bnd,Java,1291,158,643,1,2018-12-06T09:51:19,fab9d1807900237bb11fc1a7a8047fc4561c6fdb,true,true	
+aosp-mirror/platform_packages_apps_browser,false,5575,71,master,318,20,Other,29,190,159,22964,2008-10-21T06:20:43,2018-08-14T06:34:05,2020-12-01T12:10:25,,Java,,,1,0,2015-05-13T04:56:48,41c050d8ff87c95377a80646b6e6683983be8ab7,false,false	
+aosp-mirror/platform_packages_apps_camera,false,8037,73,master,331,12,Other,32,176,139,41322,2008-10-21T06:20:46,2018-08-14T06:31:21,2020-12-01T12:10:33,,Java,,,1,0,2014-10-27T04:33:59,33c59af04ab44eff0e3806f140d472252300646a,false,false	
+aosp-mirror/platform_packages_apps_calculator,false,844,103,master,520,14,Other,19,158,176,1457,2008-10-21T06:20:44,2019-12-23T06:34:23,2020-12-01T12:09:24,,Java,,,0,0,2015-11-07T03:26:59,e1bda28f1545111ba7734577f23e194bf3db3f5f,false,false	
+aosp-mirror/platform_packages_apps_email,false,14514,209,master,853,57,Other,21,136,124,42992,2008-10-21T06:20:47,2019-09-09T04:41:29,2020-04-20T08:50:55,,Java,0,0,2,0,2019-09-19T04:35:15,134e092c9b71d8145ba8c7540bac0c392630218f,false,false	
+aosp-mirror/platform_packages_apps_alarmclock,false,318,9,master,24,6,Other,17,128,113,971,2008-10-21T06:20:43,2017-04-28T10:17:41,2020-12-01T12:10:47,,Java,,,1,0,2010-06-21T06:04:10,062d863a156a3564a839ab5a718f31500298635f,false,false	
+aosp-mirror/platform_packages_apps_launcher,false,189,7,master,14,3,Other,15,122,88,8344,2008-10-21T06:20:51,2017-04-28T10:11:41,2020-12-08T12:24:50,,Java,,,,,2019-05-31T08:20:09,ae59eb89717eaea31efa3697af0f6da2f8a8ca1f,false,false	
+gwenn/sqlite-dialect,false,85,1,master,0,5,The Unlicense,11,172,101,81,2009-01-18T10:10:49,2023-02-27T04:58:18,2023-02-26T10:22:53,,Java,19,5,23,0,2023-02-27T04:58:14,154fc843afc77ff5fcebb087e06a166fbed63b02,false,false	
+aosp-mirror/platform_packages_apps_packageinstaller,false,7431,211,master,862,54,Other,18,105,89,13458,2008-10-21T06:20:52,2019-09-24T08:41:22,2020-01-09T06:23:46,,Java,0,0,2,0,2020-03-05T06:27:31,8ccc0d9973bf7173f4da21b62a9f6f0f3ecef582,false,false	
+macournoyer/min,false,243,3,master,0,2,MIT License,4,99,12,1620,2008-12-28T06:56:31,2014-07-18T02:58:24,2020-11-25T12:02:56,,Java,1,0,6,0,2014-07-18T02:58:23,0eb301dbfee7bc2473065c58c1ac29926943277c,true,false	
+jdf/peasycam,false,127,6,master,11,5,Apache License 2.0,9,97,33,960,2009-02-20T03:30:46,2018-06-26T01:26:36,2020-11-15T02:13:11,http://MrFeinberg.com/peasycam/,Java,25,2,13,2,2018-06-26T01:26:35,f0d0b84400d9a033c6b4683802dfdb4c9307d73a,true,false	
+sethm/symon,false,268,6,master,1,9,MIT License,2,17,8,2677,2021-08-27T11:36:57,2023-02-04T12:38:06,2023-02-12T03:25:11,,Java,6,1,1,0,2023-02-04T12:38:06,cda9a218afd0a35431054b2f5927b22ea257ee37,true,false	
+collectd/jcollectd,false,24,2,master,0,2,GNU General Public License v2.0,12,90,34,249,2009-01-14T10:17:37,2011-09-12T07:37:34,2019-08-13T01:53:43,http://support.hyperic.com/display/hypcomm/jcollectd,Java,2,2,4,4,2009-03-18T02:18:58,b617b499fc13ae12ab5bed5ea976085c9ab0a15f,false,false	
+masukomi/aspirin,false,154,1,master,0,4,,12,82,24,2388,2008-12-16T07:46:20,2016-05-02T06:09:30,2019-11-05T08:56:56,,Java,11,9,5,2,2014-06-16T02:37:28,da7f0593c83d2fb1536724fa7c6d7037f03fe14e,true,false	
+bradfitz/android-garage-opener,false,47,1,master,0,3,Apache License 2.0,7,82,28,109,2008-11-16T07:33:09,2016-03-18T03:07:24,2020-02-16T10:59:24,,Java,0,0,2,0,2016-03-18T03:07:23,08d2e9a1979766f7e71887cc0ed8d7c1a732a2f9,true,false	
+happygiraffe/jslint4java,false,980,3,master,0,3,Other,7,86,28,2529,2008-12-11T05:26:47,2022-07-13T10:36:25,2022-07-13T10:36:22,http://code.google.com/p/jslint4java/,Java,0,0,9,2,2022-07-13T10:36:18,4b5f2c9d55cd1463c3d6a685c091efac0e76c455,false,false	
+akkumar/jreversepro,false,145,2,master,0,0,Apache License 2.0,9,81,24,771,2008-12-05T03:24:59,2010-01-31T04:03:27,2019-09-09T06:33:34,http://jreversepro.blogspot.com/,Java,1,1,0,0,2010-01-30T06:27:23,1c241d6920b3033646694e09f1e6296fa46359ae,true,false	
+dima767/inspektr,false,150,5,master,11,7,Apache License 2.0,16,73,54,412,2009-02-25T07:20:03,2019-10-21T11:07:55,2020-04-10T02:20:30,https://github.com/dima767/inspektr/wiki/Inspektr-Auditing,Java,16,3,6,2,2015-08-20T12:00:04,ec5128712a28f9371f1041a4f2063fc7eec04228,true,false	
+aosp-mirror/platform_packages_providers_contactsprovider,false,4294,210,master,862,46,Other,7,72,80,13287,2008-10-21T06:20:57,2019-09-07T10:11:40,2020-04-24T07:30:04,,Java,0,0,0,0,2020-03-31T08:56:16,27e67ad98bca36cb6aaf96c8fb210be9f64274d0,false,false	
+aosp-mirror/platform_packages_providers_downloadprovider,false,3441,211,master,862,52,Other,11,70,81,4949,2008-10-21T06:20:57,2019-09-24T08:30:55,2020-01-09T06:23:48,,Java,0,0,0,0,2020-04-13T09:18:15,fcab45ef2a67a9769215a121fb45a9cb762ccccd,false,false	
+yanbe/qrcode,false,2,1,master,0,1,,12,63,16,225,2008-11-07T02:50:35,2008-11-07T03:12:48,2020-01-08T09:30:16,http://qrcode.sourceforge.jp/,Java,0,0,0,0,2008-11-07T03:10:54,0c9c6db91e7665646b671fa83f2c843294e1aa87,true,false	
+dawnthorn/nagare,false,7,1,master,0,1,MIT License,5,57,43,170,2008-11-19T07:09:06,2011-03-29T11:55:27,2019-08-13T01:43:19,,Java,2,1,0,0,2011-03-29T11:54:56,c8e86069f949ea2735fa9f843af926158394f815,true,false	
+purcell/jargs,false,72,1,master,0,5,BSD 3-Clause New or Revised License,8,57,20,100,2009-02-02T12:35:06,2020-10-14T12:59:22,2020-11-30T01:04:25,http://jargs.sourceforge.net/,Java,6,1,10,2,2020-10-14T12:59:09,6c756a21be0c512d27216f074518718db86dbf40,true,false	
+aosp-mirror/platform_packages_apps_soundrecorder,false,591,236,master,967,12,Other,10,53,58,722,2008-10-21T06:20:54,2019-12-29T04:35:37,2020-12-01T12:09:19,,Java,,,0,0,2020-07-10T03:21:01,6c15484c46c6c42a5e388e0d68b7231a8a8b66b6,false,false	
+jacek99/javabuilders,false,108,3,master,1,1,Other,7,49,15,83723,2008-11-24T05:54:18,2015-11-04T09:18:05,2020-03-18T03:38:19,,Java,4,3,2,1,2015-02-10T09:17:20,35f0a6aa5ad1e44c021f0a3edb6cac9302f18035,true,false	
+aosp-mirror/platform_frameworks_policies_base,false,542,9,master,25,9,,7,49,56,624,2008-10-21T06:20:39,2017-10-03T10:26:32,2020-11-25T09:56:36,,Java,,,,,2010-05-06T11:11:15,55b16fce30bac6ba207d671757f1f3eb75739cb5,false,false	
+aosp-mirror/platform_packages_providers_telephonyprovider,false,2748,211,master,859,40,Other,10,47,76,2848,2008-10-21T06:21:01,2019-09-24T09:05:23,2020-04-05T10:42:52,,Java,0,0,1,0,2020-04-20T11:07:26,7a523ca147c6f17b0d946ffc3a1f6f8a55bfd313,false,false	
+cwensel/cascading.hbase,false,31,4,master,0,2,,3,46,50,4086,2009-02-01T02:05:22,2009-08-09T04:14:54,2019-12-26T01:40:22,http://www.cascading.org/,Java,0,0,0,0,2009-05-15T02:08:24,fb9919929cbd82756c8dbf8d2993b521a75e6ce2,true,false	
+luontola/dimdwarf,false,1015,4,master,2,,Apache License 2.0,8,42,11,9488,2008-12-25T11:19:11,2013-07-14T10:24:09,2020-11-13T07:14:44,,Java,,,,,2013-07-14T09:58:28,5cde790c3bb98fc4a3c3aeee22d49f69ab78b285,true,false	
+aosp-mirror/platform_packages_apps_stk,false,1697,210,master,859,21,Other,14,42,57,2227,2008-10-21T06:20:55,2018-09-05T07:26:23,2020-01-21T03:01:18,,Java,0,0,0,0,2020-04-16T10:25:43,4f9933a6dc074d6fe1aa3facf08fc804a3ba4f49,false,false	
+fcoury/jfilehelpers,false,48,2,master,1,,,8,43,25,1107,2009-02-16T03:20:28,2018-06-11T09:15:47,2020-07-12T03:01:07,http://jfilehelpers.com,Java,4,3,4,2,2014-05-16T06:18:20,68e749f631f0fb6e8b7b701eb9fe0e436b60e0f9,true,false	
+aosp-mirror/platform_packages_providers_mediaprovider,false,3129,211,master,859,42,Other,5,42,73,4994,2008-10-21T06:21:00,2019-09-05T09:33:57,2020-02-24T05:27:09,,Java,0,0,1,0,2020-03-05T06:27:31,84ad2d4e371dca6809b5a9d1d62fb4081bd09d81,false,false	
+dtrott/fuse4j,false,53,2,master,1,3,,4,40,20,128,2008-11-13T06:38:02,2020-10-13T09:42:17,2020-06-10T02:48:25,http://sourceforge.net/projects/fuse-j,Java,7,6,5,2,2013-06-16T07:36:54,729b3bb4c62b66650d97fe7f71eb21d568102a34,true,false	
+sickill/off-plugin,false,212,3,master,10,5,,5,42,8,728,2008-11-28T12:12:08,2017-02-11T12:35:44,2020-09-19T03:48:30,,Java,49,12,2,0,2017-02-11T12:35:43,1bc3d2e00f23eb7e124d142b8ca2e262592dec5f,true,false	
+cwensel/cascading.samples,false,33,2,master,0,1,,3,41,38,1101,2009-02-04T08:47:39,2011-10-11T11:24:27,2019-08-13T01:58:31,http://www.cascading.org/,Java,0,0,0,0,2010-03-23T04:44:38,57f091f54ac565fdf8ab91c165883813dc82850b,false,false	
+matthewmccullough/maven-training,false,147,2,master,2,2,,2,40,20,7510,2009-02-01T08:01:26,2018-10-26T11:28:03,2020-10-21T12:46:34,http://www.ambientideas.com,Java,0,0,4,3,2014-01-18T12:03:38,39550173ea70c03c06374000337b3481c711c555,true,true	
+unclebob/javaargs,false,5,1,master,0,1,,7,39,45,130,2008-12-26T05:29:38,2020-01-21T05:14:52,2020-04-19T08:58:59,http://butunclebob.com/ArticleS.UncleBob.CleanCodeArgs,Java,1,1,2,0,2014-12-18T02:42:09,77e64267029e1cc352af4e9d2a859bba38fc5578,true,false	
+ralfebert/rcputils,false,65,2,master,5,1,,8,38,17,995,2009-01-21T10:38:51,2010-09-15T11:43:24,2019-11-17T11:42:33,http://www.ralfebert.de/projects/rcputils/,Java,1,1,1,0,2010-02-27T12:02:07,5d0665154165965162d5c54d6872840068c6f66c,false,true	
+walware/statet,false,990,14,master,44,2,,16,38,24,19948,2009-02-06T03:59:10,2017-04-18T11:51:12,2020-08-20T09:19:37,http://www.walware.de/goto/statet,Java,,,1,0,2016-09-09T06:36:12,5148c1b0a6fdaa24ef7003031e5e41ab090e069a,true,false	
+aosp-mirror/platform_packages_apps_htmlviewer,false,422,388,master,0,19,,9,39,53,330,2008-10-21T06:20:49,2022-12-10T11:06:51,2022-12-15T11:42:19,,Java,0,0,2,1,2022-12-06T10:45:40,41fad7fd98e89fdf587e769cd30dfa950ed98eb4,false,false	
+aosp-mirror/platform_packages_providers_calendarprovider,false,1281,209,master,862,29,Other,5,36,54,2382,2008-10-21T06:20:56,2019-09-08T07:03:55,2020-01-09T06:24:20,,Java,0,0,1,0,2020-03-31T11:37:33,bac3f8ae4d716e0dd07d1513acc94488d2dd9e52,false,false	
+jdwyah/tocollege.net,false,92,2,master,1,1,,5,33,10,19711,2008-11-18T04:13:35,2019-10-21T09:34:47,2019-08-13T01:43:12,http://code.google.com/p/tocollege-net/,Java,0,0,1,1,2009-03-12T02:39:13,f97ed4ff3f31c1c463eb426c34a55de439c601b3,true,false	
+aosp-mirror/platform_external_apache-http,false,374,211,master,863,23,Other,5,33,63,1277,2008-10-21T06:19:58,2020-03-26T07:41:47,2020-04-22T07:36:31,,Java,0,0,0,0,2019-10-31T05:03:55,d176d36489b58e75bced0d5234e713abb8c5a847,false,false	
+davetapley/wordsolver,false,4,1,master,0,,,6,31,15,16454,2009-01-21T02:09:30,2016-10-30T03:58:58,2020-10-28T05:14:01,,Java,0,0,1,1,2012-08-22T06:06:08,6eb66cff3d52253575138b19e7a46404aee00aaa,true,false	
+wanpark/hadoop-hbase-streaming,false,8,1,master,0,1,Other,6,30,25,931,2008-11-12T02:15:05,2009-11-13T12:52:28,2019-08-13T01:42:11,http://d.hatena.ne.jp/wanpark/20081113/1226555456,Java,0,0,0,0,2009-11-13T12:52:04,b9b7b1adfa9bb0d70f8ef18d3cfa91c2a548ea60,true,false	
+aosp-mirror/platform_packages_apps_googlesearch,false,53,7,master,14,,Other,4,28,31,104,2008-10-21T06:20:48,2017-04-28T10:14:40,2020-05-25T03:53:19,,Java,,,,,2009-10-21T09:44:41,5cde4d72c6a0b0d01eeb139e75a4a97e7439b6a8,false,false	
+pitosalas/blogbridge,false,124,4,master,2,2,Other,5,28,9,8136,2009-01-06T09:27:35,2011-11-02T01:47:54,2020-01-15T05:54:26,http://www.blogbridge.com,Java,2,2,0,0,2011-11-02T01:27:00,b3af2e345b624b060f7eb5d58e7a273638ddb004,true,false	
+everteam-software/tempo,false,1747,25,master,133,8,Eclipse Public License 1.0,20,28,26,128371,2009-02-12T05:11:38,2014-06-19T11:00:12,2020-09-28T01:56:39,http://tempo.intalio.org,Java,0,0,159,2,2013-03-09T12:28:18,6375c1b0ae2a76c56e07e1c29ab6a82989783ed3,true,false	
+maimuzo/android_utils,false,10,1,master,0,1,,2,26,14,557,2009-01-05T02:10:16,2012-04-13T09:59:18,2019-08-13T01:51:34,http://www.android-group.jp/,Java,0,0,0,0,2012-04-13T09:57:31,6b7e685d54d85df290159300dd305cbd03eddcbb,true,false	
+adamjmurray/ajm_objects,false,248,3,master,3,1,,2,25,3,27600,2008-11-26T06:00:02,2011-06-07T03:31:19,2019-08-13T01:44:25,http://compusition.com/web/software/maxmsp/ajm-objects,Java,1,1,0,0,2011-06-07T03:28:30,2a002a6a88f589ec89713b7a0f18bebbb08a05dd,true,false	
+aosp-mirror/platform_packages_apps_voicedialer,false,340,58,master,205,8,Other,4,25,37,541,2008-10-21T06:20:56,2018-03-12T11:41:48,2019-10-16T01:08:20,,Java,0,0,0,0,2014-07-19T08:05:24,fd726afabfb115a17c1b4dca8d2129ca3501f1f9,false,false	
+fabiokung/clustered-jruby,false,5,1,master,0,1,,2,25,3,54816,2008-11-22T07:17:59,2008-11-22T09:30:38,2019-08-13T01:43:53,http://fabiokung.com/2008/11/22/play-with-jmaglev-yourself/,Java,0,0,0,0,2008-11-22T09:30:16,63b52b19e486c9f04b71d1d17f9f9980d3fcdfa0,true,false	
+aosp-mirror/platform_packages_apps_im,false,193,9,master,25,3,Other,6,25,31,1208,2008-10-21T06:20:50,2017-04-28T08:32:40,2019-09-19T03:54:38,,Java,0,0,0,0,2010-03-30T04:31:17,d4eead18d460ee3b4f911bf93078158194bb252c,false,false	
+jlewallen/git-teamcity,false,89,2,master,0,2,GNU Lesser General Public License v3.0,2,24,8,460,2008-10-16T10:13:30,2009-04-14T09:37:00,2019-08-13T01:38:22,,Java,2,1,0,0,2009-04-14T06:51:51,b5b2369f52b5f498e3e684c2232919554c3247d1,true,false	
+imatix/openamq-jms,false,52,1,master,0,0,Other,3,24,9,3422,2008-10-16T04:27:07,2008-10-16T09:49:04,2019-08-13T01:38:19,http://www.openamq.org,Java,1,1,0,0,2008-10-16T09:48:41,6ee744c1ab1b4ca2270dff21f73dc89c7a158149,true,true	
+cwensel/cascading.jdbc,false,44,1,master,0,1,,4,24,12,124,2009-02-06T12:45:21,2009-06-27T12:36:34,2019-08-13T01:58:54,http://www.cascading.org/,Java,2,2,0,0,2009-06-27T12:36:17,9aa742eaf5f7bd7d155cac33473d4e828016a5d5,true,false	
+dashorst/wicket-stuff-markup-validator,false,133,3,master,12,3,Apache License 2.0,3,20,9,2893,2009-02-17T09:38:21,2020-01-21T08:39:21,2020-01-21T08:39:22,http://dashorst.github.com/wicket-stuff-markup-validator,Java,9,0,2,0,2020-01-21T08:39:14,19d2d9a98f1e65a3ffc676c6478d0fdf2ed2b0b1,false,false	
+hryk/p5sunflow,true,8,1,master,0,0,,1,19,3,714,2009-02-16T01:04:28,2009-03-01T07:58:20,2019-08-13T02:01:11,http://hipstersinc.com/p5sunflow/,Java,2,2,0,0,2009-03-01T07:56:06,da12b78795a0c31b20c4aeff02eaea807647224f,true,true	
+happygiraffe/tclogview,false,15,2,master,0,1,Other,3,19,6,151,2008-12-26T12:12:43,2010-03-19T01:23:22,2019-08-13T01:50:03,http://github.com/happygiraffe/tclogview/,Java,0,0,0,0,2010-03-19T01:21:02,321abb365e01412d80aeed4498e209fbb03b6bdc,true,false	
+mongodb/mongo-qa,false,171,1,master,0,1,,8,18,10,540,2009-01-09T05:46:58,2009-08-25T07:09:41,2020-04-13T11:30:18,,Java,0,0,0,0,2009-08-25T06:55:23,12161375dea36d2f60614d5a206c9878b80ff482,true,false	
+edewit/testdata-generator,false,105,4,master,6,2,,2,18,2,280,2009-02-02T03:05:21,2020-10-13T09:47:38,2019-08-13T01:57:52,,Java,0,0,3,3,2014-01-16T08:26:21,f0683277d765b733936ccc69e6bc33d4af77fdc8,true,false	
+deruelle/mobicents,false,6620,3,master,0,0,,4,17,15,347108,2009-02-13T04:59:02,2019-10-21T11:07:17,2019-08-13T02:00:42,http://www.mobicents.org,Java,1,1,1,1,2009-09-29T01:56:50,f2164e471d88ecebbb9253572b9f7bfa8ca2f58a,true,false	
+tobrien/common-java-cookbook,false,259,2,master,18,1,,7,17,5,155407,2009-02-13T03:38:57,2012-03-10T10:40:26,2020-03-07T03:31:55,http://www.discursive.com/books/cjcook/reference/book.html,Java,4,4,0,0,2012-03-10T10:40:03,0b01222eb3d6e7e7fc9d6fbfeaecf66123dfde48,true,false	
+orj/teamcity-xcode,false,6,1,master,0,2,MIT License,3,17,6,408,2008-11-14T10:30:16,2011-06-23T01:09:03,2020-04-14T10:40:37,http://deeperdesign.wordpress.com/projects/,Java,1,0,0,0,2009-02-23T02:13:11,a9f73ed3eed554a617c2543a26672f24cafd2b0e,true,true	
+everteam-software/security,false,198,10,master,41,7,,23,17,23,2342,2009-02-24T12:50:02,2017-08-02T08:59:45,2019-08-13T02:03:23,,Java,0,0,73,0,2013-02-27T04:32:01,510a6cdb1abaa2e3dc41a0a5926e53b143f7ed60,true,false	
+ynd/genetic-drawing,false,20,2,master,0,0,Other,3,17,5,16203,2008-12-22T03:00:47,2009-01-07T10:53:39,2019-10-29T09:26:15,,Java,0,0,0,0,2009-01-07T10:50:40,dcdea4267ce2335d633e632ff5edda48e0b6be53,true,false	
+batmat/overview-maven-plugin,false,117,8,master,4,3,,4,16,6,307,2008-11-17T07:36:59,2020-10-13T09:49:22,2019-10-10T05:45:04,http://code.google.com/p/maven-overview-plugin/,Java,1,1,6,6,2013-08-03T08:41:19,6117a17e4d555e18c66a7c29ceaecc5ebeb05ce5,true,false	
+dahie/imageflow,false,574,3,master,5,4,GNU General Public License v2.0,2,16,5,14368,2008-10-12T12:01:17,2020-03-28T09:00:10,2020-03-28T09:00:14,imageflow.danielsenff.de,Java,31,14,0,0,2020-03-28T09:00:09,0bd61520bb883993763b060e4a892ed70df1012f,true,false	
+njbartlett/rabbitosgi,false,11,2,master,0,1,,2,16,5,3240,2009-01-03T10:31:13,2009-02-13T10:50:53,2019-08-13T01:51:19,,Java,0,0,0,0,2009-02-13T10:50:23,8825592daf2a3e3e9245f227656fa163d138be3a,true,false	
+ktgit/ktdocumentindexer,false,38,2,master,1,6,Other,5,15,3,109722,2009-02-05T03:39:04,2010-02-18T09:19:22,2019-08-13T01:58:44,http://www.knowledgetree.com,Java,0,0,0,0,2009-12-24T09:58:36,59ffc65b46fb38cf42df325bb9525bccad960eb5,true,false	
+fuenby/rtf-to-html,false,53,1,master,0,1,,5,15,7,209,2009-01-25T11:34:40,2009-02-08T11:09:45,2019-08-13T01:56:09,,Java,0,0,0,0,2009-02-08T10:59:47,319f436f1237aba94c3781b1b31c36a7366580c1,true,false	
+aosp-mirror/platform_external_emma,false,77,225,master,912,8,Other,7,15,38,942,2008-10-21T06:20:02,2019-09-09T07:50:44,2020-01-09T06:24:16,,Java,0,0,0,0,2019-02-24T09:31:14,c2aa4d22fc24295761a9c588836531a7b3d3d519,false,false	
+unclebob/springslim,false,11,1,master,0,2,,3,15,7,118,2009-01-15T01:48:24,2012-01-18T06:25:42,2020-04-19T08:59:48,,Java,0,0,1,0,2012-01-18T06:25:42,438808f71c480a6ae2ee429b55a492190af36638,true,false	
+aosp-mirror/platform_external_jdiff,false,170,241,master,878,14,Other,5,15,28,1504,2008-10-21T06:20:14,2018-09-05T07:22:23,2019-09-19T03:54:21,,Java,0,0,0,0,2020-04-28T10:36:00,a62cf319f01185a6a000e5091f28e0cf751bf71f,false,false	
+hyperic/hadoop-collectd,false,2,1,master,0,1,,3,14,6,90,2009-01-31T12:05:34,2011-08-19T05:06:06,2019-08-13T01:57:21,http://support.hyperic.com/display/hypcomm/jcollectd,Java,0,0,1,1,2009-05-22T03:36:37,5a99ab0965ecb5dae8ba2dd8677e7ec7a28f52b8,true,false	
+davidwinter/java-blackjack,false,4,1,master,0,1,,2,14,19,152,2009-02-22T11:58:27,2009-02-22T12:06:29,2020-04-01T06:46:33,http://davidwinter.me.uk,Java,0,0,0,0,2009-02-22T12:06:22,d47398faf0cc1bccc90ef3ad0e94466497eb52a0,false,false	
+nirvdrum/maven-jython-plugin,false,17,1,master,3,1,Apache License 2.0,2,14,5,200,2008-11-08T03:00:14,2009-10-15T12:12:38,2019-08-13T01:41:31,,Java,0,0,0,0,2009-10-15T12:12:37,8d27efc7208d0164eb8f3861b21f3c7a4428a633,true,false	
+stephenh/hudson-git2,false,12,1,master,0,1,,3,14,5,132,2008-12-23T02:46:04,2009-08-09T04:03:26,2019-08-13T01:49:35,,Java,0,0,0,0,2009-08-08T07:31:17,a20e602e7964fccbad736226bbfeeb4a0285d791,true,false	
+gunnarmorling/scriptable-dataset,false,28,2,master,3,0,,2,13,7,224,2009-02-15T05:46:46,2010-01-01T04:14:28,2019-08-13T02:01:06,http://wiki.github.com/gunnarmorling/scriptable-dataset,Java,1,1,0,0,2010-01-01T04:14:08,5cca1b1450c9db2d8e3d432f43e603783c40cfe6,true,false	
+aosp-mirror/platform_external_gdata,false,7,7,master,14,0,,3,13,28,244,2008-10-21T06:20:09,2017-04-28T08:42:41,2019-09-19T03:54:19,,Java,0,0,0,0,2009-03-19T12:39:43,a8d14b5ad6306e65266c1801dabb660f8d4a04a1,false,false	
+dsaff/junit,true,2038,4,master,8,96,Eclipse Public License 1.0,4,13,1,8867,2009-01-13T04:38:07,2015-05-01T10:24:33,2019-08-13T01:53:19,www.junit.org,Java,0,0,11,0,2015-04-21T02:24:10,387e8518435df62b557a59001b18109af88fb0dc,true,false	
+jmibanez/jmeter-rmi-plugin,false,171,7,develop,5,1,GNU General Public License v2.0,5,13,7,4806,2009-01-14T07:52:52,2019-07-11T08:48:12,2019-11-13T02:35:49,,Java,2,1,24,0,2017-09-15T03:39:38,f4a107cdd38a06b90fc4ab3d1affc563c35c8d0d,true,false	
+dcrec1/rspec-maven-plugin,false,25,1,master,0,3,,2,13,7,127,2008-12-10T12:16:29,2011-01-19T04:36:49,2019-08-13T01:46:44,http://www.diegocarrion.com,Java,2,2,2,1,2011-01-19T02:35:41,31e2528af53b342893cee0c229b4287cf0dfe2f2,true,false	
+itszero/kerkerinput,false,54,1,master,1,3,,1,13,6,6314,2008-12-10T12:13:31,2010-09-13T10:26:43,2019-08-13T01:46:44,,Java,2,2,0,0,2010-09-13T10:25:20,d48834173c5b7fe13067911b9a20e0c22c7b5ca0,true,false	
+mguymon/red5-mavenized,false,63,4,master,0,1,,3,13,6,11733,2009-01-08T01:24:53,2012-01-11T05:42:09,2019-08-13T01:52:04,,Java,0,0,0,0,2012-01-11T05:42:02,2c3304f7ba4ae3dad5089cbab328757805073e61,true,false	
+aosp-mirror/platform_packages_providers_drmprovider,false,186,35,master,94,3,Other,1,13,27,142,2008-10-21T06:20:57,2017-04-28T08:59:41,2019-09-19T03:54:44,,Java,0,0,0,0,2012-10-02T11:47:07,e380106f590577697a5522901f48cd58ab7a402d,false,false	
+aosp-mirror/platform_external_tagsoup,false,64,223,master,868,9,Other,4,13,34,300,2008-10-21T06:20:31,2018-09-05T07:24:22,2019-09-19T03:54:29,,Java,0,0,0,0,2020-03-26T04:53:09,d570da5be836796e62bb3bf3de452f0687d3cd45,false,false	
+youngnh/saverbeans,false,3,1,master,0,1,,5,12,2,148,2008-11-17T04:04:05,2008-11-19T02:56:48,2019-12-30T11:07:03,,Java,0,0,0,0,2008-11-18T06:56:26,9185c797a1c65b375ad12c95ab966b59fcb11f5c,true,false	
+snapimpact/ivolunteer,false,200,2,master,2,5,,3,12,16,46797,2009-01-07T10:50:57,2010-02-24T03:31:10,2019-08-13T01:52:03,http://www.actionfeed.org,Java,0,0,0,0,2010-02-24T03:30:11,8215689f6eca3d1aaf91df24262a130b8af6c49e,true,false	
+stephenh/bindgen,false,592,3,master,37,3,Other,2,12,7,6143,2008-12-28T10:18:23,2019-09-02T07:11:36,2019-09-02T08:44:27,,Java,6,2,1,0,2019-09-02T07:11:31,9e458fbc147dad8959bb31ea56a2dc7e76dec77e,true,false	
+n8fr8/georeport-android,false,14,1,master,0,1,,6,12,7,828,2009-02-24T01:20:38,2009-11-24T03:45:39,2019-08-13T02:03:34,http://openideals.com,Java,0,0,0,0,2009-11-24T03:47:28,10d6091ee217cb4eff728f8f71690167ee4649fa,true,false	
+chrisortman/git-teamcity,true,86,2,master,0,1,GNU Lesser General Public License v3.0,4,12,2,425,2009-02-10T05:59:31,2009-02-13T04:09:41,2019-08-13T01:59:53,,Java,0,0,0,0,2009-02-13T04:05:16,f964ec15798137ac4087da2bff46da73e540f21e,true,false	
+aosp-mirror/platform_packages_providers_improvider,false,37,7,master,14,1,Other,4,12,25,197,2008-10-21T06:20:59,2017-04-28T08:23:40,2019-09-19T03:54:44,,Java,0,0,0,0,2009-09-29T11:46:09,bf2ddef873860c6ac11fde269d9eb40fe4f47893,false,false	
+cwensel/cascading.groovy,false,58,1,master,0,1,,3,12,2,333,2009-02-03T09:11:47,2009-02-06T01:57:12,2019-08-13T01:58:16,http://www.cascading.org/,Java,0,0,0,0,2009-02-06T01:57:01,4b80a3b656e343c73de20e0c2b63bd6148607f69,true,false	
+gwenn/sqlitejdbc,false,408,1,master,0,2,ISC License,3,11,3,828,2009-01-18T03:42:30,2012-02-20T09:51:56,2019-08-13T01:54:30,,Java,3,0,0,0,2012-02-20T09:49:24,c5b92f7e4efc0aaf351fa370d530c6148d81071d,true,true	
+geir/mongo-java-driver,false,160,1,master,2,2,,3,11,3,1286,2008-10-23T03:42:20,2009-04-24T02:24:13,2019-08-13T01:39:08,,Java,0,0,0,0,2009-04-24T02:23:54,ca5b3ab3c2ab1caf8918cc84902abb7b476ba52b,true,false	
+davecheney/mdns-java,false,6,1,master,0,1,,4,11,3,100,2009-01-16T09:54:32,2010-03-23T05:53:39,2020-03-18T01:11:40,http://github.com/davecheney/mdns/,Java,0,0,0,0,2010-03-23T05:38:06,c8ba9b05d450a63ded748ceb99b7d2d2418c9f65,true,false	
+smullins7/erma,true,31,5,master,0,4,,4,11,0,16530,2008-11-11T08:59:44,2010-03-14T06:38:26,2019-08-13T01:42:04,,Java,0,0,0,0,2009-01-12T05:06:35,0ce2b4245cfdc7ce42e7a234967fd4a28794ae6a,true,false	
+tomsontom/emf-databinding-example,false,109,1,master,0,0,,2,11,4,18836,2009-02-07T07:20:58,2009-04-15T07:49:48,2019-08-13T01:59:16,,Java,0,0,0,0,2009-04-15T07:48:54,0ae7faa67697a84171846852a5c5b0492d9a8f7d,true,false	
+swat30/wormwood,false,149,2,master,3,2,,2,11,9,1518,2009-02-18T05:03:10,2009-04-11T12:00:29,2019-08-13T02:01:54,http://swat30.github.com/wormwood/,Java,0,0,0,0,2009-04-10T11:58:58,595c222e2d779321c295d17557458f5bb62888c8,true,false	
+atduskgreg/arduino,false,5,1,master,0,0,Other,3,10,5,112280,2008-12-04T04:16:52,2008-12-29T08:40:21,2019-08-13T01:45:30,http://arduino.cc,Java,0,0,0,0,2008-12-23T12:21:03,ed52bfb413fdfaf725af120300739b484d7fe7f4,true,false	
+zeni/animatap5,true,38,1,master,0,1,,2,11,3,2580,2009-02-24T05:38:28,2009-04-09T09:29:59,2020-04-01T09:28:08,http://www.cho-yaba.com,Java,0,0,0,0,2009-04-09T09:29:47,d98699cb3797b07ec1cb239b9acaefdb0948897a,true,false	
+blastura/genetic-reanimation,false,113,3,master,2,1,,4,10,2,1241,2009-02-20T01:29:02,2010-01-25T11:31:15,2019-08-13T02:02:24,http://sites.google.com/site/geneticreanimation/,Java,0,0,0,0,2010-01-25T11:31:10,0f319b94bbabf0d7f2027c4367b900f98ed72abe,true,false	
+seanh/storymaps,false,233,7,master,1,1,GNU General Public License v3.0,3,10,5,124618,2008-11-18T01:16:59,2019-11-11T08:10:11,2020-01-06T02:16:15,http://seanh.github.io/storymaps/,Java,5,3,0,0,2017-08-12T03:41:22,ba15802a644cbce83b00f6ee22c10942db7735e5,true,false	
+martint/old-swift,false,65,1,master,0,1,,2,10,2,650,2008-11-07T10:11:29,2009-07-17T05:24:07,2019-08-13T01:41:25,,Java,0,0,0,0,2009-07-17T05:23:53,2051d20b501692504a15dedbcd6efcbb702b5354,true,false	
+egonw/cheminfbenchmark,false,101,1,master,0,4,Other,3,10,6,58373,2008-12-05T08:36:13,2011-07-13T09:11:11,2019-08-13T01:45:45,,Java,0,0,0,0,2011-07-13T09:12:01,62c2e10d43c5872da56caa84de1c76454b53cef1,true,false	
+rapodaca/mx,true,256,19,master,7,1,Other,2,10,5,2231,2008-11-23T10:17:00,2009-07-20T08:29:15,2019-08-13T01:44:00,http://metamolecular.com/mx,Java,8,2,0,0,2009-07-20T08:28:24,2aa0e27ae9b1012eb3b6fca55d36dc33794c654c,true,false	
+apache/zookeeper,false,2461,27,master,0,178,Apache License 2.0,668,11081,6907,137080,2009-03-27T03:41:56,2023-02-17T06:20:43,2023-02-21T10:19:29,https://zookeeper.apache.org,Java,0,0,1979,227,2023-02-17T06:20:37,ac219cef2ad7999fc95c8fd4eb3b945ba37abd43,false,false	
+twitter4j/twitter4j,false,2482,9,main,1,127,Apache License 2.0,203,2684,1160,12417,2009-04-24T03:25:00,2023-01-15T12:04:44,2023-01-28T12:03:27,http://twitter4j.org/,Java,73,39,320,21,2022-10-27T02:07:54,d899f3f6a384c197f9e198fde5d966248ee30971,false,false	
+magro/memcached-session-manager,false,669,32,master,42,20,Apache License 2.0,103,752,349,5794,2009-03-17T02:35:13,2020-11-16T08:31:55,2020-11-24T02:01:31,,Java,340,72,80,16,2018-12-19T10:38:43,716e147c9840ab10298c4d2b9edd0662058331e6,true,false	
+freenet/fred,false,31286,165,next,57,76,GNU General Public License v2.0,94,873,193,57867,2009-04-25T01:00:27,2023-02-12T11:55:18,2023-02-16T03:50:23,https://freenetproject.org/,Java,0,0,819,49,2023-01-22T02:17:51,2842d9fe1e8c33e19b574419fc3984d626da9c96,false,false	
+caelum/vraptor,false,3448,14,master,4,60,Other,59,386,210,182571,2009-03-19T08:02:31,2021-05-18T08:00:35,2021-05-19T02:03:20,http://vraptor.org,Java,455,30,209,10,2016-06-29T02:56:13,db2bae56d9d272afcd2f7c12a9bd0f24022edccf,false,false	
+luontola/tdd-tetris-tutorial,false,286,5,tutorial,0,1,,27,355,121,542,2009-04-26T12:52:40,2021-10-16T12:49:31,2021-10-16T12:49:34,https://tdd-mooc.luontola.fi,Java,2,0,0,0,2021-10-16T12:49:16,640245f70735ae85f7e33103fee6a68ea3f3d2de,false,false	
+alphazero/jredis,false,317,4,master,0,5,Apache License 2.0,40,310,135,8349,2009-03-27T06:58:45,2022-04-22T11:00:44,2022-04-22T11:00:50,http://code.google.com/p/jredis/,Java,54,19,12,0,2022-04-22T11:00:44,a4f1a7a327f116714c9043f903f6455d2fb412da,true,false	
+rafaelsteil/jforum3,false,156,2,master,0,6,GNU Lesser General Public License v2.1,55,227,169,33233,2009-04-14T03:18:48,2019-11-06T12:13:05,2020-04-28T02:21:16,http://www.jforum.net,Java,16,14,6,2,2019-11-06T12:13:04,3ab44dd55696804b5c9482cfeb709a059aa453c3,true,false	
+facebookarchive/cassandra,false,190,1,master,0,,,21,214,58,15049,2009-04-02T04:59:15,2017-05-18T10:32:48,2020-12-03T10:36:33,http://incubator.apache.org/cassandra/,Java,,,2,0,2014-05-13T08:22:38,0de492d03ae0eb061dc09b6bfa9f737997491798,false,false	
+tonyg/reversehttp,false,65,2,master,0,1,,12,211,21,477,2009-03-08T10:15:22,2018-12-16T02:35:11,2020-03-10T12:26:04,http://www.reversehttp.net/,Java,7,3,0,0,2012-08-13T09:26:11,ef3c5027eb5d8b3993b56e41a0761ab279ae6ee7,true,false	
+maxcom/lorsource,false,8574,19,master,0,69,Apache License 2.0,16,197,120,79048,2009-04-01T02:10:52,2023-02-19T09:18:29,2023-01-31T04:27:52,http://www.linux.org.ru/,Java,295,117,727,12,2023-02-19T09:18:25,c5ff92a2efeca35de7230c835d7800aa3d91d1b0,true,false	
+karlmdavis/ksoap2-android,false,165,1,master,3,0,MIT License,7,108,304,3419,2009-03-01T10:43:17,2019-03-08T05:08:12,2020-04-28T04:15:52,http://code.google.com/p/ksoap2-android,Java,5,3,2,1,2010-03-08T04:51:53,3d576b533732381faa25de5baa19c1439306ad62,true,false	
+chrsan/css-selectors,false,22,2,master,7,3,Other,9,107,24,180,2009-04-02T07:16:51,2020-03-04T10:10:45,2019-08-13T02:14:45,,Java,11,3,7,1,2016-12-27T03:25:56,81afbbf4fbaf3656af844283cfafd27b44cced71,true,false	
+akara/faban,false,1030,4,master,2,10,,13,80,39,80339,2009-04-23T06:49:29,2021-02-20T08:09:32,2021-02-20T08:09:40,http://faban.sunsource.net/,Java,59,10,63,1,2021-02-20T08:09:32,b59064c243c83b6b4a2d09150f16f38a8af0d964,true,false	
+apache/jspwiki,false,9244,31,master,4,16,Apache License 2.0,23,90,89,92080,2009-03-27T03:41:58,2023-03-03T09:23:19,2023-03-04T04:10:27,https://jspwiki.apache.org/,Java,0,0,255,28,2023-01-04T12:18:37,402375b9cc0a5bddac483a557e2d7253d0fc1b5d,false,false	
+tackley/dbdeploy,false,123,1,master,4,3,,12,64,52,7295,2009-03-08T04:42:23,2017-11-02T12:02:31,2020-05-01T03:09:41,http://code.google.com/p/dbdeploy/,Java,,,15,11,2011-04-04T08:16:32,23ab556af50b02ae46c76eac41a77813c92620b2,true,false	
+jakewharton/smsbarrage,false,10,2,master,4,1,Apache License 2.0,9,58,28,183,2009-03-31T10:18:32,2011-06-18T03:46:04,2020-02-01T04:56:35,,Java,0,0,0,0,2010-04-13T03:22:45,7a7cec063b8a2502191a3159443135f7a8f67609,false,false	
+jakewharton/smsmorse,false,13,1,master,8,1,,8,57,20,562,2009-03-27T03:26:46,2010-04-01T04:16:58,2020-01-16T10:57:46,,Java,0,0,1,0,2010-04-01T04:14:47,57c11b4f9125d7500b874c41b3695f6305dae1cc,false,false	
+jabley/rate-limit,false,24,1,master,3,1,Other,5,56,18,97,2009-04-27T12:09:46,2018-03-02T09:23:56,2019-10-11T07:02:36,,Java,3,2,1,0,2018-03-02T09:23:41,8feb267ff83fb62c7dfe515828b1197e3a8dcde5,true,false	
+kevwil/aspen,false,218,5,develop,0,2,,4,56,7,10299,2009-03-24T02:05:56,2013-12-02T05:13:46,2019-08-13T02:11:53,http://kevwil.github.io/aspen,Java,7,5,0,0,2011-07-28T06:17:37,efe9531e4238df2600825946c9c764ddb2ada492,true,false	
+codeanticode/chatbots-library,false,6,1,master,0,1,,6,52,18,76760,2009-03-15T11:09:24,2010-06-30T02:50:16,2020-02-04T08:43:22,http://wiki.github.com/codeanticode/chatbots-library/,Java,0,0,0,0,2010-06-30T02:47:55,48cd8cdbd69962c85b3244437982bc898ea0e5f1,true,false	
+jmtd/wadc,false,543,9,main,5,3,GNU General Public License v2.0,12,68,9,7373,2009-03-15T06:50:46,2023-01-13T09:38:57,2022-10-23T07:59:20,https://jmtd.net/wadc/,Java,45,27,4,0,2023-01-13T09:38:42,b3a0f3b58c27de0f530f56b844327c0160115047,true,false	
+qubit/cucumber-netbeans-plugin,false,180,1,master,30,3,MIT License,4,51,18,21367,2009-04-28T05:14:38,2010-09-07T02:43:39,2020-01-27T09:53:28,,Java,37,11,0,0,2010-09-07T02:37:12,bb250b30dab249edb135bc504f929ab61887795c,true,false	
+kompiro/quick-junit,false,198,5,master,15,2,,11,49,14,2998,2009-04-25T07:36:30,2013-04-26T04:59:17,2019-12-01T05:38:46,http://quick-junit.sourceforge.jp/,Java,1,1,2,1,2013-04-25T01:21:37,91a830956f68670b02a5394f5c4e5728ae1fffba,true,false	
+hrehfeld/quakeinjector,false,321,2,master,4,9,GNU General Public License v3.0,15,74,16,969,2009-05-04T11:36:38,2022-07-16T10:21:11,2022-07-16T08:45:09,https://www.quaddicted.com/tools/quake_injector,Java,122,48,22,0,2022-07-16T10:21:08,34195c1a2eb49c59789f21e9fdb8a1dfd9ca0ee8,true,false	
+mrdon/maven-yamlpom-plugin,false,57,1,master,7,1,,5,41,3,641,2009-03-22T01:24:42,2009-09-26T03:17:59,2020-01-18T12:53:09,http://wiki.github.com/mrdon/maven-yamlpom-plugin,Java,5,5,0,0,2009-09-26T03:17:51,20d97dfbc569ee9083c258b0ed73b598eb0c3c4c,true,false	
+panterch/edu,false,58,8,master,0,4,,4,41,58,5133,2009-03-16T05:17:09,2020-10-13T09:46:17,2019-08-13T02:09:50,edu.panter.ch,Java,0,0,7,7,2013-11-28T05:18:17,62698d9cd98a0bebaf45dcae841ec3b2952141dd,true,false	
+freenet/plugin-weboftrust,false,5245,12,next,0,15,Other,21,48,28,15086,2009-04-25T03:07:10,2023-01-17T09:41:12,2022-12-15T12:02:49,,Java,0,0,36,1,2023-01-12T02:24:04,9d706b142cac2b539f7dbff16723197d22988917,true,false	
+sonatype/jgit,false,1551,8,master,1,23,,61,39,6,5156,2009-04-29T08:20:57,2009-10-08T12:24:00,2020-02-26T10:59:33,,Java,1,1,0,0,2009-04-19T08:03:21,641ae523c496f381a7673f4acfa0acdff9d3913e,true,false	
+guilhermechapiewski/fluent-mail-api,false,46,1,master,0,2,Apache License 2.0,4,36,19,1249,2009-04-01T04:52:00,2016-08-12T08:51:53,2019-08-13T02:14:12,,Java,0,0,3,1,2010-11-19T09:22:43,3ea3c618ad116714e50ee3ee03f4435cd8332a0d,true,false	
+athoune/ditaa-web,false,18,1,master,0,1,,4,35,3,285,2009-05-02T10:13:58,2009-10-27T06:57:09,2020-04-27T11:50:09,,Java,2,1,1,0,2009-10-27T06:57:02,b374a47489699f1581778b5a028605caa1bda32e,true,false	
+netifera/netifera,false,19,1,master,0,1,,5,35,9,12679,2009-04-14T01:57:43,2009-04-19T09:00:01,2020-04-18T08:23:34,http://netifera.com,Java,0,0,0,0,2009-04-18T08:19:39,2f07cd46f14b2a962b4f2318876bcbd066fc12d3,true,false	
+esbie/ngrams,false,18,3,master,0,2,,8,29,19,104,2009-03-11T04:07:20,2009-04-02T11:05:22,2020-01-16T03:38:49,,Java,0,0,0,0,2009-04-01T09:57:59,4b38ebcd41d8f1349f4b59200f60048a8b4aa92a,true,false	
+directededge/directed-edge-bindings,false,512,4,master,0,3,Other,5,30,6,5930,2009-03-11T07:20:05,2023-01-04T04:18:33,2023-01-13T02:24:32,http://www.directededge.com/,Ruby,1,1,3,1,2023-01-04T04:18:13,72f63ac607c03449dd2283b038bd5e789da9cd40,true,false	
+prb/bigbird,false,51,1,master,0,2,,6,28,6,5243,2009-03-16T07:56:35,2011-10-29T10:39:13,2019-08-13T02:09:51,,Java,0,0,1,1,2009-07-24T07:25:42,aabed093c3eb00422b77f0ca87c66db2d04c1337,true,false	
+freenet/plugin-freetalk,false,2606,6,master,0,13,Other,15,36,14,6078,2009-04-25T03:02:26,2023-01-17T07:46:36,2023-01-22T11:40:15,,Java,0,0,19,0,2022-11-24T04:41:01,b3e1adfd2f98d3291286151844d6b3afbf1e33e3,true,false	
+idris/spring-example-gae,false,2,1,master,0,1,,2,27,6,5988,2009-04-19T05:43:28,2009-04-21T10:57:42,2019-08-13T02:19:27,http://www.ardentlord.com/apps/blog/show/829881-spring-3-0-on-google-app-engine,Java,0,0,0,0,2009-04-21T10:57:34,c2c649b3b9fd4bf0e905ccd3eca1c9c033da0f9d,true,false	
+qubit/cucumber-eclipse-plugin,false,6,1,master,0,0,,2,26,9,437,2009-05-05T12:43:29,2009-06-07T04:18:33,2019-08-13T02:23:57,http://members.chello.at/server/modules.html,Java,3,3,0,0,2009-06-07T04:18:15,6e79611e40b912b65b69f5692b68d6cabf3dc6e6,true,false	
+moriyoshi/quercus-gae,false,51,1,master,0,1,GNU General Public License v2.0,2,24,4,1701,2009-04-10T05:26:05,2009-06-18T08:56:23,2019-08-13T02:16:56,,Java,0,0,0,0,2009-06-18T08:55:40,ef661452aaa301d38ef828d41a66c32f11718a20,true,false	
+gmarabout-zz/cascading.json,false,20,2,master,0,3,GNU Lesser General Public License v3.0,4,23,15,1955,2009-03-17T01:40:34,2020-10-13T09:52:44,2019-08-13T02:10:02,,Java,2,1,3,1,2013-04-27T10:42:14,783fa76d0401c457c7c4405049ce296fa1093f69,true,false	
+mikeandroid/gpstest,true,13,2,master,1,3,,7,22,1,144,2009-04-14T12:08:38,2013-06-20T01:57:12,2019-08-13T02:17:50,,Java,3,0,2,0,2013-06-20T01:57:11,6493efd02e06a4720f85d50ca98374da64de0567,true,false	
+tlrobinson/jack-servlet,false,25,2,master,0,3,,2,22,5,116,2009-04-14T09:26:05,2010-03-31T09:50:22,2019-08-13T02:17:49,http://jackjs.org/,Java,5,4,0,0,2010-03-25T10:50:08,9901c994bf971a7434a499550f1dc795a57ace89,true,false	
+esh/latte,false,167,1,master,0,1,Other,3,22,3,8767,2009-04-07T02:09:58,2010-08-02T01:36:43,2019-08-13T02:16:03,http://www.lattejs.com,Java,23,1,0,0,2010-08-02T01:36:31,d6112f46f2054587f624d6913b3a91de45b6f067,true,false	
+arachnid/bdbdatastore,false,97,2,master,3,2,,3,21,2,3644,2009-04-11T10:26:32,2009-09-16T08:23:31,2019-08-13T02:17:05,,Java,13,5,0,0,2009-09-16T08:23:16,05237c978ca1791606365c2b46961c231c2dab17,true,false	
+ept/fuego-diff,false,52,1,master,0,2,MIT License,3,22,5,2576,2009-02-28T11:19:48,2015-02-06T09:53:27,2020-05-20T03:29:06,http://ept.github.com/xmldiff/,Java,1,1,1,0,2015-02-06T09:53:27,fa0745ec0495aa94a6cfd4d45e06270152fb90fa,true,false	
+lant/toodledo-java,false,34,1,master,0,1,Other,3,21,8,459,2009-03-15T02:30:32,2010-09-22T10:05:55,2019-08-13T02:09:32,http://wiki.github.com/lant/toodledo-java,Java,9,6,0,0,2010-09-22T10:05:02,ded04c5a78d94e75e50608f61e97148ab67538b5,true,false	
+cwensel/cascading.multitool,false,204,2,wip-2.0,0,2,Other,4,21,12,349,2009-04-01T05:45:20,2012-05-01T12:18:01,2019-08-13T02:14:13,http://www.cascading.org/,Java,0,0,3,0,2012-04-17T09:04:12,cd69a11e31ec24cf1120d4ad4c9c5a56879e3c8b,false,false	
+apache/xalan-j,false,4561,22,trunk,84,3,Apache License 2.0,9,20,49,55092,2009-03-27T03:41:55,2019-05-24T04:51:51,2020-01-09T04:46:26,,Java,0,0,5,4,2019-05-24T04:01:20,660e12dca29e28df9f3f9ebb7c19435bb16362f3,false,false	
+freenet/contrib,false,1531,3,master,0,14,,15,19,23,35924,2009-04-25T02:10:32,2022-06-18T04:30:58,2022-06-18T04:30:35,https://freenetproject.org/,Java,3,2,13,3,2022-06-18T04:30:58,e0ff693341c64f9f089444fad8c51a85f05438f3,true,false	
+jashkenas/ruby-processing-plugin,false,12,2,master,0,1,,4,19,0,528,2009-04-04T03:39:34,2009-04-14T03:25:53,2019-08-13T02:15:08,,Java,4,4,0,0,2009-04-14T02:54:39,60236763d56e4d76387da6e0b20ec3937708d42e,true,false	
+tonyg/camstream,false,19,1,master,0,1,,5,19,2,3965,2009-04-05T03:44:43,2012-10-27T04:31:51,2020-04-26T09:30:45,,Java,0,0,0,0,2012-10-27T04:30:05,fcee2b5b4ae66bf0005072e546ee204ba15136d2,true,false	
+mcrisc/porextenso,false,7,2,master,1,,MIT License,4,17,7,129,2009-03-25T12:11:39,2015-09-07T01:20:28,2020-06-26T04:47:11,,Java,3,1,0,0,2015-09-07T01:16:22,a1ec9810578f7f05cd64f81a02f0bc68fdf9063c,true,false	
+andypols/git-bamboo-plugin,false,254,4,master,12,3,MIT License,2,17,7,2986,2009-03-13T01:18:56,2013-12-01T04:01:40,2019-08-13T02:08:57,http://andypols.github.com/git-bamboo-plugin,Java,16,6,0,0,2013-12-01T04:01:39,e1717ce34bd67480bd1652a828c5828399d68f82,true,false	
+alex14n/compacthashmap,false,148,5,master,0,1,,3,17,1,236,2009-05-03T11:53:35,2009-11-21T09:32:16,2019-08-13T02:23:22,,Java,1,1,0,0,2009-11-21T09:31:50,556530c792b27b6841c26928e2d7ad52865294b3,true,false	
+pjstadig/tim-clojure-1.0-snapshot,false,28,1,master,0,1,,2,17,0,1672,2009-03-01T08:46:21,2009-11-18T10:09:49,2020-04-14T07:46:37,,Java,0,0,0,0,2009-11-18T10:09:44,a2557627d8ee434261b7f8df80148e90df1c32d7,true,false	
+codahale/shore,false,102,2,master,2,2,MIT License,4,16,2,271,2009-04-30T02:23:16,2010-08-20T02:47:48,2019-08-13T02:22:29,,Java,0,0,4,1,2010-08-19T11:16:42,ad7177d39966c4c8e42f666b2e687025bc9d6f05,true,true	
+schuchert/fitnesse-tutorials,false,10,1,master,7,1,Other,3,16,11,210,2009-04-07T04:03:14,2014-10-16T03:39:56,2019-08-13T02:15:55,,Java,0,0,0,0,2014-10-16T03:39:38,80e5d78c40f471f9ff9333ab220b8c7f8ed33380,true,false	
+tlaukkanen/mobidentica,false,3,1,master,0,1,,3,15,5,142,2009-03-22T08:27:18,2009-03-24T07:18:54,2019-08-13T02:11:24,http://www.substanceofcode.com/software/mobidentica/,Java,0,0,0,0,2009-03-24T07:09:11,14928b315939eab2a06967819063eb336664c35d,true,false	
+adamhooper/html_to_png_server,false,7,1,master,0,1,,3,15,0,155,2009-04-15T08:26:45,2009-07-23T08:43:00,2019-12-10T05:02:25,http://adamhooper.com/eng,Java,0,0,0,0,2009-07-23T08:42:33,d57666b6423d4d3aee0a74c06c2701296be7a0e4,true,false	
+apache/etch,false,549,13,trunk,8,,Apache License 2.0,7,16,6,13740,2009-03-27T03:41:55,2017-04-28T08:27:41,2020-10-26T08:09:08,,Java,,,,,2015-05-18T06:36:35,5a875755019a7f342a07c8c368a50e3efb6ae68c,false,false	
+randi2/randi2,false,3229,8,master,12,4,GNU General Public License v3.0,6,15,12,36842,2009-04-01T12:43:00,2016-03-08T11:59:54,2019-09-14T12:08:33,http://randi2.org,Java,0,0,1,1,2014-06-24T07:46:44,d6ba350bd855eab6867adc48e40148f23b1b92e0,false,true	
+esbie/hmm-pos,false,26,3,master,0,3,,3,14,9,3757,2009-04-26T04:43:31,2009-05-12T12:03:35,2019-12-25T03:50:31,,Java,1,1,0,0,2009-05-12T12:02:58,7cec648cc86c602cbbad7f3b9e49ded592c61262,true,false	
+gaurav/taxondna,false,847,18,develop,4,1,GNU General Public License v2.0,3,26,10,102663,2009-04-10T05:17:31,2022-04-25T02:56:38,2022-04-25T02:37:23,http://www.ggvaidya.com/taxondna/,Java,92,69,6,2,2022-04-25T02:37:16,50584ac62ff267381eaf710ead7e0dc08e97cf94,true,false	
+freenet/plugin-freemail,false,1867,9,master,27,9,GNU General Public License v2.0,13,12,18,4584,2009-04-25T01:30:05,2019-08-13T09:35:25,2020-04-12T06:15:16,http://freenetproject.org/,Java,1,1,39,4,2019-03-14T06:48:50,e879d7792bb3fbc81f3d2148cf5646f267d41d4d,true,false	
+chemhack/jsmoleditor,false,11,4,master,0,1,,4,12,4,500,2009-03-21T11:52:19,2009-10-14T12:45:21,2019-11-07T04:13:53,,Java,0,0,0,0,2009-10-14T12:29:44,7f7096431d8000c6160cf304197215905266ea3a,true,false	
+toddlipcon/hadoop,false,3537,82,HADOOP-3628,0,14,Apache License 2.0,5,12,107,70863,2009-05-01T02:01:52,2016-11-13T02:12:12,2019-08-13T02:22:50,,Java,0,0,1,0,2009-03-30T12:54:06,1d109f0d3f340bcc7dc61f009ed66d6b12bda0fe,true,false	
+lithium/filer,false,48,2,master,0,1,,2,11,3,724,2009-04-27T05:36:04,2009-05-05T09:01:17,2019-08-13T02:21:50,http://android.hlidskialf.com/software/filer,Java,1,1,0,0,2009-05-04T05:28:39,7eec09138f406accea16e69489fb77710f1b5b3e,false,false	
+samtingleff/valkyrie,false,331,4,master,4,2,,2,11,3,14261,2009-04-03T12:12:55,2020-10-13T09:31:28,2019-08-13T02:14:49,http://samtingleff.github.com/oo-kv-storage/,Java,0,0,3,2,2013-07-24T11:54:34,33f5184003c1311f1e6984fa1eec64debe1c173c,true,false	
+johnburket/cantoinput,false,26,1,master,0,1,,2,11,7,742,2009-02-28T06:30:24,2011-07-07T05:09:53,2019-08-13T02:04:59,,Java,0,0,0,0,2011-07-07T05:08:56,979b455f4c78cc62195be1285c45e7154eae8406,false,false	
+liberty/fitnesse-rc,false,27,1,master,0,2,,7,11,1,5467,2009-03-12T08:25:15,2010-03-23T02:07:49,2019-08-13T02:08:53,,Java,0,0,0,0,2010-03-15T07:31:18,d39ea64976393fdf4b076e2208a5b5d67cefa03c,true,false	
+fellix/couchdb-j,false,8,1,master,0,1,Apache License 2.0,2,11,1,164,2009-03-09T10:26:52,2009-03-14T01:24:15,2019-08-13T02:08:02,http://blog.rollingwithcode.com,Java,1,1,0,0,2009-03-14T12:58:25,00327fc5a64bf1d19f5081e054a8dbd2cb8e530b,true,false	
+gertvv/oops,false,247,4,master,9,5,GNU General Public License v2.0,4,11,5,1045,2009-05-04T02:34:52,2020-10-13T09:17:18,2019-08-13T02:23:40,http://wiki.github.com/gertvv/oops/,Java,2,0,2,1,2015-02-24T09:36:22,dac0288d01ab5d8a5d61334d2d1bd3f03a5da12b,true,false	
+mchelen/piespy,false,3,1,master,0,0,,4,10,7,223,2009-03-06T08:49:55,2019-04-11T11:59:55,2019-12-23T01:37:09,http://www.jibble.org/piespy/,Java,0,0,1,1,2009-03-06T09:21:12,ca078f58c963b87e1659314aa433c6297e27bab2,true,false	
+erikvanzijst/camsudoku,false,61,3,master,0,2,MIT License,2,11,2,23741,2009-03-14T02:00:35,2023-03-07T10:11:33,2023-02-21T10:27:38,,Java,0,0,1,0,2023-03-07T10:11:33,a722e37cc35f34120d6b4ffd34c778ec75fdbd43,true,false	
+freenet/plugin-xmlspider,false,432,2,master,14,8,,14,10,9,1030,2009-04-25T12:17:50,2015-04-15T03:00:29,2019-08-13T02:21:15,http://freenetproject.org/,Java,0,0,0,0,2015-04-15T02:59:51,c31f05238fe963404fae2ad7998ea0abbe0bdba4,true,false	
+wgm/cerb-impex,false,79,1,master,5,4,Other,4,10,8,5485,2009-03-15T10:38:24,2015-07-13T10:43:48,2019-08-13T02:09:35,http://wiki.cerbweb.com/ImpEx,Java,2,2,0,0,2015-07-13T10:43:40,a800365644c0785ca5b8d13b4c743b92672fd89e,true,false	
+aperotte/persistentmatrix,false,9,3,master,0,1,,3,10,1,136,2009-05-02T07:44:03,2013-11-13T01:26:53,2019-08-13T02:23:16,,Java,0,0,0,0,2013-11-13T01:26:53,abd83afee2f60c688e66e6003f7c0b1b4fd93984,true,false	
+ogrodnek/java_fathom,false,24,2,master,0,2,,2,10,9,25,2009-03-24T04:55:27,2021-05-06T11:58:37,2021-05-06T11:58:39,,Java,1,0,4,0,2021-05-06T11:58:37,a5b53f694010a6dec67cb860b8952e9264618e96,true,false	
+alblue/objectiveclipse,false,88,1,master,1,2,,2,10,3,581,2009-04-23T12:03:39,2010-05-26T09:03:42,2019-08-13T02:20:32,http://code.google.com/p/objectiveclipse,Java,0,0,0,0,2010-05-26T09:02:37,756247ab88b302e8530dbc09ffc0df301bfe7ccc,true,false	
+martinthomson/abnf2regex,false,19,1,master,0,2,,4,10,6,523,2009-03-26T11:17:43,2017-01-01T09:03:09,2020-04-01T09:55:36,http://wiki.github.com/martinthomson/abnf2regex/,Java,3,0,1,0,2017-01-01T09:03:07,7750a302f6b2e25e6f0ab6b9f6df2c6ca0c49ac1,true,false	
+rzwitserloot/lombok,false,3243,3,master,3,106,Other,412,10172,1932,79180,2009-06-08T07:46:41,2021-04-18T11:56:32,2021-04-19T12:25:38,https://projectlombok.org/,Java,2458,658,354,9,2021-04-18T04:36:13,5120abe4741c78d19d7e65404f407cfe57074a47,true,false	
+apache/cassandra,false,27970,12,trunk,0,281,Apache License 2.0,460,7563,3229,383433,2009-05-21T02:10:09,2022-10-06T07:47:45,2022-10-04T08:12:13,http://cassandra.apache.org,Java,0,0,1898,245,2022-10-05T10:17:56,ace5662143fbe0dabd7f65711d9057d5a0469000,false,false	
+apache/camel,false,60658,46,main,0,321,Apache License 2.0,265,4537,4598,660766,2009-05-21T12:25:36,2022-09-28T03:39:05,2022-09-28T12:02:22,https://camel.apache.org,Java,0,0,8427,11,2022-09-28T02:19:08,25a73a16e74de9626dac9bdae2a0f0feb262c01a,false,false	
+apache/hive,false,16367,52,master,0,250,Apache License 2.0,331,4460,4168,633332,2009-05-21T02:31:01,2022-09-23T10:25:59,2022-09-25T12:34:30,https://hive.apache.org/,Java,0,0,3592,96,2022-09-23T10:25:59,0384aae0094c6a057655bda2c02db139c6510fa5,false,false	
+voldemort/voldemort,false,4262,201,master,87,61,Apache License 2.0,146,2367,559,210658,2009-05-31T03:27:10,2018-02-01T01:39:42,2020-04-27T05:17:51,http://project-voldemort.com,Java,141,66,366,26,2017-08-30T10:12:50,a7dbdea58032021361680faacf2782cf981c5332,true,false	
+apache/maven,false,11623,56,master,3,157,Apache License 2.0,220,3303,2305,53539,2009-05-21T03:22:03,2022-10-06T09:55:34,2022-10-05T03:56:41,https://maven.apache.org/ref/current,Java,0,0,773,63,2022-10-05T02:52:17,bff84bd634fd4cafe87f31ea155744095f6ecd1a,false,false	
+apache/nutch,false,3356,32,master,0,48,Apache License 2.0,237,2538,1207,137126,2009-05-21T01:17:48,2023-03-06T10:50:41,2023-03-13T02:20:57,https://nutch.apache.org/,Java,0,0,747,12,2023-03-06T10:50:41,1999b1e1199b773c8d08e4765cfa1824e99a9287,false,false	
+apache/commons-lang,false,7133,9,master,0,180,Apache License 2.0,174,2425,1473,28722,2009-05-21T01:24:46,2023-03-04T02:05:24,2023-03-09T04:18:09,https://commons.apache.org/lang/,Java,0,0,1032,112,2023-03-04T02:05:02,2cf6486197b268bac818d05e38173ab57ce16315,false,false	
+apache/activemq,false,11345,20,main,0,125,Apache License 2.0,199,2128,1364,60811,2009-05-21T01:33:45,2023-02-22T05:36:56,2023-02-23T03:05:09,,Java,0,0,977,42,2023-02-16T11:03:14,9fe24cd8e3f67a7249afa32b01fc46807c5d8997,false,false	
+apache/avro,false,3408,18,master,19,258,Apache License 2.0,107,2263,1392,24668,2009-05-21T02:48:37,2022-10-07T05:21:20,2022-10-09T10:09:36,https://avro.apache.org/,Java,0,0,1896,108,2022-10-03T10:45:14,77692d8c147e3a83812fa1a409ea31349962eb49,false,false	
+jdbi/jdbi,false,5070,37,master,22,123,Apache License 2.0,79,1752,324,25193,2009-06-17T04:36:36,2023-03-09T06:48:38,2023-03-08T08:13:24,http://jdbi.org/,Java,964,124,1315,9,2023-03-03T05:38:04,365986b0670080b9025001ca472a9b0064b41b53,false,false	
+simpligility/android-maven-plugin,false,2758,4,master,0,121,Apache License 2.0,78,1042,393,33617,2009-05-29T03:08:20,2022-01-18T01:06:54,2022-01-19T11:26:00,http://simpligility.github.io/android-maven-plugin/,Java,294,10,511,1,2022-01-18T01:06:54,acaf0eec01d0adbbf59583eaafcc8817b7263daa,false,false	
+sgroschupf/zkclient,false,182,1,master,10,16,Apache License 2.0,126,1016,493,10834,2009-07-01T04:13:42,2018-10-02T05:32:04,2020-12-02T10:54:56,www.datameer.com,Java,55,30,30,0,2018-10-02T05:31:56,03ccf12c70aca2f771bfcd94d44dc7c4d4a1495e,true,false	
+kohsuke/jenkins,true,27278,7,master,68,513,MIT License,115,984,7,104635,2009-07-15T11:26:56,2020-02-11T02:25:28,2020-04-22T06:36:05,http://jenkins-ci.org/,Java,0,0,35,2,2018-09-16T07:16:22,220b648a9593cecf19258b2aabfe1817222fa312,false,false	
+apache/tika,false,6392,57,main,0,112,Apache License 2.0,96,1517,673,233657,2009-05-21T02:12:11,2022-10-07T06:53:45,2022-10-07T06:18:10,https://tika.apache.org/,Java,0,0,733,46,2022-10-07T06:53:36,ced05e249b662ca101da143ca6f4e99f0e30fb8f,false,false	
+apache/poi,false,12507,24,trunk,0,14,,78,1564,651,215628,2009-05-21T01:15:15,2023-02-24T12:07:51,2023-02-25T12:13:50,,Java,0,0,428,13,2023-02-24T12:07:48,59b06fc12645c5e9ee347f97c8cef82c162b622d,false,false	
+apache/httpcomponents-client,false,3427,6,master,0,78,Apache License 2.0,106,1283,866,17753,2009-05-21T01:43:06,2023-02-17T02:59:09,2023-02-21T10:35:31,,Java,0,0,408,2,2023-02-17T02:59:09,6295dbda7348a246d2f3f831d964c88addd007bc,false,false	
+richhickey/clojure,true,1805,17,master,2,,,10,907,15,3879,2009-06-11T12:52:15,2014-07-04T08:00:19,2020-11-30T08:11:11,https://github.com/clojure/clojure,Java,,,,,2011-05-18T01:41:26,bfa21b6393c2255337d1fc2ff6cd34b3675196da,true,false	
+apache/mina,false,2401,19,trunk,0,16,Apache License 2.0,105,846,431,15875,2009-05-21T01:13:51,2023-01-07T10:01:27,2023-01-16T01:26:56,,Java,0,0,31,8,2017-06-06T04:02:50,daf2a33fed5fccb096ce75ab9263ec9a48561942,false,false	
+apache/log4j,false,3275,7,trunk,0,7,Apache License 2.0,108,840,533,13974,2009-05-21T01:31:38,2021-12-19T01:01:06,2021-12-20T02:28:26,,Java,0,0,16,14,2015-06-04T04:39:18,7be00eed88152dd011a619e8bae5a631235c3f4c,false,false	
+apache/ofbiz,false,24427,42,trunk,35,20,Apache License 2.0,152,684,562,892930,2009-05-20T01:47:56,2020-04-27T06:10:43,2020-04-24T10:39:47,,Java,0,0,27,12,2017-02-12T10:32:53,3f276d51e233005ae8ea19d11528ff65cbd3e0c3,false,false	
+apache/commons-io,false,3999,7,master,0,91,Apache License 2.0,88,891,591,9059,2009-05-21T01:38:37,2023-02-24T02:34:59,2023-03-08T10:26:47,https://commons.apache.org/io/,Java,0,0,433,14,2023-02-24T02:34:55,78a7211ba1daaa1b9e142bc8c02c24fa1870aa4c,false,false	
+gwhalin/memcached-java-client,false,142,3,master,10,3,,118,672,452,3141,2009-06-05T02:00:19,2016-11-30T10:07:07,2020-12-10T10:05:32,http://wiki.github.com/gwhalin/Memcached-Java-Client/,Java,85,23,8,4,2013-09-18T05:57:16,9623cb7b5383a824def2e2b7f5fcc2e68f8f7a95,true,false	
+apache/pig,false,3719,28,trunk,0,12,Apache License 2.0,80,656,455,91866,2009-05-21T01:10:43,2023-01-17T03:01:34,2023-01-15T04:22:43,,Java,0,0,36,6,2023-01-17T03:01:32,b050a33c66fc22d648370b5c6bda04e0e51d3aa3,false,false	
+caelum/caelum-stella,false,1450,8,master,0,48,,93,631,335,15265,2009-05-25T06:31:31,2023-01-28T02:10:43,2023-02-02T01:22:46,http://stella.caelum.com.br,Java,150,28,133,7,2023-01-28T02:08:02,619d3cf7cf7fca4a63b6c64a905a4215eb4c9740,true,false	
+apache/wicket,false,21317,41,master,0,92,Apache License 2.0,62,669,363,127721,2009-05-21T01:51:51,2023-03-04T03:39:32,2023-03-10T11:50:27,https://wicket.apache.org/,Java,0,0,517,13,2023-02-25T02:56:42,d533fc72f180a0063856e2127adcf603ab00c49f,false,false	
+jblas-project/jblas,false,440,10,main,0,22,BSD 3-Clause New or Revised License,40,562,143,73246,2009-05-07T11:56:31,2022-07-24T02:36:02,2022-07-25T03:10:41,http://jblas.org,Java,85,33,50,9,2021-04-12T10:47:12,ae22fac3bd19addf834b1b9c012b3025d874293a,true,false	
+alexo/wro4j,false,3619,54,1.7.x,46,34,,36,447,117,112331,2009-06-10T09:31:25,2016-04-15T11:47:20,2020-04-09T01:32:26,,Java,125,43,101,2,2016-04-15T11:47:19,c448a1ec54cdde6d9a673c591537f3cbd9cc5357,true,false	
+apache/commons-collections,false,3898,8,master,0,69,Apache License 2.0,70,594,406,21726,2009-05-21T01:12:20,2023-02-24T01:08:17,2023-03-04T01:58:12,https://commons.apache.org/collections/,Java,0,0,379,33,2023-02-24T01:08:13,a351f8e83ff501813d0be4af898f2d34ffda9ce1,false,false	
+pocmo/yaaic,false,1067,2,master,2,19,GNU General Public License v3.0,31,320,124,4423,2009-05-28T06:17:52,2021-08-16T02:27:56,2021-08-16T02:28:00,http://www.yaaic.org,Java,201,110,43,10,2021-08-16T02:27:56,d4a10b6c9c9d5211ed4ea650d5d54269df868175,true,false	
+cascading/cascading,true,2193,13,3.3,103,13,Other,34,310,115,18350,2009-06-14T08:31:37,2018-11-29T07:54:38,2020-04-17T09:22:46,http://www.cascading.org/,Java,0,0,38,9,2018-03-23T04:24:05,2b7346e43b5e5fef6dd88e07e90ac056386c51f0,false,false	
+apache/commons-codec,false,2340,7,master,0,40,Apache License 2.0,52,383,218,5324,2009-05-21T01:20:25,2023-02-24T04:43:02,2023-03-04T01:58:12,https://commons.apache.org/codec/,Java,0,0,175,8,2023-02-24T04:42:57,8737181925596c5cde975ecbd131583696e37c98,false,false	
+apache/jackrabbit,false,9082,38,trunk,0,26,Apache License 2.0,28,300,199,60512,2009-05-21T01:43:24,2023-03-06T05:36:15,2023-03-04T01:58:12,,Java,0,0,110,36,2023-02-28T12:54:05,78ec30a8ea322fa98e6fc60f484d7b2a33ace9ab,false,false	
+apache/maven-plugins,false,15063,72,trunk,519,34,Apache License 2.0,42,238,280,55676,2009-05-21T12:33:19,2019-11-13T03:16:16,2020-03-23T02:56:31,,Java,0,0,146,18,2018-04-02T02:06:46,a007e769ed5825774d5c31ec06c0013c8ee2b4d4,false,true	
+c99koder/lastfm-android,true,1250,3,master,42,10,,19,224,78,15854,2009-05-18T04:24:53,2012-07-10T01:11:25,2019-12-21T02:21:37,,Java,0,0,4,0,2012-07-10T01:11:14,9e20e194b716d88d5cff414d10d070725f149a2f,false,true	
+ccw-ide/ccw,false,2296,14,master,91,20,Eclipse Public License 1.0,23,216,49,48327,2009-06-28T11:02:38,2018-04-17T06:26:58,2020-11-21T01:42:25,https://github.com/laurentpetit/ccw/wiki/GoogleCodeHome,Java,795,151,95,7,2017-03-07T12:07:41,47dea22e3cafe9b21bd8cd34e4a26e80c1e17179,true,false	
+apache/cayenne,false,7115,7,master,0,42,,29,288,128,91226,2009-05-21T01:05:37,2023-03-03T04:12:05,2023-03-02T10:22:03,,Java,0,0,571,32,2023-03-01T10:45:50,8a6fb9cadcb15edf35e9ef42f6b357aa89df0051,false,false	
+apache/httpcomponents-core,false,3726,11,master,0,63,Apache License 2.0,34,307,313,18361,2009-05-21T01:41:50,2023-03-03T02:58:20,2023-03-02T10:50:03,,Java,0,0,392,5,2023-02-17T09:36:09,b26a559078d15dc00e387eea4b824391e3bef590,false,false	
+ushahidi/ushahidi_android,false,949,3,develop,30,10,GNU Lesser General Public License v3.0,36,205,160,33256,2009-05-12T12:40:04,2020-04-10T03:09:46,2020-04-10T03:10:03,https://github.com/ushahidi/platform-android/,Java,155,28,27,0,2020-04-10T03:09:45,5e50131eca5c53a1f7e0db228a0b042a4737db35,true,false	
+apache/commons-cli,false,1276,3,master,0,44,Apache License 2.0,39,279,164,3063,2009-05-28T08:00:15,2023-02-24T11:46:50,2023-02-22T03:42:02,http://commons.apache.org/cli/,Java,0,0,166,6,2023-02-24T11:46:46,0f93ccebb455ba80975fabcc9c2a6708fa755304,false,false	
+synchrony/smsn,false,930,6,develop,0,2,Other,12,174,15,4475,2009-06-05T10:33:10,2023-01-25T05:50:12,2023-01-30T02:02:00,,Java,59,28,3,0,2023-01-25T05:50:06,b3dc02300f444bb4340a069eb2b75f9a825df45c,true,false	
+clafonta/mockey,false,469,2,master,0,7,,17,115,41,60321,2009-06-25T10:44:34,2022-02-02T05:46:53,2022-02-02T05:46:57,,Java,100,11,14,1,2022-02-02T05:46:49,59b4c3793e934886c2319719eac6eaeb71e1a2e4,true,false	
+apache/qpid,false,14182,111,trunk,28,16,,15,115,85,214977,2009-05-21T03:17:04,2018-12-14T11:59:34,2020-04-19T11:13:45,,Java,0,0,10,1,2018-12-14T11:59:24,61e6c03338f3bd20a62590baa89a36bffeb32859,false,false	
+fasterthanlime/jooc-legacy,false,1183,1,master,0,16,MIT License,12,115,5,45873,2009-06-17T06:20:59,2013-02-06T12:54:24,2020-04-10T06:58:02,http://ooc-lang.org/,Java,70,25,0,0,2013-02-06T12:54:24,cf900848262b9eac6f317c07fee8eb24df8262f7,false,false	
+apache/xmlgraphics-fop,false,8479,69,main,0,8,Apache License 2.0,27,149,121,213828,2009-05-21T12:26:43,2023-03-12T03:02:12,2023-03-10T05:14:06,https://xmlgraphics.apache.org/fop/,Java,0,0,41,7,2023-03-02T03:27:00,03a69c051cbb867d3d037ed95c2344ab996b5dc4,false,false	
+apache/xmlgraphics-batik,false,3559,28,main,0,6,,19,163,128,168628,2009-05-21T02:32:14,2023-02-23T04:22:45,2023-02-23T10:06:41,https://xmlgraphics.apache.org/batik/,Java,0,0,32,9,2023-02-23T04:22:39,6d545475bbdf51484d1aacad07a2179a79dd3369,false,false	
+johannilsson/sthlmtraveling,false,1524,18,master,22,7,Apache License 2.0,15,105,36,11806,2009-07-06T08:10:50,2020-04-14T04:40:54,2020-02-22T10:03:39,http://sthlmtraveling.se/,Java,77,20,19,10,2019-11-25T08:51:54,45faf35669a897fc629e5f768adccda61850d0be,true,false	
+agawish/better-arabic-reshaper,false,28,1,master,0,3,,13,102,40,31,2009-06-03T09:31:20,2017-08-04T01:44:38,2020-10-03T07:54:13,,Java,3,1,1,0,2017-08-04T01:44:37,fbfbffbee5ca211aefd647083896a951e5815119,true,false	
+vidageek/mirror,false,232,3,master,5,6,Apache License 2.0,13,98,31,757,2009-05-15T08:37:50,2020-10-13T09:52:32,2020-08-10T02:30:32,http://projetos.vidageek.net/mirror/mirror,Java,64,19,14,4,2014-11-13T04:16:17,42af9dad8c0d6e5040b75e83dbcee34bc63dd539,false,false	
+apache/maven-archetype,false,1269,23,master,0,46,,41,122,146,4465,2009-05-21T08:40:29,2023-01-11T04:08:32,2023-01-03T01:32:38,https://maven.apache.org/archetype/,Java,0,0,123,21,2022-11-02T11:07:55,86826f0f2949711eb42b309a05f7dde0a863d266,false,false	
+apache/roller,false,4717,14,master,0,14,Apache License 2.0,26,109,119,301240,2009-05-21T02:42:21,2022-07-10T01:57:31,2022-06-28T02:05:36,,Java,0,0,111,2,2022-07-10T01:57:18,e71be55e8b545318f1e30dec878752fadffccf2b,false,false	
+apache/commons-logging,false,1196,7,master,0,26,Apache License 2.0,36,123,115,2581,2009-05-21T08:42:09,2023-03-04T02:18:24,2023-03-09T04:19:33,https://commons.apache.org/logging/,Java,0,0,135,7,2023-03-04T02:18:20,6888105f9e2062a3c9c185d0a50908ecd56f211f,false,false	
+mbreese/couchdb4j,false,54,3,master,0,6,Apache License 2.0,7,83,41,2522,2009-06-25T08:43:06,2019-10-22T01:03:56,2019-10-22T01:03:48,,Java,4,4,7,2,2019-10-22T01:03:43,6d59223ab16ae71a0cacb4776e979bee14f2c49f,true,false	
+ramblurr/anki-android,false,4888,4,feature-multimedia-editor,0,61,GNU General Public License v3.0,15,81,315,47224,2009-06-03T02:52:49,2014-03-31T04:08:42,2020-02-16T10:14:42,http://ichi2.net/anki/wiki/AndroidAnki,Java,0,0,0,0,2014-03-31T03:50:48,6f9ec497307ab21999493c369bec01bbec9cf5ba,false,false	
+sonatype/maven-guide-zh,false,531,2,master,0,4,,21,80,41,42338,2009-06-27T08:15:57,2010-09-13T04:02:28,2020-04-23T02:40:35,,Java,0,0,1,1,2010-09-13T04:02:10,75145ce7ee1c050191ce7c888b6370712576cb0a,true,false	
+apache/openjpa,false,5257,34,master,0,19,Apache License 2.0,28,109,109,37553,2009-05-21T01:13:25,2022-11-24T04:24:36,2022-11-07T03:15:04,,Java,0,0,98,17,2022-11-24T04:24:21,05069dfee47724ec263a3bbc1c84c12739f241e4,false,false	
+apache/directory-server,false,9926,95,master,0,21,Apache License 2.0,26,112,85,72387,2009-05-21T02:25:07,2022-12-06T12:49:29,2022-12-19T02:47:05,,Java,0,0,49,4,2022-10-15T10:09:32,4941c2565d374632193d93920e0bc870fe3a1e24,false,false	
+larsgeorge/hbase-schema-manager,false,29,1,master,0,1,Apache License 2.0,11,68,33,12276,2009-05-20T12:14:01,2016-03-09T06:49:48,2020-03-23T09:48:19,,Java,1,1,3,1,2011-02-14T08:16:31,309bfde1538db79b1f2f26a7d054df0272d09585,true,false	
+apache/maven-scm,false,2197,6,master,0,62,,40,84,166,12803,2009-05-21T12:33:04,2022-11-02T05:42:36,2022-10-25T07:45:38,https://maven.apache.org/scm/,Java,0,0,162,2,2022-11-02T05:42:36,26ed44052a80bb00b3f62e55ee58fc3d2003d8b5,false,false	
+apache/shindig,false,4786,11,trunk,27,10,Apache License 2.0,10,65,65,18767,2009-05-21T08:41:05,2019-10-18T01:05:23,2020-03-12T09:08:30,,Java,0,0,5,4,2015-12-07T01:59:13,8f3c3d5c77f5324bad56a5a62da28657fe9112a0,false,false	
+constretto/constretto-core,false,618,32,master,4,11,Other,13,62,20,1510,2009-05-13T06:53:22,2023-02-27T12:08:34,2023-03-04T01:58:11,https://github.com/constretto,Java,34,4,111,9,2022-12-13T11:54:54,73c9351642ef523c8f64eac999e1e6ef5a87e0d9,true,false	
+smilebase/org.eclipse.mylyn.github,false,132,2,master,0,5,,5,61,19,879,2009-06-09T05:08:23,2011-03-28T09:51:00,2018-06-08T01:39:21,http://smilebase.github.com/org.eclipse.mylyn.github,Java,29,1,1,0,2011-03-28T09:50:51,3a05065790b7fa77b66d447c874d83d421480d06,true,false	
+apache/maven-release,false,1116,10,master,7,47,,34,95,127,3658,2009-05-21T12:59:16,2023-02-06T03:49:14,2023-02-13T05:00:14,https://maven.apache.org/maven-release/,Java,0,0,163,13,2023-01-24T05:14:40,906b6e408021d0a838ab145b4b1b0f4727d6c74e,false,false	
+apache/directory-studio,false,5742,48,master,0,12,Apache License 2.0,23,88,41,639356,2009-05-20T01:52:19,2022-06-12T05:51:39,2022-05-24T02:34:57,,Java,0,0,23,3,2022-06-12T05:49:55,0993403ed654025c931e14566a3f1e6b607f07e8,false,false	
+nicolas-raoul/androidbigimage,false,14,1,master,0,1,GNU General Public License v3.0,9,50,20,1582,2009-07-10T01:56:21,2014-10-15T07:05:55,2019-11-18T01:09:09,http://code.google.com/p/androidbigimage/,Java,0,0,0,0,2014-10-15T07:05:45,f5b287f91008dfdb8f3837d76149b56e7ac72c30,true,false	
+apache/maven-enforcer,false,821,7,master,3,61,Apache License 2.0,31,116,141,2405,2009-05-21T12:59:40,2023-03-07T09:35:51,2023-03-04T01:58:12,https://maven.apache.org/enforcer/,Java,0,0,252,4,2023-03-04T05:28:16,6b62f03644fbcdf95eedb97f64ad17ae5d2b73c5,false,false	
+textmate/java.tmbundle,false,284,3,master,0,20,,5,48,27,306,2009-06-09T06:35:06,2020-07-14T05:37:29,2020-08-16T03:06:54,,Java,38,16,20,0,2020-07-14T05:37:27,79b8b61865e40de0ff04bb16fe1076b154b9894c,true,false	
+apache/attic-ode,false,3823,20,master,27,11,Apache License 2.0,13,44,60,21659,2009-05-21T02:41:15,2020-01-14T05:08:40,2020-01-30T08:40:56,,Java,0,0,8,2,2020-01-14T05:08:26,a0c2d1a3c24268523c81b4ddc125eb05d758c6f5,false,true	
+astubbs/spring-modules,false,2244,9,master,8,5,,4,42,29,6500,2009-07-08T09:16:24,2019-10-21T08:50:00,2019-09-24T03:53:42,http://wiki.github.com/astubbs/spring-modules,Java,12,7,2,2,2010-04-29T05:39:54,583b9c78f663720f6a4433c488614fd8f18f82d2,true,false	
+ambrice/timesheet,false,45,1,master,5,2,GNU General Public License v2.0,13,42,26,578,2009-05-12T05:47:12,2017-10-16T05:32:29,2019-09-15T04:28:52,,Java,7,7,2,1,2013-06-16T08:46:13,3a3a158cef5a6b59adcf8bd258e8bd257173cd15,true,false	
+rtykulsker/javabeanstalkclient,false,31,1,master,22,3,Other,2,38,28,78,2009-05-26T03:37:04,2020-12-21T11:07:48,2020-12-21T11:03:18,,Java,8,1,5,0,2020-12-21T11:03:15,3a37c77188e1d3a87646a2a108afd7de4023bf63,true,false	
+tjake/thrudb-java,false,25,6,master,0,0,,4,35,5,4213,2009-05-27T02:36:01,2010-03-16T02:44:23,2018-06-29T11:32:57,http://thrudb.org,Java,1,1,0,0,2009-06-05T12:53:10,cca3fce7f478cf2d0fbac41412ca1b5f48ccd46c,true,true	
+lithium/pomodoro,false,5,1,master,1,1,Apache License 2.0,10,34,28,275,2009-05-21T05:00:17,2015-03-25T08:11:59,2019-06-16T04:07:32,http://android.hlidskialf.com/software/pomodoro,Java,11,9,8,7,2014-06-04T10:21:45,fe56f091967a0d2c2c961098605fa29124c67302,true,false	
+apache/maven-wagon,false,1322,15,master,0,47,,35,43,101,4922,2009-05-20T02:01:12,2022-12-18T09:06:50,2022-11-04T02:46:35,https://maven.apache.org/wagon/,Java,0,0,86,5,2022-12-18T09:06:46,aff693c6f90371aab0ae07ffcfb9bce4d3214fd1,false,false	
+apache/sanselan,false,315,1,trunk,6,5,Apache License 2.0,8,32,15,30783,2009-05-21T01:48:24,2018-09-01T10:32:01,2020-11-13T01:36:01,,Java,,,2,1,2012-04-16T03:33:13,f33100d0a45df52b4bb39a05d2b0de8a1f889dc6,false,false	
+caelum/calopsita,false,1064,4,master,0,4,,8,32,14,49864,2009-06-01T01:03:28,2012-04-23T04:03:01,2018-12-18T11:04:51,calopsitaproject.com,Java,2,2,1,0,2012-04-23T04:03:01,aedf8a8025aab2e8fe4f5c55efe93b3dbe123e65,true,false	
+hyperic/hqapi,false,1364,11,master,10,6,,16,31,20,19371,2009-05-20T09:37:03,2019-10-21T11:08:38,2018-03-08T02:39:34,http://support.hyperic.com/display/DOC/HQ+Web+Services+API,Java,1,1,22,1,2014-02-16T07:43:52,8e42c0f49ab526069d69258b1982177cceab9a62,true,false	
+apache/synapse,false,4336,29,master,0,13,,17,50,54,45181,2009-05-21T01:01:59,2023-03-03T09:44:05,2023-03-06T02:11:04,,Java,0,0,73,11,2023-03-03T09:44:05,610baef00b1824d7d1341491ecc7f7d9b15485d3,false,false	
+samxhuan/textrank,false,18,1,master,0,0,BSD 3-Clause New or Revised License,4,29,57,22886,2009-05-22T02:01:48,2020-03-24T10:47:28,2019-08-18T08:30:07,,Java,0,0,1,1,2009-05-21T11:26:07,9e92e0b03dc97b64810d7953a34c34511f25e3f6,true,false	
+apache/geronimo,false,13137,53,trunk,0,16,Apache License 2.0,11,33,23,167854,2009-07-01T08:09:43,2023-02-22T12:58:45,2023-02-23T04:30:09,,Java,0,0,23,19,2013-03-21T12:35:41,9a930877a047348d82ba5b3b544ffa55af5b150f,false,false	
+klbostee/feathers,false,18,1,master,0,4,,4,27,14,128,2009-06-06T04:23:26,2012-05-20T06:20:25,2017-08-23T06:58:34,,Java,4,2,4,0,2012-05-20T06:20:24,bec04ddef9a34fc980337d8187a0d1fb82f51b19,true,false	
+apache/maven-shared,false,3387,18,trunk,187,24,,7,27,44,13007,2009-05-21T01:21:13,2019-06-17T12:51:47,2020-04-26T02:56:45,,Java,0,0,26,6,2017-12-22T11:27:19,28046c02f72245d39bc2b873cc53745dc4ce872a,false,true	
+rmetzler/simple-java-petrinet,false,6,1,master,0,,,7,25,9,8,2009-07-10T07:14:13,2018-09-05T07:19:00,2020-07-20T06:17:50,http://twitter.com/rmetzler,Java,,,,,2018-09-05T07:18:59,880e4a4d5feb16c96fe6b1d69d3af38c75918fce,false,false	
+joshcough/scala-parallel,false,43,1,master,0,2,,5,25,1,14484,2009-07-01T12:05:28,2009-08-04T04:52:50,2019-08-27T09:25:11,,Java,1,1,0,0,2009-08-04T04:52:32,fbb098103a24ae36e07efb0579d9ea422d580717,true,false	
+mdoube/bonej,false,1904,19,master,44,4,,8,25,22,5722,2009-05-21T10:50:16,2019-05-10T06:19:25,2019-11-22T03:48:38,http://bonej.org/,Java,33,25,26,0,2019-05-10T06:19:21,17ee483603afa8a7efb745512be60a29e093c94e,true,false	
+sonatype/maven-guide-en,false,597,2,master,6,6,,19,22,23,67545,2009-06-27T08:14:17,2017-02-28T03:24:29,2020-08-10T08:32:39,,Java,0,0,2,1,2009-10-16T10:24:36,66c4f61d31fd1e6871763bf6dd409b7b83656f5c,true,true	
+metamolecular/mx,false,265,2,master,8,1,Other,5,21,11,2188,2009-06-18T08:06:10,2010-05-25T02:41:47,2019-12-15T05:53:26,htttp://metamolecular.com/mx,Java,18,6,0,0,2010-05-25T02:41:23,d9829c0fba895a604cc5ff9e471eff8b6263165c,true,false	
+ramblurr/lastfm-android,false,1161,1,master,0,9,,5,21,173,10121,2009-05-16T10:00:22,2011-11-08T02:34:59,2020-03-11T03:37:50,http://www.last.fm,Java,0,0,0,0,2011-10-21T11:14:30,c40cdde90c2f63c571d591703c38ec673e2f7ba6,true,false	
+dimagi/rapidandroid,false,144,2,master,0,2,,8,21,17,2115,2009-07-15T04:46:39,2011-06-03T10:38:12,2019-01-11T08:18:19,,Java,3,2,0,0,2010-07-08T08:53:06,5b42849e86b69fec619f11e96895fb6c062fe647,true,false	
+spullara/findmyiphone,false,3,2,master,0,0,,3,20,2,7,2009-07-03T07:15:23,2019-10-21T11:09:02,2016-11-12T06:00:08,http://www.javarants.com/,Java,0,0,1,1,2009-07-03T08:25:50,c9b5a80635db25fd7ba5ed995003314c146ea5e6,true,false	
+apache/struts1,false,5272,15,trunk,45,3,,9,20,54,29195,2009-05-21T01:36:19,2020-02-11T12:14:11,2020-01-11T12:20:26,,Java,0,0,5,5,2010-10-08T11:16:24,02c9ff7485b1900515c6e0b32ed54ea46dd97d51,false,false	
+stedolan/hax,false,16,1,master,0,,,3,20,5,667,2009-05-22T10:35:49,2016-11-28T01:03:42,2020-12-02T05:09:16,,Java,,,,,2016-11-28T01:03:33,cbb8605e49564c6cf3415ea71b19f215890d29ba,true,false	
+apache/maven-plugin-tools,false,1188,18,master,12,37,,29,42,51,3810,2009-05-21T08:41:42,2023-02-22T11:44:53,2023-02-21T07:48:32,https://maven.apache.org/plugin-tools/,Java,0,0,193,6,2023-02-22T11:44:51,ece2802b5af2c3be3a8e162c9aabc0324dd3df0a,false,false	
+gaffo/scumd,false,53,1,master,0,1,MIT License,3,19,6,8244,2009-05-07T06:45:07,2010-09-14T05:05:33,2019-08-13T02:24:44,,Java,0,0,2,0,2010-09-13T05:14:01,da8c8921f0fa6ad17fa57dcbc657106e04298b1b,true,false	
+apache/servicemix4-bundles,false,7583,200,trunk,0,12,Apache License 2.0,9,21,20,9089,2009-06-12T08:01:13,2023-01-02T09:52:18,2022-12-29T02:50:54,,Java,0,0,287,205,2015-02-10T02:17:29,9cda9b1334f9f38d74b529e92387b18855e3e41a,false,false	
+apache/attic-wink,false,895,5,trunk,12,7,Apache License 2.0,11,18,22,12479,2009-07-10T08:00:18,2018-12-10T08:49:38,2019-12-03T11:56:20,https://attic.apache.org,Java,0,0,3,2,2016-03-09T11:11:45,bafd9208fa87e6433254282d452a7f6e768f1bbb,false,true	
+ept/jxirr,false,7,1,master,1,2,GNU Lesser General Public License v2.1,4,18,27,146,2009-07-10T07:18:49,2014-07-14T01:50:54,2019-08-22T10:45:00,http://www.satpathy.in/jxirr/index.html,Java,0,0,1,0,2014-07-14T01:50:54,83157e78784290f0b8c1561eb49be37e55884197,true,false	
+rdclark/json-antlr,false,32,1,master,0,3,,3,18,13,4651,2009-05-27T03:04:01,2012-07-02T08:37:17,2018-02-09T07:46:18,http://www.antlr.org/wiki/display/ANTLR3/JSON+Interpreter,Java,0,0,3,0,2012-07-02T08:37:01,323c9336a74ebdc23510a4a1b3bbca0f9a9f2770,true,false	
+sptz45/circuit-breaker,false,76,1,master,1,1,Apache License 2.0,5,18,5,338,2009-07-04T05:56:18,2012-03-03T12:23:37,2019-05-23T09:31:43,http://www.tzavellas.com/projects/circuit-breaker,Java,6,2,0,0,2012-03-03T11:39:08,e088049c79c8477e0795d4d733577c99c6101ae9,false,false	
+nriley/jython,false,4200,1,invokedynamic,0,0,Other,5,17,1,20640,2009-05-27T07:14:29,2009-07-15T08:49:16,2019-08-30T03:45:08,http://www.jython.org/,Java,0,0,0,0,2009-06-02T01:34:46,b5f87d963384b62cb43bf56f90d0b6297af30b65,false,false	
+tomcz/example-webapp,false,181,1,master,1,1,MIT License,4,17,20,51148,2009-06-19T12:31:00,2012-08-06T01:59:11,2018-04-27T08:50:06,,Java,2,2,0,0,2012-08-06T01:58:40,03af1cf4413b1890ea3ca05dda3d0fcb294f4c9e,true,false	
+idega/com.idega.core,false,7985,17,master,0,12,GNU General Public License v3.0,15,17,9,16631,2009-06-28T03:22:17,2020-04-23T12:12:10,2019-01-23T08:41:04,http://www.idega.org,Java,3,0,0,0,2014-08-04T12:23:11,19665f0666f3c0f1a7ed21caaf522601286156c8,true,false	
+rafaeldff/iogi,false,227,3,master,4,9,Apache License 2.0,7,16,12,5394,2009-06-26T07:02:32,2019-12-04T05:43:21,2019-11-03T10:27:19,,Java,13,6,21,2,2015-10-06T09:10:07,5694075ef519c7842cc4038ecb1f0c57c479b7e6,true,false	
+apache/cocoon,false,13199,17,trunk,0,17,,11,22,22,364121,2009-05-21T02:12:25,2023-01-29T09:45:37,2023-01-21T04:53:05,,Java,0,0,41,7,2023-01-28T07:28:38,97e6d8028f76fdfc508fa90b3aca1d85a823e52f,false,false	
+apache/abdera,false,1500,11,trunk,12,2,Apache License 2.0,10,16,22,12255,2009-05-21T03:21:27,2020-11-26T09:21:34,2020-12-05T05:34:12,,Java,,,4,4,2017-04-06T12:20:19,8090fe09b0d0426e365325887a1aa0981816fb1d,false,false	
+stephenh/gwt-mpv-apt,false,146,2,master,23,2,,3,15,3,5078,2009-06-12T03:10:03,2011-12-29T06:03:40,2018-11-05T10:51:00,,Java,9,1,0,0,2011-12-29T06:03:38,56b7371ed779e104f43a7d4cf56d30496b4ead63,true,false	
+apache/geronimo-specs,false,1900,59,trunk,200,18,Apache License 2.0,6,15,26,9930,2009-07-01T08:00:27,2020-02-10T11:21:21,2020-01-29T03:46:45,,Java,0,0,14,9,2019-08-10T01:59:29,0f0956795ad0839ec698e11fd3a7049f0114623c,false,false	
+apache/maven-doxia,false,1862,14,master,1,37,,24,25,39,9265,2009-05-21T03:16:25,2023-03-05T03:05:06,2023-03-04T01:58:13,https://maven.apache.org/doxia/doxia,Java,0,0,155,9,2023-03-04T05:29:01,4457cbc389560bdb393331d46d3a1d282b41db1f,false,false	
+rjurney/cloud-stenography,false,38,1,master,0,0,,4,15,1,182863,2009-07-04T04:51:49,2010-06-24T02:57:50,2017-04-30T07:33:58,,Java,0,0,0,0,2010-06-24T02:57:46,d15e78c3763f04efd30b8bd21f3194d8a5b0d58c,true,false	
+gboissinot/gradleplugins,false,55,2,master,6,2,,2,15,26,44138,2009-06-24T08:50:57,2011-03-14T10:43:28,2018-01-18T12:49:51,,Java,0,0,0,0,2011-03-14T10:41:40,d39713440837be20b1aae22252ac52ae09d4917f,true,false	
+javabin/incogito,false,239,5,master,3,4,,14,15,5,1385,2009-06-21T05:52:22,2012-08-29T09:49:06,2019-07-07T05:50:07,,Java,3,3,0,0,2011-02-28T01:17:44,9c1397b0a8862dcd152c402f82d7827a65996ad9,true,false	
+lithium/alarming2,false,69,1,alarming-master,3,1,Other,2,14,5,740,2009-07-07T05:42:05,2010-02-04T07:48:58,2019-08-31T10:02:50,http://android.hlidskialf.com/software/alarming,Java,0,0,0,0,2010-02-04T07:46:53,9eb1ff5d50f3658ed329ea16d695822c64c4b9da,true,false	
+unclebob/environmentcontroller,false,2,1,master,0,0,,2,14,6,123,2009-05-27T07:51:01,2010-03-15T01:36:53,2020-04-19T08:59:59,,Java,0,0,0,0,2010-03-15T01:36:47,fa412ea125a1f2763fc526ef3f64cdc622d453c4,true,false	
+apache/servicemix4-features,false,1085,6,trunk,12,13,Apache License 2.0,7,14,7,3434,2009-06-12T08:03:43,2019-10-18T01:04:07,2019-07-11T02:08:56,,Java,0,0,1,1,2014-03-11T08:37:54,543dda985806e42702091722bee7599c3d85d288,false,false	
+johannesbuchner/jake,false,2222,2,master,1,5,Other,3,14,6,44501,2009-06-27T11:31:03,2011-07-07T01:51:12,2017-09-24T01:34:52,http://jakeapp.com/,Java,0,0,0,0,2011-07-07T01:47:06,3e682ef472f65a76eb3fa4f7c477b9cabf57da6d,true,false	
+ramblurr/mp3tunes-android,false,104,2,master,0,1,,2,13,3,534,2009-05-16T11:12:07,2009-07-03T06:15:02,2017-09-29T12:23:31,http://www.mp3tunes.com,Java,17,0,0,0,2009-07-03T05:58:43,5588742d2b50a08bef686670d72c9770eac7a69c,true,false	
+rkh/hadoop-scripting,false,187,1,master,0,3,Other,3,13,5,15484,2009-05-19T12:19:37,2009-09-01T02:45:46,2019-08-13T02:25:55,http://tinyurl.com/pig-jaql,Java,1,0,0,0,2009-09-01T02:45:18,33fb52b3f9722b850dc8cc5fcf720189bee70185,true,false	
+charleso/gitcc4j,false,77,4,master,0,1,GNU General Public License v2.0,4,13,8,1081,2009-06-16T10:15:41,2010-11-11T09:12:05,2020-01-12T05:43:13,,Java,1,0,1,0,2009-12-14T12:58:14,a8d3da444046f3880dd700fb40a030b7705f50c7,true,false	
+lhl/transita,false,13,1,master,0,1,,3,12,3,617,2009-06-04T06:24:51,2009-06-25T07:38:05,2016-02-20T03:01:53,http://transita.net/,Java,5,5,0,0,2009-06-25T07:37:30,0962caa881ec0aee097850f410cfffbd28a3b524,true,false	
+gatoatigrado/skalch,false,385,7,grgen_only,0,2,,7,12,1,5030,2009-06-16T03:19:43,2019-10-21T11:08:55,2020-04-18T01:23:55,https://ntung.com,Java,0,0,1,1,2010-11-30T05:52:38,a155e970c262d3a79ea279f9a04fa077a37d2630,true,false	
+apache/xmlgraphics-commons,false,607,26,main,0,5,Apache License 2.0,11,15,22,8592,2009-05-21T01:35:45,2023-02-23T04:29:50,2023-02-23T04:29:55,https://xmlgraphics.apache.org/commons/,Java,0,0,3,0,2023-02-23T04:29:47,61127efb535e6aaa6be8146dbe09d332f7faec4f,false,false	
+zendesk/zendesk-jira-plugin,false,183,8,master,11,1,Apache License 2.0,293,12,8,410,2009-06-19T06:44:12,2019-10-21T06:28:43,2019-07-03T08:47:05,,Java,0,0,1,1,2019-02-14T10:37:19,db822ba37f36d8e6704cdf1edc459aba1aa7bada,true,false	
+ayax79/jetty-deployer,false,33,1,master,0,2,,3,11,0,22,2009-05-27T07:03:13,2022-12-24T02:44:16,2022-12-24T02:44:00,,Java,0,0,2,0,2022-12-24T02:44:06,aef7f7b21deb61891787accd2e1f0d37fd247eb2,true,false	
+jadahl/jmdns,false,10,3,master,0,1,Other,3,11,7,356,2009-06-23T09:36:12,2010-05-13T11:53:45,2013-12-11T03:38:24,,Java,0,0,0,0,2009-06-23T09:55:28,5be9001289415367b6aa5ecbb5f1e1a6871b9eb1,true,false	
+thom-nic/openfire-jboss-clustering,false,43,1,master,0,1,Apache License 2.0,5,11,8,783,2009-06-15T03:44:25,2010-04-25T10:42:13,2017-02-02T07:16:47,http://wiki.github.com/tomstrummer/openfire-jboss-clustering,Java,9,5,0,0,2010-03-22T01:11:26,b4621c755c88f71e340285b004232aa61d681378,true,false	
+libfirm/jfirm,false,325,2,master,5,7,,4,11,4,6346,2009-05-22T09:39:42,2019-04-26T07:51:18,2020-04-09T02:37:14,,Java,0,0,3,0,2019-04-10T04:26:02,f629d75dd97b1095b2ae0b2ee488b7b8702a13a3,false,false	
+dound/envi,false,629,10,master,0,3,,7,11,2,19125,2009-05-09T01:43:39,2011-04-11T08:54:24,2019-08-13T02:25:08,http://www.openflowswitch.org/wp/gui/,Java,2,2,0,0,2011-04-09T11:24:53,3ad6718e455234fe69e37d34160e14a033924f56,false,false	
+drugis/addis,false,3228,19,master,74,11,GNU General Public License v3.0,3,10,7,13121,2009-05-29T11:47:35,2020-10-13T09:41:35,2019-08-15T02:45:05,http://drugis.org,Java,4,2,90,1,2016-11-14T11:32:02,68849179cfb7c8aa4a583bc3173d682edf2c2b9b,false,false	
+jadahl/smack-linklocal,false,32,3,master,0,1,,4,10,3,4873,2009-06-23T09:29:32,2010-05-13T11:59:38,2019-04-02T11:03:18,,Java,0,0,0,0,2009-07-13T06:08:18,405a3a75c938eba0c65aed661fe34bb7321c813c,true,false	
+fireeagle/j2me-oauth,true,11,1,master,0,1,Other,4,10,3,184,2009-05-13T01:47:52,2010-01-02T07:24:39,2019-08-13T01:55:19,,Java,1,1,1,0,2010-01-02T07:24:13,76ac731f4287a32f7f224117df49add5cb9e4df4,true,false	
+lacostej/mycitybikes-android,false,56,1,master,0,1,GNU General Public License v3.0,3,10,4,219,2009-06-15T06:56:27,2009-06-23T08:53:40,2018-01-22T06:42:47,,Java,0,0,0,0,2009-06-23T08:53:23,fbf1206f0d428e7b48388bee4ec74df08ce44641,true,false	
+jboner/aspectwerkz,false,10,1,master,3,1,Other,1,10,1,12384,2009-05-29T02:50:22,2011-03-29T04:25:12,2019-12-29T03:40:23,https://web.archive.org/web/20051230113712/http://aspectwerkz.codehaus.org/,Java,2,2,1,0,2011-03-29T04:25:11,61abda20194d5de527d36371c26c42311d445a67,true,false	
+struberg/maven-scm-providers-git,false,54,1,master,0,1,,3,10,3,958,2009-05-07T08:34:21,2009-12-03T11:58:58,2019-08-13T02:24:45,http://maven.apache.org/scm/,Java,0,0,1,1,2009-12-03T11:58:16,a4cfbd998cbeea5391551c5ce8437b78789487ff,true,false	
+apache/maven-plugin-testing,false,231,3,master,0,21,,28,15,40,352,2009-05-21T02:08:54,2023-02-15T08:04:04,2023-02-15T09:31:25,https://maven.apache.org/plugin-testing/,Java,0,0,26,0,2023-02-15T08:04:02,17f6e0d1c423d4a78a1321ea3e7d7889c6b3178b,false,false	
+novoda/android-demos,false,368,19,master,4,28,Other,240,1961,689,90963,2009-07-26T09:42:10,2020-02-06T09:54:25,2020-04-26T05:33:16,www.novoda.com/blog,Java,10,2,49,2,2019-06-15T06:35:50,f3999dcb3170617dda1ef3915c8ae0d8040f83a4,true,false	
+qos-ch/logback,false,4374,38,master,0,104,Other,161,2634,1186,29172,2009-08-20T06:48:24,2023-02-02T06:50:10,2023-02-04T12:58:38,http://logback.qos.ch,Java,0,0,604,199,2022-12-11T09:17:42,bba7a908c87a4a483860f6d49695ec2348c56e49,false,false	
+commonsguy/cw-advandroid,false,189,1,master,16,2,Other,164,1469,1233,8411,2009-08-15T04:47:01,2018-04-13T06:22:38,2020-12-09T06:49:57,http://commonsware.com/AdvAndroid/,Java,,,4,0,2013-06-27T10:17:55,ab8e52a00413592b99a7bb9f93050bee760f289f,false,false	
+qos-ch/slf4j,false,2048,12,master,0,72,MIT License,114,2098,926,11938,2009-08-20T04:25:49,2023-02-24T06:30:08,2023-03-06T11:04:51,http://www.slf4j.org,Java,0,0,316,112,2022-12-19T07:40:13,a5540ad51066b4b15132fdf27ead630519541d35,false,false	
+commonsguy/cwac-merge,false,74,1,master,14,3,Apache License 2.0,44,595,129,96,2009-07-22T04:31:51,2019-05-17T12:35:15,2020-04-15T12:10:37,http://commonsware.com/cwac,Java,19,2,6,0,2019-05-17T12:35:15,50421fe41103c5c7256ed13523b477480fe8cd6a,true,false	
+aptana/pydev,false,6493,11,development,54,24,Eclipse Public License 1.0,35,244,89,47303,2009-08-20T06:20:05,2020-12-02T06:08:31,2020-11-26T09:11:03,http://www.pydev.org,Java,,,55,6,2020-06-09T06:47:37,84806d27132f93bbaa317cc7f156f4c8070b94d0,false,false	
+konklone/congress-android,false,1689,3,master,59,7,Other,13,146,41,32489,2009-08-12T05:48:29,2019-08-02T10:18:21,2020-02-16T12:40:30,https://play.google.com/store/apps/details?id=com.sunlightlabs.android.congress,Java,713,55,54,4,2019-03-17T09:47:42,ad92a34264659c7ccab2d63b6c1609bdf984c4dd,false,false	
+beberlei/netbeans-php-enhancements,false,47,1,master,0,3,Other,10,107,24,197,2009-07-30T06:52:00,2017-04-17T06:40:45,2020-11-27T09:44:52,,Java,22,16,3,1,2012-06-18T09:10:30,ded6cd89e606c2d56556c701a8426423ea05cae9,false,false	
+jponge/lzma-java,false,46,2,master,4,4,Apache License 2.0,11,66,16,378,2009-08-20T04:32:33,2019-01-28T02:14:19,2019-12-30T03:20:22,http://jponge.github.com/lzma-java,Java,6,5,9,0,2014-01-21T03:24:25,763aeed49d92ca607c5c1e09fce7af611d59f2aa,false,true	
+magnayn/hudson-git-plugin,false,299,4,master,4,9,,4,48,922,4044,2009-07-22T01:56:40,2020-04-27T02:23:23,2020-01-12T05:43:13,http://wiki.hudson-ci.org/display/HUDSON/Git+Plugin,Java,19,15,2,2,2009-11-27T10:16:53,7d462448e9919ab438c0a47ed4cf294358e1b55e,true,false	
+momania/spring-rabbitmq,false,10,1,master,0,1,,8,48,24,112,2009-07-21T07:39:08,2009-07-29T11:19:50,2019-09-05T03:20:55,,Java,0,0,0,0,2009-07-29T11:19:27,7466b786c4885ae9948065550a4ce19be2e917ac,true,false	
+ralphleon/teatimer,false,71,3,master,0,4,,5,46,27,1674,2009-07-29T11:12:37,2013-09-16T01:34:13,2020-01-04T02:32:40,www.solidsushi.com,Java,4,3,6,1,2013-07-27T03:24:48,63dc4a82bce3e4a2f6271241764c1749f72bcdeb,true,false	
+joshsh/twitlogic,false,444,1,master,2,1,Other,7,45,6,6038,2009-08-11T11:54:58,2014-09-16T07:21:35,2019-10-08T08:18:04,http://twitlogic.fortytwo.net,Java,8,3,0,0,2014-09-16T07:21:32,60a3ae51ef23bd6e5d7f3932bc649415e4114668,true,false	
+league/lzmajio,false,52,3,master,7,1,,6,43,22,289,2009-08-11T05:05:42,2010-07-05T08:40:42,2020-03-18T09:18:01,http://contrapunctus.net/league/haques/lzmajio/,Java,0,0,0,0,2009-11-02T08:46:47,bfea68ba7f061c2cbcfded2c8e9c3a3f91436b91,true,false	
+factorylabs/ruby-mine-settings,false,57,1,master,0,1,,4,37,7,800,2009-08-05T03:13:33,2011-03-27T05:26:09,2020-04-06T03:42:27,,Java,0,0,0,0,2011-03-27T05:25:57,4eac07a3064ac5c5d0cca24bc5e65dec6ca89592,true,false	
+apache/xmlbeans,false,1838,10,trunk,0,6,Apache License 2.0,11,44,52,66245,2009-08-06T08:06:50,2023-03-04T01:38:15,2023-03-02T10:46:38,,Java,0,0,8,1,2023-03-04T01:38:12,805436eedb60c466baa7a675cabf835475a7547f,false,false	
+tryggvil/eucalyptus,false,21,3,master,0,1,GNU General Public License v3.0,5,31,7,1022,2009-07-27T02:06:57,2019-10-21T11:08:31,2018-01-20T01:24:09,,Java,0,0,1,1,2009-09-02T01:35:15,7a865255ac0379a963dfaaf93dd5231ad6978567,true,false	
+rictic/mario-ai-competition-2009,false,268,10,master,0,5,,7,30,21,7560,2009-08-08T10:15:17,2009-08-31T06:26:39,2019-09-02T02:07:11,http://julian.togelius.com/mariocompetition2009/index.php,Java,0,0,0,0,2009-08-31T06:19:15,a6664ae40de25f2319d649e77132940eedc54d5e,true,false	
+tims/lasthbase,false,16,1,master,0,2,,8,28,8,6268,2009-07-28T02:10:24,2011-10-28T08:09:18,2018-06-26T11:47:20,,Java,2,2,2,0,2010-10-14T01:47:11,9c287d7363175c25727c6d3b9deda29ea4a557b7,true,false	
+ctrlaltdel/tahoelafs-android,false,44,1,master,0,3,,5,28,7,347,2009-08-18T05:00:19,2010-07-15T11:53:57,2019-07-15T08:41:54,,Java,0,0,0,0,2010-07-15T11:53:39,b1955f0d890d2cc1bb880d31c1af71bad9be8e29,true,false	
+mrdon/maven-trap,false,86,1,master,3,3,,3,27,8,245,2009-07-17T02:49:48,2011-05-19T02:30:00,2019-08-13T02:27:03,,Java,6,5,3,2,2011-05-19T02:30:00,96e9700fd25b246ca352ecae404176125706ef6c,true,false	
+bradfitz/android-squeezer,false,43,1,master,0,2,,6,28,62,29790,2009-08-11T09:09:54,2020-11-08T07:12:23,2020-11-29T03:41:15,,Java,,,3,1,2010-11-05T07:34:44,b9c00ee0de12ea39b19c0b71b89e45eb97a308c8,false,true	
+erikwt/parandroidmessaging,false,910,6,master,3,13,Other,4,25,7,7319,2009-08-13T12:57:41,2011-02-21T11:18:48,2020-04-17T12:44:50,http://www.parandroid.org,Java,20,12,0,0,2011-01-21T09:18:38,a767678955fc6fb4ababcf9d1cec0f688258416b,true,false	
+fabrantes/rockon-android,true,22,3,master,0,1,,5,24,13,612,2009-07-27T11:19:23,2009-08-25T11:32:58,2019-05-09T12:52:29,http://abrantix.org/rockon.php,Java,8,8,0,0,2009-08-25T11:22:09,5b17606d56c74cd2d10bb7736fa71aa716965842,true,false	
+101tec/nutch,true,1108,20,nutch-gui,4,7,Apache License 2.0,9,21,3,78486,2009-08-05T08:14:22,2010-02-18T11:30:12,2019-07-14T01:54:28,,Java,0,0,0,0,2010-02-18T11:30:02,3abda0c617b7c9b78ca4f0b7792d402742ca54c0,true,false	
+sorbits/visual-fortune-algorithm,false,4,1,master,0,1,,3,18,13,377,2009-08-06T10:26:19,2009-08-06T11:34:40,2020-04-23T02:45:38,http://www.diku.dk/hjemmesider/studerende/duff/Fortune/,Java,0,0,0,0,2009-08-06T11:31:32,2fefcf31e5878bea6012ad8828509632df7c00f1,true,false	
+irrenhaus/android_packages_apps_launcher,false,132,3,master,1,3,Other,5,18,192,3812,2009-07-26T01:38:53,2009-09-15T04:52:35,2019-08-27T05:40:21,,Java,0,0,0,0,2009-09-15T04:52:05,5cba2303a49cad9d75d9a21f7e45462ae1eedd42,true,false	
+practicalarduino/rfidaccesscontrolsingle,true,9,1,master,0,1,,8,17,6,167,2009-08-12T11:59:24,2010-12-09T01:02:22,2018-10-30T05:13:29,http://www.practicalarduino.com/,Java,1,1,0,0,2010-12-09T01:02:13,626d928d2b1361cf088438fae5119318a25b90d9,true,false	
+mknittig/ereviewboard,false,61,1,master,0,2,,2,17,5,2170,2009-07-20T06:34:47,2010-04-29T10:06:17,2017-07-31T02:51:54,,Java,6,3,1,0,2010-04-29T10:06:11,d457b90fe95e881688930d342c105cf1f22d8bae,true,false	
+danlucraft/java-mateview,true,456,4,master,0,5,,2,17,5,14923,2009-08-16T08:19:20,2011-02-22T01:52:09,2019-08-13T02:27:32,http://redcareditor.com,Java,0,0,2,0,2011-02-22T01:51:51,0f0083321aee01e951675a2e37ab89ae2098e6df,true,false	
+superfeedr/superfeedr-java,true,26,3,master,0,3,,6,16,2,989,2009-07-30T12:32:04,2011-07-01T04:00:15,2015-01-22T12:59:22,,Java,0,0,1,0,2011-07-01T04:00:15,37880986189163c3d096d7da43253619d294ed71,true,false	
+dahie/dds-utils,false,268,3,master,0,2,GNU General Public License v3.0,5,20,6,26066,2009-08-07T08:29:37,2022-10-12T05:24:52,2022-10-12T05:24:59,,Java,16,8,1,0,2022-10-12T05:24:52,7d5e47789d9843d967bd3a6f35ba154968c62e29,true,false	
+goerz/pdfwritebookmarks,false,20,1,master,0,2,GNU General Public License v2.0,3,14,8,6317,2009-08-06T03:39:21,2018-01-19T03:14:20,2020-01-14T03:18:15,,Java,0,0,7,0,2018-01-19T03:14:19,f4758e1f541d8f0c90929ed1015e448138ce2fd8,true,false	
+joseribeiro/jstryker,false,92,1,master,6,3,,4,13,8,342,2009-08-07T10:27:35,2014-02-11T11:36:54,2017-01-15T05:20:29,,Java,21,9,3,0,2014-02-11T11:36:54,0925b68b54370fcf37c56bb33457999c4fc536b2,true,false	
+tanob/jxydiff,false,9,1,master,0,1,,2,13,5,4032,2009-07-28T12:21:58,2009-10-23T01:22:02,2019-10-16T04:08:26,,Java,0,0,0,0,2009-10-23T01:14:58,4a4856f71063ca46a613cad290301fcad67caff2,true,false	
+freenet/plugin-library,false,1082,7,master,0,13,,14,14,20,3687,2009-07-27T11:07:54,2021-10-24T07:12:38,2021-10-24T07:12:42,,Java,1,1,20,6,2021-10-24T07:11:05,cd45f9a5634c82e693d5fe1a870ad6120b9fe980,true,false	
+nlothian/rtupdates,false,7,1,master,0,0,,2,11,0,18922,2009-08-20T02:11:39,2009-09-10T06:16:53,2016-08-15T07:48:08,http://interactiondemo.appspot.com,Java,0,0,0,0,2009-09-10T06:16:39,dcfff4dbaf96d8e7934e73f4ca1480d045adf0fc,true,false	
+arosien/failure,false,6,1,master,0,0,Apache License 2.0,3,11,1,84,2009-08-19T04:24:43,2009-09-22T11:58:42,2016-12-27T02:50:26,http://github.com/arosien/failure,Java,0,0,0,0,2009-09-22T11:58:29,c215dde4c3e877ee7dcd39216105de722afde537,true,false	
+yawn/amqp-spring,false,34,1,master,0,0,,1,10,4,135,2009-07-20T02:37:17,2009-08-25T02:57:13,2018-08-19T01:40:25,,Java,7,4,0,0,2009-08-25T01:20:46,76ce7c07589bc3ed6a047275072cc7daf4f943b7,true,true	
+a1k0n/mario-ai-competition-2009,true,268,10,master,4,5,,8,10,1,840,2009-08-12T03:26:03,2009-09-04T02:44:41,2013-10-28T04:34:47,http://julian.togelius.com/mariocompetition2009/index.php,Java,0,0,0,0,2009-08-31T11:20:21,95ea0da50d7391e53454b907d53c0e706a4cb049,true,false	
+mdonoughe/jnotify,false,138,1,master,0,2,,3,10,1,492,2009-08-12T10:14:06,2009-12-03T08:53:15,2020-03-06T06:55:12,http://jnotify.sourceforge.net/,Java,0,0,0,0,2009-12-03T08:52:01,28a42495e6e5ef627aed32c05f35e31d62dab2c5,true,false	
+apache/shiro,false,2345,66,main,0,58,Apache License 2.0,225,3951,2254,26498,2009-08-29T08:00:17,2022-10-21T05:57:01,2022-10-24T06:41:35,https://shiro.apache.org/,Java,0,0,488,45,2022-10-10T09:29:18,0d27bd0172c3e9cd53528ccf000c8fef0d5f8e24,false,false	
+haraldk/twelvemonkeys,false,1546,15,master,32,26,BSD 3-Clause New or Revised License,90,1584,279,296943,2009-09-03T05:44:28,2023-03-01T08:54:41,2023-03-07T07:02:56,http://haraldk.github.io/TwelveMonkeys/,Java,609,47,126,6,2023-03-01T08:54:36,77c98c917efd6ba97e571cd3dfc146344bd9e371,true,false	
+fusesource/jansi,false,469,8,master,0,30,Apache License 2.0,36,938,127,1948,2009-09-05T10:10:52,2022-10-11T09:49:00,2022-10-11T01:49:56,http://fusesource.github.io/jansi/,Java,152,20,87,2,2022-06-02T07:45:53,00e15cb1fab9117790580a412f7d54f2c08d2f11,true,false	
+flori/json,false,992,7,master,59,77,Other,31,638,318,3716,2009-08-24T10:21:39,2023-03-08T11:23:18,2023-03-04T08:39:12,https://flori.github.io/json,Ruby,287,55,231,17,2023-03-08T11:23:18,248bc5bf7ea597d7a20396a8def855a1988bf490,true,false	
+sitemesh/sitemesh3,false,273,1,master,4,9,,54,465,162,6188,2009-09-03T11:26:31,2021-01-13T03:54:19,2021-01-14T01:11:14,http://www.sitemesh.org/,Java,102,50,24,6,2015-05-29T06:00:10,ce6f3cea433db8678b0e47c063e3ae1bd835d362,true,false	
+yaxim-org/yaxim,false,1531,5,master,0,16,GNU General Public License v3.0,61,478,245,16638,2009-08-23T04:38:52,2023-03-07T02:03:12,2023-03-07T02:03:18,https://yaxim.org,Java,255,67,26,6,2023-03-07T02:01:25,ead71a2d4df48eb9626a80b37090389a7bd2061e,true,false	
+cucumber-attic/gherkin2,false,1832,40,master,121,88,MIT License,42,389,230,8847,2009-09-01T12:42:05,2016-05-26T04:55:57,2020-12-05T03:15:10,,Java,211,36,138,12,2016-05-26T04:55:52,6c8d2fa293bd40b0a67e8dc00cf2ea68dadce607,true,true	
+talklittle/reddit-is-fun,false,773,1,master,10,23,GNU General Public License v3.0,18,371,169,7082,2009-08-21T12:59:24,2012-03-03T02:52:41,2020-02-23T03:35:28,,Java,251,77,29,5,2012-03-03T02:52:41,ea65ab47bea3a4c79ddeafd081c12c0c5c056f30,true,false	
+twilio/twilio-java,false,2183,7,main,202,103,MIT License,73,417,405,39393,2009-09-15T06:04:28,2023-02-22T07:58:03,2023-02-13T10:13:20,https://www.twilio.com/docs/libraries/java,Java,267,8,465,4,2023-02-22T07:57:57,17cc9630255230b31764427e5fe043ff3ea14b74,false,false	
+webmetrics/browsermob-proxy,false,197,2,master,7,16,Apache License 2.0,29,218,628,4064,2009-09-12T03:11:07,2017-09-11T05:57:27,2020-10-30T05:02:26,https://github.com/lightbody/browsermob-proxy,Java,82,39,48,3,2013-07-02T05:24:14,a9252e62246ac33d55d51b993ba1159404e7d389,true,false	
+projectccnx/ccnx,false,11113,2,master,32,4,Other,44,159,66,19138,2009-09-17T05:17:23,2020-10-13T08:55:24,2020-06-21T05:52:38,http://www.ccnx.org,Java,,,2,1,2014-04-01T05:56:53,5be2b715d0cc6bb4b7c6bb7459d311bddff46834,true,false	
+poidasmith/winrun4j,false,630,2,master,1,5,,25,167,62,8077,2009-08-26T09:08:18,2019-01-13T04:23:55,2020-11-27T05:04:15,http://winrun4j.sourceforge.net,Java,83,54,13,4,2018-09-19T10:46:54,758315f8621dc03b44c86ebce14e5ca335c2d31b,true,false	
+felis/usb_host_shield,false,58,2,master,0,2,,25,145,69,731,2009-08-26T04:08:02,2012-06-13T12:34:15,2020-04-22T06:16:38,http://www.circuitsathome.com/category/mcu/arduino/usb-shield,Java,4,2,3,1,2012-06-13T12:34:14,880773a1cfd5a521f97493b0e4de7f243a2c2925,true,false	
+jpmoresmau/eclipsefp,false,2524,4,master,33,16,,16,140,25,28414,2009-09-02T01:13:31,2020-10-18T12:19:53,2019-08-13T02:27:53,http://eclipsefp.github.com/,Java,,,57,1,2015-05-14T12:46:43,2875908f7c7846094fb3df930b81647d859b8f62,true,false	
+sitemesh/sitemesh2,false,474,1,master,0,7,Other,26,126,87,15045,2009-09-04T04:23:05,2018-10-17T02:40:55,2020-07-10T10:06:50,http://www.opensymphony.com/sitemesh,Java,21,21,16,8,2013-03-13T03:58:43,f13d79fecae1d71b36ac8ab5b95b82a49ef2d55b,true,false	
+yusuke/sign-in-with-twitter,false,4,1,master,0,2,,14,92,69,118,2009-08-30T01:07:32,2020-02-11T04:35:03,2020-02-10T02:49:57,http://yusuke.homeip.net/twitter4j/,Java,3,3,3,2,2011-03-31T08:12:21,25bede5aaa1374326c8688b8963c98ad2b52bedf,true,false	
+poidasmith/xlloop,false,536,3,master,1,4,,21,85,47,3984,2009-08-26T09:06:38,2019-11-18T02:24:44,2020-04-22T09:45:43,,Java,33,25,8,1,2018-03-10T01:21:14,959f8b863a0d6a4c0857c5112d046e0a39132282,true,false	
+ericthorsen/enclojure,false,243,18,master,6,3,,12,84,15,87907,2009-08-31T07:15:03,2011-05-16T03:38:45,2020-04-14T09:54:45,www.enclojure.org,Java,12,11,3,2,2011-04-27T09:03:50,a938abfd4ab2529fec7bccde11ea4dea2e5f65bf,true,false	
+konklone/campyre,false,385,2,master,5,6,BSD 3-Clause New or Revised License,5,69,26,7833,2009-09-18T06:17:39,2013-08-29T02:09:37,2020-02-16T03:10:28,https://play.google.com/store/apps/details?id=campyre.android,Java,141,19,7,0,2013-08-29T02:09:37,44d8461cd227c01fdffcc9a06ec1759efb7ff843,true,false	
+"barryvan/cssmin,false,48,2,master,0,5,Other,8,58,9,287,2009-09-08T03:43:25,2017-09-04T11:36:07,2020-02-02T07:36:56, 	 http://barryvan.github.com/CSSMin,Java,15,2,7,0,2017-09-04T11:36:07,0794af2619507d19bf31e32e12b3d2db2705ac33,true,false"	
+davidw/hecl,false,1068,9,master,0,,Apache License 2.0,9,46,9,20352,2009-08-24T10:17:33,2015-11-25T12:11:53,2020-06-11T06:28:28,http://www.hecl.org,Java,6,4,1,1,2010-09-10T04:03:00,ba81ffc962cc76dd99f5e78945d6776b98350fa0,true,false	
+gistinc/twitterclient,false,17,2,master,0,,Apache License 2.0,3,45,46,1609,2009-09-21T08:34:27,2018-10-23T05:35:17,2020-09-03T08:02:54,,Java,0,0,3,1,2010-12-14T12:44:45,d238743485a6f06ccbcb97438337671e0a46e793,true,false	
+piece/makegood,false,1801,7,master,32,3,,19,44,18,7834,2009-09-15T08:00:46,2020-10-13T09:24:26,2019-02-10T03:13:53,https://github.com/piece/makegood/wiki,Java,89,42,5,3,2016-01-17T08:58:02,55c47a42a2d4f48b55348d02a9820b21542fc3ab,true,false	
+flyerhzm/contactlist,false,73,1,master,0,2,MIT License,7,44,17,260,2009-09-19T01:31:05,2014-05-13T02:05:02,2020-02-24T06:58:22,http://code.google.com/p/contact-list/,Java,17,13,0,0,2014-05-13T02:04:50,f5467fa569da362b3a6f14fdae7aa8c0af92e797,true,false	
+nloko/syncmypix,false,303,4,master,33,3,GNU General Public License v3.0,6,42,23,1758,2009-08-29T07:02:53,2012-10-20T03:00:33,2018-10-28T12:55:10,,Java,4,4,3,0,2012-10-20T08:13:57,d9ad5bc3a2ad303464cfc2ac96394bbb3058deba,true,false	
+headius/surinx,false,28,1,master,0,1,,2,41,3,104,2009-08-26T09:11:17,2009-09-11T12:53:27,2019-08-13T02:27:44,,Java,0,0,0,0,2009-09-11T12:53:01,6ba40c50ac05d0c86333344f40f48fe18c658087,true,false	
+ravn/jsocks,false,39,2,master,0,1,,7,40,48,290,2009-09-07T01:05:56,2022-12-18T04:44:40,2022-12-18T04:43:46,,Java,4,2,3,2,2022-12-18T04:43:40,d8956c155c0d674a965d509ea3e6785ed625de68,true,false	
+harikrishnan83/rapa,false,109,2,master,0,3,Other,5,38,8,21652,2009-09-13T11:50:17,2013-10-02T01:42:46,2020-07-01T08:19:31,http://wiki.github.com/harikrishnan83/rapa/,Java,3,1,0,0,2013-10-02T01:42:33,31b720ccea598c9716667307911c3c51e400874b,true,false	
+akerigan/born-again-snark,false,9,2,master,0,1,GNU General Public License v2.0,7,34,13,668,2009-09-07T07:07:05,2009-10-03T10:45:24,2019-12-18T06:42:06,,Java,0,0,0,0,2009-10-03T10:45:07,0e325a6457727d353b106cb106aa528fecc2216d,true,false	
+cflewis/infinite-mario-bros,false,12,4,master,0,1,Other,3,31,23,730,2009-08-28T08:45:14,2019-01-24T04:58:56,2020-04-25T02:49:29,,Java,1,0,3,1,2019-01-24T04:58:45,720126ee4c710594e6cda7729c92eae4fb9003a5,true,false	
+nzakas/combiner,false,2,1,master,0,1,,5,31,9,131,2009-09-19T08:22:27,2014-04-25T04:04:11,2018-11-15T05:57:16,http://www.nczonline.net/,Java,0,0,0,0,2014-04-25T04:04:10,16cc263707be93163984228fdb45cfa59ebd4d00,true,true	
+aptana/studio2,false,641,2,master,7,3,Other,19,27,12,68175,2009-09-01T10:19:43,2011-07-06T08:57:10,2020-02-06T01:11:01,http://www.aptana.com,Java,0,0,0,0,2011-07-06T08:55:17,cbb2d6ab9176cc4078539f04d4bbd518b4aa6e86,true,false	
+nathankerr/hadoopgis,false,11,2,master,0,1,MIT License,3,27,6,145,2009-08-31T10:45:25,2009-10-21T11:17:20,2019-04-18T12:34:48,,Java,0,0,0,0,2009-10-21T11:16:54,80880670a5c93a27b71e2bc036021f74373e4804,true,false	
+abstrakraft/android_build,false,89,4,master,0,3,,4,28,1287,27063,2009-09-08T03:59:35,2016-12-12T08:06:45,2020-09-23T04:20:53,http://forum.xda-developers.com/showthread.php?t=518851,Java,,,3,3,2009-09-12T06:28:07,c059bc66e0a5a6f699f54780e3d478ab10ae114b,true,false	
+aisrael/junit-rules,false,109,2,master,4,1,MIT License,2,25,8,1102,2009-08-29T02:36:21,2012-03-01T08:06:37,2019-04-11T02:19:02,http://wiki.github.com/AlistairIsrael/junit-rules,Java,0,0,1,0,2012-03-01T08:00:35,9a20f5b245c3f4e346ea01d571481318b59a19a4,true,false	
+aptana/studio2-rcp,false,122,2,master,5,2,Other,19,23,5,7769,2009-09-02T01:24:22,2011-03-25T04:35:44,2018-10-11T10:14:31,http://www.aptana.com,Java,0,0,0,0,2011-03-25T04:35:37,00d7046ae4b4c2203ce20d8b2f25038a6f8173f8,true,false	
+ghelmling/beeno,false,59,4,master,0,1,Apache License 2.0,4,23,11,26302,2009-09-08T10:34:05,2012-07-11T04:16:50,2018-06-11T03:59:17,http://ghelmling.github.com/beeno,Java,4,4,0,0,2010-03-05T07:00:59,0ddf54511da0fb0dd1f0af596d0c5af482cce69e,true,false	
+qos-ch/cal10n,false,92,1,master,12,5,MIT License,4,21,20,1091,2009-08-28T08:16:31,2019-04-29T05:18:56,2018-09-13T03:57:49,http://cal10n.qos.ch,Java,0,0,11,4,2013-04-28T01:07:51,22c048801fb6d04c991a0c8c01bb6fb97ef50b37,false,false	
+jetbrains/jps,false,361,5,master,0,4,Apache License 2.0,127,24,8,31333,2009-09-01T04:34:40,2023-02-01T02:44:04,2023-02-01T02:36:02,,Java,0,0,1,0,2023-02-01T02:44:01,a17bf38a66ae06af1ad65807215d7f24fca3a23b,true,false	
+bjrke/jsr305checkstyleplugin,false,60,2,master,11,3,GNU Lesser General Public License v2.1,3,20,8,10707,2009-09-16T04:28:46,2019-03-02T06:01:46,2020-02-28T02:19:59,,Java,18,8,6,1,2019-03-02T06:01:42,6addd3b26446459b7aacb454281cf972ec880aba,true,false	
+njbartlett/osgi_in_practice,false,3,1,master,0,1,,4,20,12,1094,2009-09-12T10:10:36,2009-10-26T09:09:37,2018-08-30T06:27:43,,Java,0,0,0,0,2009-10-26T09:08:11,43a06fe15e127b31f5476f149e147ca76dc39e34,true,false	
+aptana/radrails,false,380,2,master,7,2,Other,18,19,7,21830,2009-09-03T04:53:36,2011-07-06T01:43:55,2018-12-16T08:33:08,http://www.aptana.com/,Java,0,0,0,0,2011-07-06T01:42:09,ba91c201f51d5c28d65958600ea95874b776cebc,true,false	
+bnewport/samples,false,309,7,master,1,1,,6,19,18,9226,2009-08-25T09:21:53,2014-11-24T01:25:49,2018-12-20T01:39:58,http://www.devwebsphere.com,Java,4,2,0,0,2014-11-24T01:25:37,352884ef1cacaa3f2dde07c1c8ebfe17d65f4a17,true,false	
+goober/coordinate-transformation-library,false,33,1,master,2,3,Apache License 2.0,6,17,23,144,2009-09-07T07:20:14,2016-04-08T09:25:05,2019-11-21T11:42:08,,Java,2,0,5,0,2016-04-08T09:25:05,f5b4d40e4a5c89bf411be5fb93bd74ea3aa1898b,false,false	
+lenn0x/cassandra-hadoop-bmt,false,2,1,master,0,1,MIT License,2,17,0,80,2009-08-25T02:25:52,2009-08-25T02:52:01,2019-08-13T02:27:43,http://www.digg.com/,Java,0,0,0,0,2009-08-25T02:51:48,9bd88ca7e2faf09454500bed2335ae3514df4818,true,false	
+dolda2000/haven-client,false,1305,3,master,0,1,Other,4,18,22,10602,2009-09-01T01:19:36,2022-11-01T08:21:32,2022-11-04T03:25:23,http://www.havenandhearth.com/,Java,0,0,0,0,2022-11-01T08:20:38,0fcceaf00da523576482cf97625d5a0eef8dfaae,true,false	
+johannilsson/iglaset,false,628,4,master,3,2,,5,16,13,2212,2009-08-23T09:19:26,2011-01-26T09:00:57,2019-04-25T04:06:15,http://iglaset.se,Java,32,7,0,0,2011-01-26T09:00:51,2761fe62f013bcbd62f12102084ffed934f19800,true,false	
+apache/activemq-protobuf,false,53,1,trunk,3,3,Apache License 2.0,19,16,10,157,2009-09-07T08:03:51,2017-08-23T07:05:50,2020-02-26T03:29:27,,Java,0,0,0,0,2017-08-23T07:05:28,3a22cd72dc5344451500dbd376403d1dbd843bb6,false,false	
+progman32/evdev-java,false,17,1,master,1,1,,5,14,8,312,2009-09-03T06:01:13,2010-03-13T02:43:34,2020-02-18T10:37:54,,Java,2,2,0,0,2010-03-13T02:42:20,ad7a0a9a386439944026495b017012cea4dcad0c,true,false	
+breskeby/eclipseplugins,false,28,1,master,0,0,,1,14,1,258,2009-09-08T02:52:42,2010-03-03T10:01:54,2017-04-12T08:30:41,,Java,5,4,0,0,2010-03-03T10:01:41,f7db0a4543903e44757353fdfc8a6a43ec814b28,true,false	
+znerd/lessc2java,false,136,2,master,13,,BSD 2-Clause Simplified License,2,14,5,113,2009-08-25T07:57:22,2020-09-14T06:34:54,2017-10-13T08:43:39,,Java,7,3,3,1,2013-07-06T09:17:57,8510f201dc42c4636808f621c774295082664d8f,true,false	
+mleyton/skandium,false,9,1,master,0,2,GNU General Public License v3.0,2,14,9,1052,2009-09-14T07:11:42,2011-11-23T07:07:34,2019-05-20T01:09:29,http://skandium.niclabs.cl,Java,4,4,3,0,2011-11-23T07:05:46,8bce98adbb7ef995c64cc02cf4d22aa347f4666c,true,false	
+n0npr0phet/batesmaster,false,27,2,master,0,2,,6,13,4,8830,2009-09-03T09:42:11,2009-09-17T02:07:02,2019-04-12T03:22:35,http://batesmaster.com/,Java,12,11,0,0,2009-09-17T02:06:23,c5a2f8d4301be2a8d545a95b157a3e81fa1c7d52,true,false	
+ntoll/jfluiddb,true,36,1,master,0,2,Other,2,12,2,429,2009-08-24T01:07:47,2010-06-10T10:02:33,2014-08-20T10:42:21,,Java,0,0,0,0,2010-06-10T10:02:25,8c73f2ac9686ae46ec7df8770e4b536fb3297b97,true,false	
+smartitengineering/smart-cms,false,1017,1,master,0,4,GNU General Public License v3.0,1,12,12,2542,2009-09-23T04:39:16,2014-02-26T02:23:51,2017-08-22T07:49:06,http://smart-cms.org,Java,0,0,0,0,2014-02-26T02:22:10,5eab96d2a28eedfc74d1b8e779397421c8b54c6e,false,false	
+brunoborges/camel-twitter,false,30,1,master,1,2,,3,12,5,943,2009-09-22T01:08:17,2014-05-16T01:06:29,2015-03-25T03:55:17,,Java,4,0,0,0,2014-05-16T01:06:28,f5c112ee0f34cebacd1b7e29eb21d88a11c4589d,true,false	
+mcrisc/mock-resultset,false,25,1,master,0,3,MIT License,3,13,8,24,2009-09-07T12:01:33,2021-06-26T06:30:29,2021-06-26T06:30:32,,Java,0,0,4,0,2021-06-26T06:30:29,e20d59317848e889b44476683180ae782b14ed3e,true,false	
+tobrien/sample-json-parsing,false,4,1,master,0,1,,5,10,15,101,2009-09-23T08:27:07,2009-09-28T05:09:58,2018-03-04T04:49:24,,Java,0,0,0,0,2009-09-28T05:09:55,33c954138835baeb3d63415686816b02e7a92391,true,false	
+znerd/optipng-ant-task,false,34,1,master,2,1,Other,2,10,2,1245,2009-09-04T10:50:49,2009-09-08T02:16:05,2019-07-11T06:45:05,,Java,8,6,1,1,2009-09-08T02:15:57,ff336696011122c461ea4c1bec74543848165bbe,true,false	
+spring/springls,false,781,6,master,2,3,,6,10,9,3001,2009-09-23T10:06:30,2012-03-23T08:10:56,2020-02-09T04:51:27,https://springrts.com/wiki/SpringLS,Java,3,2,0,0,2012-03-22T03:53:55,481ead42a546e6b8cead45fe773746e3510ddb85,false,false	
+brettporter/centrepoint,false,29,1,master,1,2,Apache License 2.0,1,10,5,283,2009-09-22T01:36:20,2014-02-17T10:24:47,2020-12-04T11:23:06,https://www.packtpub.com/apache-maven-2-effective-implementations/book,Java,1,0,2,0,2014-02-17T10:24:37,19f1b144ff659acfab044286c79e2b160afc2d84,true,false	
+liferay/liferay-portal,false,644949,41,master,74,,Other,163,1902,3330,19283956,2009-09-25T10:55:58,2022-10-02T11:56:07,2022-09-29T12:40:18,http://liferay.com,Java,0,0,4999,34,2022-10-02T10:09:26,fd3a20ba40a0caebe88b7326978dcc778d290558,false,false	
+sirthias/parboiled,false,854,4,master,0,25,Apache License 2.0,55,1229,157,64600,2009-10-05T04:16:20,2023-01-11T07:21:07,2023-01-17T01:19:20,http://parboiled.org,Java,101,35,125,1,2023-01-11T07:21:07,6c9cded0ea240e572903234384d759562669877c,true,false	
