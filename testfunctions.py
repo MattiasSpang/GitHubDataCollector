@@ -6,6 +6,7 @@ from webscraper import WebScraper
 import asyncio
 from bs4 import BeautifulSoup
 import aiohttp
+from logger import Logger
 
 
 def test_create_and_get_data_from_repository():
@@ -53,10 +54,15 @@ async def test_get_rate_limit():
     async with aiohttp.ClientSession(headers=req_headers) as session:
         print(await scraper.get_remaining_calls_rate_limit(session=session))
 
-    
 
+def test_logger_generate_new_file_name():
+    logger = Logger()
+
+    print(logger.get_new_generated_file_name())
 #test_create_and_get_data_from_repository()
 #test_save_interval_from_view()
 #test_set_stop_from_view()
 #test_create_csv_file()
-asyncio.run(test_get_rate_limit()) 
+#asyncio.run(test_get_rate_limit())
+
+test_logger_generate_new_file_name() 
