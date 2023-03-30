@@ -31,6 +31,8 @@ class WebScraper:
         self.file_name = "simplecsv.csv"
         self.delimiter = ";"
         self.nr_of_repos_scraped = 0
+        self.repo_index_start_from = 0
+        self.repo_index_stop_from = 0
 
         # data
         self.urls: list = []
@@ -89,43 +91,46 @@ class WebScraper:
 
         nr_of_urls_done = 0
         repositories = []
-        while True:
 
-            for token in self.token_list:
+        for token in self.token_list:
 
-                if nr_of_urls_done >= len(self.urls):
-                    print("breaking for loop, all urls done")
-                    break
-
-                req_headers = {
-                    "Authorization" : "token " + token
-                }
-                async with aiohttp.ClientSession(headers=req_headers) as session:
-                    for url in self.urls: # make sure to begin where the previous left of.
-                        tasks.append(self.fetch(session, url))
-                        
-                    repositories.extend(await asyncio.gather(*tasks))
-
-                    nr_of_urls_done += len(repositories)
-                    
-                    print("starting to write csv file...")
-                   
-                    rows = []
-                    for repo in repositories:
-                        if isinstance(repo, GHRepository):
-
-                            rows.append(repo.to_csv_row())
-                            self.nr_of_repos_scraped += 1
-                        else:
-                            self.write_to_log("Error: repo is not stored as a GHRepository object.")
-                    
-                    data_dict = {"rows" : rows}
-                    CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
-                    print("done writing to file!")
-                    print(await self.get_remaining_calls_rate_limit(session=session))
-            
             if nr_of_urls_done >= len(self.urls):
+                print("breaking for loop, all urls done")
                 break
+
+            current_rate_limit = self.get_remaining_calls_rate_limit()
+            repo_capacity = (current_rate_limit/len(headers)-1) - len(headers)-1 # this is for the for loop. we only loop through this amount.
+            
+
+            req_headers = {
+                "Authorization" : "token " + token
+            }
+            async with aiohttp.ClientSession(headers=req_headers) as session:
+                if nr_of_urls_done > 0:
+                    nr_of_urls_done + 1
+
+                for i in range(nr_of_urls_done,nr_of_urls_done + repo_capacity): # make sure to begin where the previous left of.
+                    tasks.append(self.fetch(session, self.urls[i]))
+                    
+                repositories.extend(await asyncio.gather(*tasks))
+
+                nr_of_urls_done += len(repositories)
+                
+                print("starting to write csv file...")
+                
+                rows = []
+                for repo in repositories:
+                    if isinstance(repo, GHRepository):
+
+                        rows.append(repo.to_csv_row())
+                        self.nr_of_repos_scraped += 1
+                    else:
+                        self.write_to_log("Error: repo is not stored as a GHRepository object.")
+                
+                data_dict = {"rows" : rows}
+                CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
+                print("done writing to file!")
+                print(await self.get_remaining_calls_rate_limit(session=session))
         
         self.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
         self.write_to_log("Errors on run: " + str(self.nr_of_errors))
