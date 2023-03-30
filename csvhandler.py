@@ -57,10 +57,11 @@ class CsvHandler:
         csv_writer = csv.writer(file)
 
         try: 
+            print(data["header"])
             csv_writer.writerow(data["header"])
             csv_writer.writerows(data["rows"])
         except:
-            "WRITE_FILE_ERROR"
+            print("WRITE_FILE_ERROR")
 
         file.close()
 
@@ -80,7 +81,7 @@ class CsvHandler:
         print("begin writing to file...")
         
         try:
-            file = open(file_name, 'w', newline='')
+            file = open(file_name, 'a', newline='')
         except:
             return "OPEN_FILE_ERROR"
 

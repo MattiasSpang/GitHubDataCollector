@@ -24,7 +24,7 @@ class WebScraper:
         self.nr_of_errors: int = 0
         self.nr_of_repos_scraped = 1
         self.remaining_calls_min = 2
-        self.token_list = ["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", "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"]
+        self.token_list = ["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", "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"]
 
         # settings
         self.wanted_file_name = "temp_name.csv"
@@ -46,6 +46,7 @@ class WebScraper:
 
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
+        repo.data[RepositoryData.MEDIAN_ISSUES_TIME.name] = await self.get_median_issues_time_in_seconds(session=session, url=url)
         
         
 
@@ -81,7 +82,7 @@ class WebScraper:
 
         # prepare a task for every repository
 
-        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name]
+        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name, RepositoryData.MEDIAN_ISSUES_TIME.name]
         rows = []
         data_dict = {"header": headers, "rows" : rows}
         CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
@@ -186,18 +187,40 @@ class WebScraper:
             json_resp = json.dumps(await response.json())
 
             json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
-            number_of_closed_pulls = 0
+            number_of_closed_issues = 0
             total_seconds = 0
             if len(json_object) > 0:
-                for pull in json_object:
-                    if pull.closed_at != None:
-                        number_of_closed_pulls += 1
+                for issue in json_object:
+                    if issue.closed_at != None:
+                        number_of_closed_issues += 1
                         format_string = '%Y-%m-%dT%H:%M:%SZ'
-                        created_at = datetime.strptime(pull.created_at, format_string)
-                        closed_at = datetime.strptime(pull.closed_at, format_string)
+                        created_at = datetime.strptime(issue.created_at, format_string)
+                        closed_at = datetime.strptime(issue.closed_at, format_string)
                         duration = closed_at - created_at
                         seconds = duration.total_seconds()
                         total_seconds += seconds
-                median = total_seconds/number_of_closed_pulls
+                median = total_seconds/number_of_closed_issues
+                return median
+            return 0
+        
+    async def get_median_issues_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
+
+        async with session.get("https://api.github.com/repos/"+url+"/issues?state=closed&per_page=100", ssl=False) as response:
+            json_resp = json.dumps(await response.json())
+
+            json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
+            number_of_closed_issues = 0
+            total_seconds = 0
+            if len(json_object) > 0:
+                for issue in json_object:
+                    if issue.closed_at != None:
+                        number_of_closed_issues += 1
+                        format_string = '%Y-%m-%dT%H:%M:%SZ'
+                        created_at = datetime.strptime(issue.created_at, format_string)
+                        closed_at = datetime.strptime(issue.closed_at, format_string)
+                        duration = closed_at - created_at
+                        seconds = duration.total_seconds()
+                        total_seconds += seconds
+                median = total_seconds/number_of_closed_issues
                 return median
             return 0
