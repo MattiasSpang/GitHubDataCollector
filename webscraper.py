@@ -34,6 +34,7 @@ class WebScraper:
 
         # data
         self.urls: list = []
+        self.stars: list = []
         self.repo_list: list = []
 
     # -------------------------------------------------------------- FETCH
@@ -44,6 +45,7 @@ class WebScraper:
         repo = GHRepository(url=url)
 
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
+        repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
         
         
 
@@ -74,11 +76,12 @@ class WebScraper:
         # Get urls here
         #---------------------------
         self.extract_urls_from_dict()
+        self.extract_stars_from_dict()
 
 
         # prepare a task for every repository
 
-        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name]
+        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name]
         rows = []
         data_dict = {"header": headers, "rows" : rows}
         CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
@@ -118,10 +121,11 @@ class WebScraper:
                     data_dict = {"rows" : rows}
                     CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
                     print("done writing to file!")
+                    print(await self.get_remaining_calls_rate_limit(session=session))
             
             if nr_of_urls_done >= len(self.urls):
                 break
-
+        
         self.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
         self.write_to_log("Errors on run: " + str(self.nr_of_errors))
         self.write_to_log("Program Ended")
@@ -135,7 +139,7 @@ class WebScraper:
             
     def extract_stars_from_dict(self):
         for row in self.repo_list["rows"]:
-            self.urls.append(row[RepositoryData.NR_OF_STARS.value])
+            self.stars.append(row[RepositoryData.NR_OF_STARS.value])
             
 
     def write_to_log(self, msg: str):
@@ -164,10 +168,9 @@ class WebScraper:
     async def check_if_has_gha(self, session: aiohttp.ClientSession, url: str) -> bool:
          print("https://api.github.com/repos/"+url+"/actions/workflows")
          async with session.get("https://api.github.com/repos/"+url+"/actions/workflows", ssl=False) as response:
-            json_resp = await response.json()
-            replaced_json_resp = str(json_resp).replace("\'", "\"")
+            json_resp = json.dumps(await response.json())
 
-            json_object = json.loads(replaced_json_resp, object_hook=lambda d: SimpleNamespace(**d))
+            json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
 
             try:
                 if json_object.total_count > 0:
@@ -176,3 +179,25 @@ class WebScraper:
                     return False
             except:
                 return False
+            
+    async def get_median_pull_request_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
+
+        async with session.get("https://api.github.com/repos/"+url+"/pulls?state=closed&per_page=100", ssl=False) as response:
+            json_resp = json.dumps(await response.json())
+
+            json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
+            number_of_closed_pulls = 0
+            total_seconds = 0
+            if len(json_object) > 0:
+                for pull in json_object:
+                    if pull.closed_at != None:
+                        number_of_closed_pulls += 1
+                        format_string = '%Y-%m-%dT%H:%M:%SZ'
+                        created_at = datetime.strptime(pull.created_at, format_string)
+                        closed_at = datetime.strptime(pull.closed_at, format_string)
+                        duration = closed_at - created_at
+                        seconds = duration.total_seconds()
+                        total_seconds += seconds
+                median = total_seconds/number_of_closed_pulls
+                return median
+            return 0

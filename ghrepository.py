@@ -32,5 +32,6 @@ class GHRepository:
         csv_row = []
         csv_row.append(self.url)
         csv_row.append(self.data[RepositoryData.HAS_GHA.name])
+        csv_row.append(self.data[RepositoryData.MEDIAN_PR_TIME.name])
 
         return csv_row
