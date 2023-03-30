@@ -63,7 +63,7 @@ class WebScraper:
         self.write_to_log("Program started")
         print("Started running web scraping session.")
         
-        tasks = []
+        #tasks = []
         
         # --------------------------
         # call view functions here to gather settings info
@@ -79,7 +79,7 @@ class WebScraper:
         # Get urls here
         #---------------------------
         self.extract_urls_from_dict()
-        self.extract_stars_from_dict()
+        #self.extract_stars_from_dict()
 
 
         # prepare a task for every repository
@@ -93,23 +93,29 @@ class WebScraper:
         repositories = []
 
         for token in self.token_list:
-
-            if nr_of_urls_done >= len(self.urls):
-                print("breaking for loop, all urls done")
-                break
-
-            current_rate_limit = self.get_remaining_calls_rate_limit()
-            repo_capacity = (current_rate_limit/len(headers)-1) - len(headers)-1 # this is for the for loop. we only loop through this amount.
-            
+            tasks = []
 
             req_headers = {
                 "Authorization" : "token " + token
             }
             async with aiohttp.ClientSession(headers=req_headers) as session:
+                if nr_of_urls_done >= len(self.urls):
+                    print("breaking for loop, all urls done")
+                    break
+
+                current_rate_limit = await self.get_remaining_calls_rate_limit(session=session)
+                print("current rate limit: ", current_rate_limit)
+                repo_capacity = (current_rate_limit/len(headers)-1) - len(headers)-1 # this is for the for loop. we only loop through this amount.
+                
                 if nr_of_urls_done > 0:
                     nr_of_urls_done + 1
-
-                for i in range(nr_of_urls_done,nr_of_urls_done + repo_capacity): # make sure to begin where the previous left of.
+                length_of_urls = len(self.urls)
+                loop_index = 0
+                if length_of_urls > repo_capacity:
+                    loop_index = nr_of_urls_done + repo_capacity
+                else:
+                    loop_index = length_of_urls
+                for i in range(int(nr_of_urls_done),int(loop_index)): # make sure to begin where the previous left of.
                     tasks.append(self.fetch(session, self.urls[i]))
                     
                 repositories.extend(await asyncio.gather(*tasks))
@@ -192,21 +198,24 @@ class WebScraper:
             json_resp = json.dumps(await response.json())
 
             json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
-            number_of_closed_issues = 0
+            number_of_closed_pulls = 0
             total_seconds = 0
-            if len(json_object) > 0:
-                for issue in json_object:
-                    if issue.closed_at != None:
-                        number_of_closed_issues += 1
-                        format_string = '%Y-%m-%dT%H:%M:%SZ'
-                        created_at = datetime.strptime(issue.created_at, format_string)
-                        closed_at = datetime.strptime(issue.closed_at, format_string)
-                        duration = closed_at - created_at
-                        seconds = duration.total_seconds()
-                        total_seconds += seconds
-                median = total_seconds/number_of_closed_issues
-                return median
-            return 0
+            try: #this try is here because the json object has no lenght sometimes and crashes, find a better solution
+                if len(json_object) > 0:
+                    for issue in json_object:
+                        if issue.closed_at != None:
+                            number_of_closed_pulls += 1
+                            format_string = '%Y-%m-%dT%H:%M:%SZ'
+                            created_at = datetime.strptime(issue.created_at, format_string)
+                            closed_at = datetime.strptime(issue.closed_at, format_string)
+                            duration = closed_at - created_at
+                            seconds = duration.total_seconds()
+                            total_seconds += seconds
+                    median = total_seconds/number_of_closed_pulls
+                    return median
+                return 0
+            except:
+                return 0
         
     async def get_median_issues_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
 
@@ -216,16 +225,20 @@ class WebScraper:
             json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
             number_of_closed_issues = 0
             total_seconds = 0
-            if len(json_object) > 0:
-                for issue in json_object:
-                    if issue.closed_at != None:
-                        number_of_closed_issues += 1
-                        format_string = '%Y-%m-%dT%H:%M:%SZ'
-                        created_at = datetime.strptime(issue.created_at, format_string)
-                        closed_at = datetime.strptime(issue.closed_at, format_string)
-                        duration = closed_at - created_at
-                        seconds = duration.total_seconds()
-                        total_seconds += seconds
-                median = total_seconds/number_of_closed_issues
-                return median
-            return 0
+            try: #this try is here because the json object has no lenght sometimes and crashes, find a better solution
+                
+                if len(json_object) > 0:
+                    for issue in json_object:
+                        if issue.closed_at != None:
+                            number_of_closed_issues += 1
+                            format_string = '%Y-%m-%dT%H:%M:%SZ'
+                            created_at = datetime.strptime(issue.created_at, format_string)
+                            closed_at = datetime.strptime(issue.closed_at, format_string)
+                            duration = closed_at - created_at
+                            seconds = duration.total_seconds()
+                            total_seconds += seconds
+                    median = total_seconds/number_of_closed_issues
+                    return median
+                return 0
+            except:
+                return 0
