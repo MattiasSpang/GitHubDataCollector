@@ -115,12 +115,18 @@ class WebScraper:
                     loop_index = nr_of_urls_done + repo_capacity
                 else:
                     loop_index = length_of_urls
-                for i in range(int(nr_of_urls_done),int(loop_index)): # make sure to begin where the previous left of.
-                    tasks.append(self.fetch(session, self.urls[i]))
-                    
-                repositories.extend(await asyncio.gather(*tasks))
 
-                nr_of_urls_done += len(repositories)
+                print("###########################" + str(loop_index))
+                for i in range(int(nr_of_urls_done),int(loop_index)): 
+                    tasks.append(asyncio.create_task(self.fetch(session, self.urls[i])))
+                    
+                #repositories.extend(await asyncio.gather(*tasks))
+                completed_tasks, pending_tasks = await asyncio.wait(tasks)
+
+                for task in completed_tasks:
+                    repositories.append(task.result())
+
+                nr_of_urls_done += loop_index
                 
                 print("starting to write csv file...")
                 
@@ -178,7 +184,7 @@ class WebScraper:
             return json_object.resources.core.remaining
             
     async def check_if_has_gha(self, session: aiohttp.ClientSession, url: str) -> bool:
-         print("https://api.github.com/repos/"+url+"/actions/workflows")
+         #print("https://api.github.com/repos/"+url+"/actions/workflows")
          async with session.get("https://api.github.com/repos/"+url+"/actions/workflows", ssl=False) as response:
             json_resp = json.dumps(await response.json())
 
@@ -219,6 +225,7 @@ class WebScraper:
         
     async def get_median_issues_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
 
+        print(url)
         async with session.get("https://api.github.com/repos/"+url+"/issues?state=closed&per_page=100", ssl=False) as response:
             json_resp = json.dumps(await response.json())
 
@@ -241,4 +248,5 @@ class WebScraper:
                     return median
                 return 0
             except:
+                self.write_to_log(url + "   : Json object cannot be compared to an integer")
                 return 0
