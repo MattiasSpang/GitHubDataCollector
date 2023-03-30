@@ -7,4 +7,5 @@ from enum import Enum
 class RepositoryData(Enum):
     NAME = 0
     HAS_GHA = 1
+    MEDIAN_PR_TIME = 2
     NR_OF_STARS = 12
