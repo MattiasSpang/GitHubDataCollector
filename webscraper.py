@@ -31,6 +31,8 @@ class WebScraper:
         self.file_name = "simplecsv.csv"
         self.delimiter = ";"
         self.nr_of_repos_scraped = 0
+        self.repo_index_start_from = 0
+        self.repo_index_stop_from = 0
 
         # data
         self.urls: list = []
@@ -61,7 +63,7 @@ class WebScraper:
         self.write_to_log("Program started")
         print("Started running web scraping session.")
         
-        tasks = []
+        #tasks = []
         
         # --------------------------
         # call view functions here to gather settings info
@@ -77,7 +79,7 @@ class WebScraper:
         # Get urls here
         #---------------------------
         self.extract_urls_from_dict()
-        self.extract_stars_from_dict()
+        #self.extract_stars_from_dict()
 
 
         # prepare a task for every repository
@@ -89,43 +91,58 @@ class WebScraper:
 
         nr_of_urls_done = 0
         repositories = []
-        while True:
 
-            for token in self.token_list:
+        for token in self.token_list:
+            tasks = []
 
+            req_headers = {
+                "Authorization" : "token " + token
+            }
+            async with aiohttp.ClientSession(headers=req_headers) as session:
                 if nr_of_urls_done >= len(self.urls):
                     print("breaking for loop, all urls done")
                     break
 
-                req_headers = {
-                    "Authorization" : "token " + token
-                }
-                async with aiohttp.ClientSession(headers=req_headers) as session:
-                    for url in self.urls: # make sure to begin where the previous left of.
-                        tasks.append(self.fetch(session, url))
-                        
-                    repositories.extend(await asyncio.gather(*tasks))
+                current_rate_limit = await self.get_remaining_calls_rate_limit(session=session)
+                print("current rate limit: ", current_rate_limit)
+                repo_capacity = (current_rate_limit/len(headers)-1) - len(headers)-1 # this is for the for loop. we only loop through this amount.
+                
+                if nr_of_urls_done > 0:
+                    nr_of_urls_done + 1
+                length_of_urls = len(self.urls)
+                loop_index = 0
+                if length_of_urls > repo_capacity:
+                    loop_index = nr_of_urls_done + repo_capacity
+                else:
+                    loop_index = length_of_urls
 
-                    nr_of_urls_done += len(repositories)
+                print("###########################" + str(loop_index))
+                for i in range(int(nr_of_urls_done),int(loop_index)): 
+                    tasks.append(asyncio.create_task(self.fetch(session, self.urls[i])))
                     
-                    print("starting to write csv file...")
-                   
-                    rows = []
-                    for repo in repositories:
-                        if isinstance(repo, GHRepository):
+                #repositories.extend(await asyncio.gather(*tasks))
+                completed_tasks, pending_tasks = await asyncio.wait(tasks)
 
-                            rows.append(repo.to_csv_row())
-                            self.nr_of_repos_scraped += 1
-                        else:
-                            self.write_to_log("Error: repo is not stored as a GHRepository object.")
-                    
-                    data_dict = {"rows" : rows}
-                    CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
-                    print("done writing to file!")
-                    print(await self.get_remaining_calls_rate_limit(session=session))
-            
-            if nr_of_urls_done >= len(self.urls):
-                break
+                for task in completed_tasks:
+                    repositories.append(task.result())
+
+                nr_of_urls_done += loop_index
+                
+                print("starting to write csv file...")
+                
+                rows = []
+                for repo in repositories:
+                    if isinstance(repo, GHRepository):
+
+                        rows.append(repo.to_csv_row())
+                        self.nr_of_repos_scraped += 1
+                    else:
+                        self.write_to_log("Error: repo is not stored as a GHRepository object.")
+                
+                data_dict = {"rows" : rows}
+                CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
+                print("done writing to file!")
+                print(await self.get_remaining_calls_rate_limit(session=session))
         
         self.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
         self.write_to_log("Errors on run: " + str(self.nr_of_errors))
@@ -167,7 +184,7 @@ class WebScraper:
             return json_object.resources.core.remaining
             
     async def check_if_has_gha(self, session: aiohttp.ClientSession, url: str) -> bool:
-         print("https://api.github.com/repos/"+url+"/actions/workflows")
+         #print("https://api.github.com/repos/"+url+"/actions/workflows")
          async with session.get("https://api.github.com/repos/"+url+"/actions/workflows", ssl=False) as response:
             json_resp = json.dumps(await response.json())
 
@@ -187,40 +204,49 @@ class WebScraper:
             json_resp = json.dumps(await response.json())
 
             json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
-            number_of_closed_issues = 0
+            number_of_closed_pulls = 0
             total_seconds = 0
-            if len(json_object) > 0:
-                for issue in json_object:
-                    if issue.closed_at != None:
-                        number_of_closed_issues += 1
-                        format_string = '%Y-%m-%dT%H:%M:%SZ'
-                        created_at = datetime.strptime(issue.created_at, format_string)
-                        closed_at = datetime.strptime(issue.closed_at, format_string)
-                        duration = closed_at - created_at
-                        seconds = duration.total_seconds()
-                        total_seconds += seconds
-                median = total_seconds/number_of_closed_issues
-                return median
-            return 0
+            try: #this try is here because the json object has no lenght sometimes and crashes, find a better solution
+                if len(json_object) > 0:
+                    for issue in json_object:
+                        if issue.closed_at != None:
+                            number_of_closed_pulls += 1
+                            format_string = '%Y-%m-%dT%H:%M:%SZ'
+                            created_at = datetime.strptime(issue.created_at, format_string)
+                            closed_at = datetime.strptime(issue.closed_at, format_string)
+                            duration = closed_at - created_at
+                            seconds = duration.total_seconds()
+                            total_seconds += seconds
+                    median = total_seconds/number_of_closed_pulls
+                    return median
+                return 0
+            except:
+                return 0
         
     async def get_median_issues_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
 
+        print(url)
         async with session.get("https://api.github.com/repos/"+url+"/issues?state=closed&per_page=100", ssl=False) as response:
             json_resp = json.dumps(await response.json())
 
             json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
             number_of_closed_issues = 0
             total_seconds = 0
-            if len(json_object) > 0:
-                for issue in json_object:
-                    if issue.closed_at != None:
-                        number_of_closed_issues += 1
-                        format_string = '%Y-%m-%dT%H:%M:%SZ'
-                        created_at = datetime.strptime(issue.created_at, format_string)
-                        closed_at = datetime.strptime(issue.closed_at, format_string)
-                        duration = closed_at - created_at
-                        seconds = duration.total_seconds()
-                        total_seconds += seconds
-                median = total_seconds/number_of_closed_issues
-                return median
-            return 0
+            try: #this try is here because the json object has no lenght sometimes and crashes, find a better solution
+                
+                if len(json_object) > 0:
+                    for issue in json_object:
+                        if issue.closed_at != None:
+                            number_of_closed_issues += 1
+                            format_string = '%Y-%m-%dT%H:%M:%SZ'
+                            created_at = datetime.strptime(issue.created_at, format_string)
+                            closed_at = datetime.strptime(issue.closed_at, format_string)
+                            duration = closed_at - created_at
+                            seconds = duration.total_seconds()
+                            total_seconds += seconds
+                    median = total_seconds/number_of_closed_issues
+                    return median
+                return 0
+            except:
+                self.write_to_log(url + "   : Json object cannot be compared to an integer")
+                return 0
