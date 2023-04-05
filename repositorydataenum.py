@@ -9,4 +9,5 @@ class RepositoryData(Enum):
     HAS_GHA = 1
     MEDIAN_PR_TIME = 2
     MEDIAN_ISSUES_TIME = 3
+    NR_OF_CONTRIBUTORS = 4
     NR_OF_STARS = 12
