@@ -12,3 +12,4 @@ class RepositoryData(Enum):
     NR_OF_CONTRIBUTORS = 6
     NR_OF_STARS = 9
     TOTAL_ISSUES = 17
+    TOTAL_PR = 19
