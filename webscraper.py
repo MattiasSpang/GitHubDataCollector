@@ -37,11 +37,10 @@ class WebScraper:
         # data
         self.urls: list = []
         self.stars: list = []
-        self.contributors_list: list = []
         self.repo_list: list = []
 
     # -------------------------------------------------------------- FETCH
-    async def fetch(self,session: aiohttp.ClientSession, url: str) -> GHRepository:
+    async def fetch(self,session: aiohttp.ClientSession, url: str, id: int) -> GHRepository:
         #print("fetching for url: ", url)
         #print("---------------------------------------------------------------------------------")
 
@@ -50,6 +49,7 @@ class WebScraper:
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_ISSUES_TIME.name] = await self.get_median_issues_time_in_seconds(session=session, url=url)
+        repo.data[RepositoryData.NR_OF_CONTRIBUTORS.name] = self.extract_contributors_from_dict(id=id)
         
         
 
@@ -80,7 +80,6 @@ class WebScraper:
         # Get urls here
         #---------------------------
         self.extract_urls_from_dict()
-        self.extract_contributors_from_dict()
         #self.extract_stars_from_dict()
 
 
@@ -120,7 +119,7 @@ class WebScraper:
 
                 print("###########################" + str(loop_index))
                 for i in range(int(nr_of_urls_done),int(loop_index)): 
-                    tasks.append(asyncio.create_task(self.fetch(session, self.urls[i])))
+                    tasks.append(asyncio.create_task(self.fetch(session, self.urls[i], i)))
                     
                 #repositories.extend(await asyncio.gather(*tasks))
                 completed_tasks, pending_tasks = await asyncio.wait(tasks)
@@ -157,14 +156,12 @@ class WebScraper:
         for row in self.repo_list["rows"]:
             self.urls.append(row[RepositoryData.NAME.value])
             
-    def extract_stars_from_dict(self):
-        for row in self.repo_list["rows"]:
-            self.stars.append(row[RepositoryData.NR_OF_STARS.value])
+    def extract_stars_from_dict(self, id: int) -> int:
+        return self.repo_list["rows"][id][RepositoryData.NR_OF_STARS.value]
             
-    def extract_contributors_from_dict(self):
-        for row in self.repo_list["rows"]:
-            self.contributors_list.append(row[RepositoryData.NR_OF_CONTRIBUTORS.value])
-        print(self.contributors_list)
+    def extract_contributors_from_dict(self, id: int) -> int:
+        return self.repo_list["rows"][id][RepositoryData.NR_OF_CONTRIBUTORS.value]
+        
 
     def write_to_log(self, msg: str):
         now = str(datetime.now())
