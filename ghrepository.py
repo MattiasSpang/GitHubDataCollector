@@ -35,5 +35,6 @@ class GHRepository:
         csv_row.append(self.data[RepositoryData.MEDIAN_PR_TIME.name])
         csv_row.append(self.data[RepositoryData.MEDIAN_ISSUES_TIME.name])
         csv_row.append(self.data[RepositoryData.NR_OF_CONTRIBUTORS.name])
+        csv_row.append(self.data[RepositoryData.NR_OF_STARS.name])
 
         return csv_row

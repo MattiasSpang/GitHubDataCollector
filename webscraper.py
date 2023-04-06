@@ -50,6 +50,7 @@ class WebScraper:
         repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_ISSUES_TIME.name] = await self.get_median_issues_time_in_seconds(session=session, url=url)
         repo.data[RepositoryData.NR_OF_CONTRIBUTORS.name] = self.extract_contributors_from_dict(id=id)
+        repo.data[RepositoryData.NR_OF_STARS.name] = self.extract_stars_from_dict(id=id)
         
         
 
@@ -80,12 +81,11 @@ class WebScraper:
         # Get urls here
         #---------------------------
         self.extract_urls_from_dict()
-        #self.extract_stars_from_dict()
 
 
         # prepare a task for every repository
 
-        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name, RepositoryData.MEDIAN_ISSUES_TIME.name, RepositoryData.NR_OF_CONTRIBUTORS.name]
+        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name, RepositoryData.MEDIAN_ISSUES_TIME.name, RepositoryData.NR_OF_CONTRIBUTORS.name, RepositoryData.NR_OF_STARS.name]
         rows = []
         data_dict = {"header": headers, "rows" : rows}
         CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)

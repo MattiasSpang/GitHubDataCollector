@@ -10,4 +10,4 @@ class RepositoryData(Enum):
     MEDIAN_PR_TIME = 2
     MEDIAN_ISSUES_TIME = 3
     NR_OF_CONTRIBUTORS = 6
-    NR_OF_STARS = 12
+    NR_OF_STARS = 9
