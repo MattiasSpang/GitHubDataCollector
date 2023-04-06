@@ -255,9 +255,14 @@ class WebScraper:
     async def get_contributors(self, session: aiohttp.ClientSession, url: str) -> int:
 
         print(url)
-        async with session.get("https://api.github.com/repos/"+url+"/contributors", ssl=False) as response:
-            json_resp = json.dumps(await response.json())
-
-            #json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
-
-            return len(json_resp)
+        async with session.get("https://api.github.com/repos/"+url+"/contributors?per_page=100", ssl=False) as response:
+            resp = await response.json()
+            
+            try:
+                if type(resp) == list:
+                    return len(resp)
+                else:
+                    return 0
+            except:
+                self.write_to_log(url + "   : Trouble getting the reposonse for nr of contributors")
+                return 0
