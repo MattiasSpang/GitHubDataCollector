@@ -37,6 +37,7 @@ class WebScraper:
         # data
         self.urls: list = []
         self.stars: list = []
+        self.contributors_list: list = []
         self.repo_list: list = []
 
     # -------------------------------------------------------------- FETCH
@@ -49,7 +50,6 @@ class WebScraper:
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_ISSUES_TIME.name] = await self.get_median_issues_time_in_seconds(session=session, url=url)
-        repo.data[RepositoryData.NR_OF_CONTRIBUTORS.name] = await self.get_contributors(session=session, url=url)
         
         
 
@@ -80,6 +80,7 @@ class WebScraper:
         # Get urls here
         #---------------------------
         self.extract_urls_from_dict()
+        self.extract_contributors_from_dict()
         #self.extract_stars_from_dict()
 
 
@@ -160,6 +161,10 @@ class WebScraper:
         for row in self.repo_list["rows"]:
             self.stars.append(row[RepositoryData.NR_OF_STARS.value])
             
+    def extract_contributors_from_dict(self):
+        for row in self.repo_list["rows"]:
+            self.contributors_list.append(row[RepositoryData.NR_OF_CONTRIBUTORS.value])
+        print(self.contributors_list)
 
     def write_to_log(self, msg: str):
         now = str(datetime.now())
@@ -252,17 +257,17 @@ class WebScraper:
                 self.write_to_log(url + "   : Json object cannot be compared to an integer")
                 return 0
             
-    async def get_contributors(self, session: aiohttp.ClientSession, url: str) -> int:
+    # async def get_contributors(self, session: aiohttp.ClientSession, url: str) -> int:
 
-        print(url)
-        async with session.get("https://api.github.com/repos/"+url+"/contributors?per_page=100", ssl=False) as response:
-            resp = await response.json()
+    #     print(url)
+    #     async with session.get("https://api.github.com/repos/"+url+"/contributors?per_page=100&anon=true", ssl=False) as response:
+    #         resp = await response.json()
             
-            try:
-                if type(resp) == list:
-                    return len(resp)
-                else:
-                    return 0
-            except:
-                self.write_to_log(url + "   : Trouble getting the reposonse for nr of contributors")
-                return 0
+    #         try:
+    #             if type(resp) == list:
+    #                 return len(resp)
+    #             else:
+    #                 return 0
+    #         except:
+    #             self.write_to_log(url + "   : Trouble getting the reposonse for nr of contributors")
+    #             return 0
