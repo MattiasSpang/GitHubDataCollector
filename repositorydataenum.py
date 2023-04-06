@@ -11,3 +11,4 @@ class RepositoryData(Enum):
     MEDIAN_ISSUES_TIME = 3
     NR_OF_CONTRIBUTORS = 6
     NR_OF_STARS = 9
+    TOTAL_ISSUES = 17

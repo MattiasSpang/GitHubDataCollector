@@ -49,6 +49,7 @@ class WebScraper:
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_ISSUES_TIME.name] = await self.get_median_issues_time_in_seconds(session=session, url=url)
+        repo.data[RepositoryData.TOTAL_ISSUES.name] = self.extract_total_issues_from_dict(id=id)
         repo.data[RepositoryData.NR_OF_CONTRIBUTORS.name] = self.extract_contributors_from_dict(id=id)
         repo.data[RepositoryData.NR_OF_STARS.name] = self.extract_stars_from_dict(id=id)
         
@@ -85,7 +86,7 @@ class WebScraper:
 
         # prepare a task for every repository
 
-        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name, RepositoryData.MEDIAN_ISSUES_TIME.name, RepositoryData.NR_OF_CONTRIBUTORS.name, RepositoryData.NR_OF_STARS.name]
+        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name, RepositoryData.MEDIAN_ISSUES_TIME.name, RepositoryData.TOTAL_ISSUES.name, RepositoryData.NR_OF_CONTRIBUTORS.name, RepositoryData.NR_OF_STARS.name]
         rows = []
         data_dict = {"header": headers, "rows" : rows}
         CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
@@ -161,6 +162,9 @@ class WebScraper:
             
     def extract_contributors_from_dict(self, id: int) -> int:
         return self.repo_list["rows"][id][RepositoryData.NR_OF_CONTRIBUTORS.value]
+    
+    def extract_total_issues_from_dict(self, id: int) -> int:
+        return self.repo_list["rows"][id][RepositoryData.TOTAL_ISSUES.value]
         
 
     def write_to_log(self, msg: str):
