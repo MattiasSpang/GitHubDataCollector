@@ -9,6 +9,7 @@ from random import randint
 from view import View
 import json
 from types import SimpleNamespace
+from logger import Logger
 
 class WebScraper:
 
@@ -19,7 +20,7 @@ class WebScraper:
         self.start_from: int = 0
         self.save_interval: int = 5000
         self.save_in_seperate_files: bool = False
-        self.log: list = []
+        self.logger = Logger()
         self.github_url: str = "https://www.github.com/"
         self.nr_of_errors: int = 0
         self.nr_of_repos_scraped = 1
@@ -64,7 +65,7 @@ class WebScraper:
 
     async def run(self):
 
-        self.write_to_log("Program started")
+        self.logger.write_to_log("Program started")
         print("Started running web scraping session.")
         
         #tasks = []
@@ -140,17 +141,17 @@ class WebScraper:
                         rows.append(repo.to_csv_row())
                         self.nr_of_repos_scraped += 1
                     else:
-                        self.write_to_log("Error: repo is not stored as a GHRepository object.")
+                        self.logger.write_to_log("Error: repo is not stored as a GHRepository object.")
                 
                 data_dict = {"rows" : rows}
                 CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
                 print("done writing to file!")
                 print(await self.get_remaining_calls_rate_limit(session=session))
         
-        self.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
-        self.write_to_log("Errors on run: " + str(self.nr_of_errors))
-        self.write_to_log("Program Ended")
-        self.write_log_to_file()
+        self.logger.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
+        self.logger.write_to_log("Errors on run: " + str(self.nr_of_errors))
+        self.logger.write_to_log("Program Ended")
+        self.logger.write_log_to_file()
         print("Finished running web scraping session...")
     # ----------------------------------------------------------------------------- Help functions
 
@@ -169,20 +170,6 @@ class WebScraper:
     
     def extract_total_pr_from_dict(self, id: int) -> int:
         return self.repo_list["rows"][id][RepositoryData.TOTAL_PR.value]
-        
-
-    def write_to_log(self, msg: str):
-        now = str(datetime.now())
-        self.log.append("\n" + "Timestamp: " + now + "  : " +msg) 
-
-    def write_log_to_file(self):
-        date = str(datetime.now().date())
-        rand_id = randint(1, 999)
-        log_file_name = "Log_" + date + "_" + str(rand_id) + ".txt"
-        log_file = open(log_file_name, "w+")
-        log_file.writelines(self.log)
-        print("Wrote to new log file: " + log_file_name)
-
     
 
     async def get_remaining_calls_rate_limit(self, session: aiohttp.ClientSession):
