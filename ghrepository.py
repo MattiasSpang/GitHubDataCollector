@@ -39,4 +39,14 @@ class GHRepository:
         csv_row.append(self.data[RepositoryData.NR_OF_CONTRIBUTORS.name])
         csv_row.append(self.data[RepositoryData.NR_OF_STARS.name])
 
+        
+        for value in range(1,10):
+            
+            contributor_name = "CONTRIBUTOR_" + str(value)
+            try:
+                csv_row.append(self.data[contributor_name])
+            except:
+                print("ERROR: URL: " + self.url + "  CONTRIBUTOR_NAME: " + contributor_name)
+                csv_row.append("name error")
+
         return csv_row

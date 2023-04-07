@@ -31,7 +31,7 @@ class CsvHandler:
             "rows"      : rows
         }
 
-        print(csvDict["rows"])
+        #print(csvDict["rows"])
 
         file.close()
 
@@ -57,7 +57,7 @@ class CsvHandler:
         csv_writer = csv.writer(file)
 
         try: 
-            print(data["header"])
+            #print(data["header"])
             csv_writer.writerow(data["header"])
             csv_writer.writerows(data["rows"])
         except:
