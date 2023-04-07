@@ -9,6 +9,7 @@ from random import randint
 from view import View
 import json
 from types import SimpleNamespace
+from logger import Logger
 
 class WebScraper:
 
@@ -19,7 +20,7 @@ class WebScraper:
         self.start_from: int = 0
         self.save_interval: int = 5000
         self.save_in_seperate_files: bool = False
-        self.log: list = []
+        self.logger = Logger()
         self.github_url: str = "https://www.github.com/"
         self.nr_of_errors: int = 0
         self.nr_of_repos_scraped = 1
@@ -40,7 +41,7 @@ class WebScraper:
         self.repo_list: list = []
 
     # -------------------------------------------------------------- FETCH
-    async def fetch(self,session: aiohttp.ClientSession, url: str) -> GHRepository:
+    async def fetch(self,session: aiohttp.ClientSession, url: str, id: int) -> GHRepository:
         #print("fetching for url: ", url)
         #print("---------------------------------------------------------------------------------")
 
@@ -48,7 +49,11 @@ class WebScraper:
 
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
+        repo.data[RepositoryData.TOTAL_PR.name] = self.extract_total_pr_from_dict(id=id)
         repo.data[RepositoryData.MEDIAN_ISSUES_TIME.name] = await self.get_median_issues_time_in_seconds(session=session, url=url)
+        repo.data[RepositoryData.TOTAL_ISSUES.name] = self.extract_total_issues_from_dict(id=id)
+        repo.data[RepositoryData.NR_OF_CONTRIBUTORS.name] = self.extract_contributors_from_dict(id=id)
+        repo.data[RepositoryData.NR_OF_STARS.name] = self.extract_stars_from_dict(id=id)
         
         
 
@@ -60,7 +65,7 @@ class WebScraper:
 
     async def run(self):
 
-        self.write_to_log("Program started")
+        self.logger.write_to_log("Program started")
         print("Started running web scraping session.")
         
         #tasks = []
@@ -79,12 +84,11 @@ class WebScraper:
         # Get urls here
         #---------------------------
         self.extract_urls_from_dict()
-        #self.extract_stars_from_dict()
 
 
         # prepare a task for every repository
 
-        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name, RepositoryData.MEDIAN_ISSUES_TIME.name]
+        headers = [RepositoryData.NAME.name, RepositoryData.HAS_GHA.name, RepositoryData.MEDIAN_PR_TIME.name, RepositoryData.TOTAL_PR.name, RepositoryData.MEDIAN_ISSUES_TIME.name, RepositoryData.TOTAL_ISSUES.name, RepositoryData.NR_OF_CONTRIBUTORS.name, RepositoryData.NR_OF_STARS.name]
         rows = []
         data_dict = {"header": headers, "rows" : rows}
         CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
@@ -118,7 +122,7 @@ class WebScraper:
 
                 print("###########################" + str(loop_index))
                 for i in range(int(nr_of_urls_done),int(loop_index)): 
-                    tasks.append(asyncio.create_task(self.fetch(session, self.urls[i])))
+                    tasks.append(asyncio.create_task(self.fetch(session, self.urls[i], i)))
                     
                 #repositories.extend(await asyncio.gather(*tasks))
                 completed_tasks, pending_tasks = await asyncio.wait(tasks)
@@ -137,17 +141,17 @@ class WebScraper:
                         rows.append(repo.to_csv_row())
                         self.nr_of_repos_scraped += 1
                     else:
-                        self.write_to_log("Error: repo is not stored as a GHRepository object.")
+                        self.logger.write_to_log("Error: repo is not stored as a GHRepository object.")
                 
                 data_dict = {"rows" : rows}
                 CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
                 print("done writing to file!")
                 print(await self.get_remaining_calls_rate_limit(session=session))
         
-        self.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
-        self.write_to_log("Errors on run: " + str(self.nr_of_errors))
-        self.write_to_log("Program Ended")
-        self.write_log_to_file()
+        self.logger.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
+        self.logger.write_to_log("Errors on run: " + str(self.nr_of_errors))
+        self.logger.write_to_log("Program Ended")
+        self.logger.write_log_to_file()
         print("Finished running web scraping session...")
     # ----------------------------------------------------------------------------- Help functions
 
@@ -155,23 +159,17 @@ class WebScraper:
         for row in self.repo_list["rows"]:
             self.urls.append(row[RepositoryData.NAME.value])
             
-    def extract_stars_from_dict(self):
-        for row in self.repo_list["rows"]:
-            self.stars.append(row[RepositoryData.NR_OF_STARS.value])
+    def extract_stars_from_dict(self, id: int) -> int:
+        return self.repo_list["rows"][id][RepositoryData.NR_OF_STARS.value]
             
-
-    def write_to_log(self, msg: str):
-        now = str(datetime.now())
-        self.log.append("\n" + "Timestamp: " + now + "  : " +msg) 
-
-    def write_log_to_file(self):
-        date = str(datetime.now().date())
-        rand_id = randint(1, 999)
-        log_file_name = "Log_" + date + "_" + str(rand_id) + ".txt"
-        log_file = open(log_file_name, "w+")
-        log_file.writelines(self.log)
-        print("Wrote to new log file: " + log_file_name)
-
+    def extract_contributors_from_dict(self, id: int) -> int:
+        return self.repo_list["rows"][id][RepositoryData.NR_OF_CONTRIBUTORS.value]
+    
+    def extract_total_issues_from_dict(self, id: int) -> int:
+        return self.repo_list["rows"][id][RepositoryData.TOTAL_ISSUES.value]
+    
+    def extract_total_pr_from_dict(self, id: int) -> int:
+        return self.repo_list["rows"][id][RepositoryData.TOTAL_PR.value]
     
 
     async def get_remaining_calls_rate_limit(self, session: aiohttp.ClientSession):
@@ -250,3 +248,18 @@ class WebScraper:
             except:
                 self.write_to_log(url + "   : Json object cannot be compared to an integer")
                 return 0
+            
+    # async def get_contributors(self, session: aiohttp.ClientSession, url: str) -> int:
+
+    #     print(url)
+    #     async with session.get("https://api.github.com/repos/"+url+"/contributors?per_page=100&anon=true", ssl=False) as response:
+    #         resp = await response.json()
+            
+    #         try:
+    #             if type(resp) == list:
+    #                 return len(resp)
+    #             else:
+    #                 return 0
+    #         except:
+    #             self.write_to_log(url + "   : Trouble getting the reposonse for nr of contributors")
+    #             return 0

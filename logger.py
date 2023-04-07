@@ -47,7 +47,7 @@ class Logger:
         
         log_file_name = ""
 
-        if self.log_name == "":
+        if self.log_name != "":
             log_file_name = self.log_name
         else:
             log_file_name = self.get_new_generated_file_name()
