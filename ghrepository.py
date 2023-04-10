@@ -39,6 +39,7 @@ class GHRepository:
         csv_row.append(self.data[RepositoryData.NR_OF_CONTRIBUTORS.name])
         csv_row.append(self.data[RepositoryData.NR_OF_STARS.name])
         csv_row.append(self.data[RepositoryData.MAIN_LANGUAGE.name])
+        csv_row.append(self.data[RepositoryData.TOTAL_COMMITS.name])
 
         
         for value in range(1,10):
