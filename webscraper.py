@@ -15,7 +15,6 @@ import time
 class WebScraper:
 
 
-
     def __init__(self) -> None:
         # settings
         self.start_from: int = 0
@@ -31,7 +30,7 @@ class WebScraper:
         # settings
         self.wanted_file_name = "temp_name.csv"
         self.file_name = "simplecsv.csv"
-        self.delimiter = ";"
+        self.delimiter = ","
         self.nr_of_repos_scraped = 0
         self.repo_index_start_from = 0
         self.repo_index_stop_from = 0
@@ -41,6 +40,7 @@ class WebScraper:
         self.urls: list = []
         self.stars: list = []
         self.repo_list: list = []
+
 
     # -------------------------------------------------------------- FETCH
     async def fetch(self,session: aiohttp.ClientSession, url: str, id: int) -> GHRepository:
@@ -74,6 +74,8 @@ class WebScraper:
 
     async def run(self):
 
+        view = View()
+
         self.logger.write_to_log("Program started")
         print("Started running web scraping session.")
         
@@ -82,9 +84,15 @@ class WebScraper:
         # --------------------------
         # call view functions here to gather settings info
         # --------------------------
-        self.file_name = View.set_input_file_name()
-        self.delimiter = View.set_input_file_delimiter()
+        self.file_name = view.set_input_file_name()
+        self.delimiter = view.set_input_file_delimiter()
 
+        settings = view.enter_settings()
+        self.repo_index_start_from = settings["startline"]
+        self.repo_index_stop_from = settings["endline"]
+        self.wanted_file_name = settings["filename"]
+
+        print("///////" + str(self.repo_index_start_from), " : " + str(self.repo_index_stop_from))
         #---------------------------
         # Get repo list here
         #---------------------------
@@ -120,8 +128,11 @@ class WebScraper:
         data_dict = {"header": headers, "rows" : rows}
         CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
 
-        nr_of_urls_done = 0
-        length_of_urls = len(self.urls)
+        nr_of_urls_done = self.repo_index_start_from
+        if self.repo_index_stop_from <= 0:
+            length_of_urls = len(self.urls)
+        else:
+            length_of_urls = self.repo_index_stop_from
         repositories = []
         done = False
         while True:
@@ -135,7 +146,7 @@ class WebScraper:
                 }
                 async with aiohttp.ClientSession(headers=req_headers) as session:
                     self.logger.write_to_log("Starting new session")
-                    if nr_of_urls_done >= len(self.urls):
+                    if nr_of_urls_done >= length_of_urls:
                         print("breaking for loop, all urls done")
                         done = True
                         break
@@ -151,7 +162,7 @@ class WebScraper:
                         nr_of_urls_done + 1
                     if repo_capacity < 1:
                         continue
-                    length_of_urls = len(self.urls)
+                    #length_of_urls = len(self.urls)
                     loop_index = 0
                     if length_of_urls - nr_of_urls_done > repo_capacity:
                         loop_index = nr_of_urls_done + repo_capacity
@@ -194,7 +205,7 @@ class WebScraper:
                         break
 
             if done:
-                self.logger.write_to_log("urls done after run: " + str(nr_of_urls_done))
+                self.logger.write_to_log("urls done after run: " + str(self.nr_of_repos_scraped))
                 break
 
             current_time = time.time()

@@ -47,11 +47,12 @@ class CsvHandler:
             \n
         If a call to this function is made try to handle the different errors.
         """
-        print("begin writing to file...")
+        print("creating file...")
         
         try:
-            file = open(wanted_file_name, 'w+', newline='')
-        except:
+            file = open(wanted_file_name, 'w', newline='')
+        except Exception as e:
+            print(e)
             return "OPEN_FILE_ERROR"
 
         csv_writer = csv.writer(file)
