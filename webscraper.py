@@ -56,6 +56,7 @@ class WebScraper:
         repo.data[RepositoryData.TOTAL_ISSUES.name] = self.extract_total_issues_from_dict(id=id)
         repo.data[RepositoryData.NR_OF_CONTRIBUTORS.name] = self.extract_contributors_from_dict(id=id)
         repo.data[RepositoryData.NR_OF_STARS.name] = self.extract_stars_from_dict(id=id)
+        repo.data[RepositoryData.MAIN_LANGUAGE.name] = self.extract_main_programming_lang_from_dict(id=id)
         
         contributors = await self.get_contributons_from_top_ten_users(session=session, url=url)
         for index, user in enumerate(contributors):
@@ -113,6 +114,7 @@ class WebScraper:
                      RepositoryData.TOTAL_ISSUES.name, 
                      RepositoryData.NR_OF_CONTRIBUTORS.name, 
                      RepositoryData.NR_OF_STARS.name,
+                     RepositoryData.MAIN_LANGUAGE.name,
                      RepositoryData.CONTRIBUTOR_1.name,
                      RepositoryData.CONTRIBUTOR_2.name,
                      RepositoryData.CONTRIBUTOR_3.name,
@@ -236,10 +238,10 @@ class WebScraper:
     
     def extract_total_pr_from_dict(self, id: int) -> int:
         return self.repo_list["rows"][id][RepositoryData.TOTAL_PR.value]
-        
-
     
-
+    def extract_main_programming_lang_from_dict(self, id: int) -> str:
+        return self.repo_list["rows"][id][RepositoryData.MAIN_LANGUAGE.value]
+        
     async def get_remaining_calls_rate_limit(self, session: aiohttp.ClientSession):
         async with session.get("https://api.github.com/rate_limit", ssl=False) as response:
             json_resp = await response.json()
@@ -366,3 +368,4 @@ class WebScraper:
                              "Response not a list",
                              "Response not a list",
                              "Response not a list"]
+

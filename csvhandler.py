@@ -50,7 +50,7 @@ class CsvHandler:
         print("creating file...")
         
         try:
-            file = open(wanted_file_name, 'w', newline='')
+            file = open(wanted_file_name, 'w+', newline='')
         except Exception as e:
             print(e)
             return "OPEN_FILE_ERROR"

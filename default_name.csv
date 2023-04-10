@@ -1,0 +1,11 @@
+NAME,HAS_GHA,MEDIAN_PR_TIME,TOTAL_PR,MEDIAN_ISSUES_TIME,TOTAL_ISSUES,NR_OF_CONTRIBUTORS,NR_OF_STARS,MAIN_LANGUAGE,CONTRIBUTOR_1,CONTRIBUTOR_2,CONTRIBUTOR_3,CONTRIBUTOR_4,CONTRIBUTOR_5,CONTRIBUTOR_6,CONTRIBUTOR_7,CONTRIBUTOR_8,CONTRIBUTOR_9,CONTRIBUTOR_10
+caelum/calopsita,False,18435402.0,1,18435402.0,2,4,32,Java,625,106,98,67,63,53,45,4,2
+mdoube/bonej,False,847885.1153846154,26,10337478.05882353,33,4,25,Java,1624,238,25,6,4,2,2,1,1
+samxhuan/textrank,False,0,1,0,0,0,29,Java,18,No contributor,No contributor,No contributor,No contributor,No contributor,No contributor,No contributor,No contributor
+apache/maven-shared,False,21315355.3,26,21315355.3,0,24,27,Java,463,355,327,320,245,245,185,172,148
+rmetzler/simple-java-petrinet,False,0,,0,,,25,Java,4,2,No contributor,No contributor,No contributor,No contributor,No contributor,No contributor,No contributor
+apache/geronimo,False,11951809.8,23,11951809.8,0,16,33,Java,2666,1418,1097,850,621,613,493,444,420
+hyperic/hqapi,False,365134.4761904762,22,365134.4761904762,1,6,31,Java,912,101,70,53,21,21,19,19,17
+joshcough/scala-parallel,False,0,0,0,1,2,25,Java,36,3,2,1,1,No contributor,No contributor,No contributor,No contributor
+klbostee/feathers,False,883105.25,4,1207046.3333333333,4,4,27,Java,11,3,1,1,1,1,No contributor,No contributor,No contributor
+apache/synapse,True,4721328.758064516,73,4721328.758064516,0,13,50,Java,775,621,586,553,341,233,230,165,69
