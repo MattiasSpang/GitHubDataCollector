@@ -186,6 +186,7 @@ class WebScraper:
                     #repositories.extend(await asyncio.gather(*tasks))
                     completed_tasks, pending_tasks = await asyncio.wait(tasks)
 
+                    print("ahsjdhasdhjkahsdkjahsdjhaskjdhskjadhkj: " + str(len(pending_tasks)))
                     for task in completed_tasks:
                         repositories.append(task.result())
                         nr_of_urls_done += 1
@@ -287,7 +288,8 @@ class WebScraper:
                     return True
                 else:
                     return False
-            except:
+            except Exception as e:
+                self.logger.write_to_log(url + "  ERROR: " + str(e) + "   : Trouble getting if has GHA")
                 return False
             
     async def get_median_pull_request_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
@@ -312,7 +314,8 @@ class WebScraper:
                     median = total_seconds/number_of_closed_pulls
                     return median
                 return 0
-            except:
+            except Exception as e:
+                self.logger.write_to_log(url + "  ERROR: " + str(e) + "   : Trouble with getting PR closed time")
                 return 0
         
     async def get_median_issues_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
@@ -360,6 +363,7 @@ class WebScraper:
                          
                      return user_list
                  else:
+                     self.logger.write_to_log(resp)
                      return ["Response not a list",
                              "Response not a list",
                              "Response not a list",
@@ -372,6 +376,7 @@ class WebScraper:
                              "Response not a list"]
              except:
                  self.logger.write_to_log(url + "   : Trouble getting the reposonse for top 10 contributions")
+                 self.logger.write_to_log(str(resp))
                  return ["Response not a list",
                              "Response not a list",
                              "Response not a list",
