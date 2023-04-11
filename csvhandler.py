@@ -1,5 +1,5 @@
 import csv
-
+import io
 class CsvHandler:
 
     # Read a csv file in the same folder as the python script and return to user
@@ -15,7 +15,7 @@ class CsvHandler:
         rows = []
 
         try:
-            file = open(file_name)
+            file = open(file_name, encoding="latin-1")
         except OSError:
             print("ERROR: Unable to open the file " + file_name)
             return None

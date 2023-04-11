@@ -25,7 +25,12 @@ class WebScraper:
         self.nr_of_errors: int = 0
         self.nr_of_repos_scraped = 1
         self.remaining_calls_min = 2
-        self.token_list = ["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", "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"]
+        self.token_list = ["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", 
+                           "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", 
+                           "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",
+                           "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",
+                           "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",
+                           "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"]
 
         # settings
         self.wanted_file_name = "temp_name.csv"
@@ -239,7 +244,11 @@ class WebScraper:
         return self.repo_list["rows"][id][RepositoryData.TOTAL_ISSUES.value]
     
     def extract_total_pr_from_dict(self, id: int) -> int:
-        return self.repo_list["rows"][id][RepositoryData.TOTAL_PR.value]
+        try:
+            return self.repo_list["rows"][id][RepositoryData.TOTAL_PR.value]
+        except:
+            print(id)
+            return 0
     
     def extract_main_programming_lang_from_dict(self, id: int) -> str:
         return self.repo_list["rows"][id][RepositoryData.MAIN_LANGUAGE.value]

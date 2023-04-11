@@ -1,6 +1,0 @@
-NAME,HAS_GHA,MEDIAN_PR_TIME,TOTAL_PR,MEDIAN_ISSUES_TIME,TOTAL_ISSUES,NR_OF_CONTRIBUTORS,NR_OF_STARS,MAIN_LANGUAGE,TOTAL_COMMITS,CONTRIBUTOR_1,CONTRIBUTOR_2,CONTRIBUTOR_3,CONTRIBUTOR_4,CONTRIBUTOR_5,CONTRIBUTOR_6,CONTRIBUTOR_7,CONTRIBUTOR_8,CONTRIBUTOR_9,CONTRIBUTOR_10
-mdoube/bonej,False,847885.1153846154,26,10337478.05882353,33,4,25,Java,1904,1624,238,25,6,4,2,2,1,1
-apache/maven-shared,False,21315355.3,26,21315355.3,0,24,27,Java,3387,463,355,327,320,245,245,185,172,148
-rmetzler/simple-java-petrinet,False,0,,0,,,25,Java,6,4,2,No contributor,No contributor,No contributor,No contributor,No contributor,No contributor,No contributor
-klbostee/feathers,False,883105.25,4,1207046.3333333333,4,4,27,Java,18,11,3,1,1,1,1,No contributor,No contributor,No contributor
-joshcough/scala-parallel,False,0,0,0,1,2,25,Java,43,36,3,2,1,1,No contributor,No contributor,No contributor,No contributor

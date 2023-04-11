@@ -26,6 +26,12 @@ class View:
 		print("'What is the name of the file you want to get urls from?")
 		answer = input()
 		return answer
+
+	def set_output_file_name(self):
+		answer = ""
+		print("'What is the name of the file you want output the data into?")
+		answer = input()
+		return answer
 	
 	def set_input_file_delimiter(self):
 		answer = ""
@@ -33,9 +39,8 @@ class View:
 		answer = input()
 		return answer
 	
-	def change_settings(self) -> dict:
+	def change_settings(self, settings: dict):
 
-		settings = {"filename" : "default_name.csv", "startline" : 0, "endline" : 0}
 		while True:
 			print("Welcome to the settings menu, please select what setting to change:")
 			print("OutPut File Name - write OPFN")
@@ -46,7 +51,7 @@ class View:
 			answer = input()
 
 			if answer == "OPFN":
-				settings["filename"] = self.set_input_file_name()
+				settings["filename"] = self.set_output_file_name()
 				continue
 			elif answer == "SL":
 				settings["startline"] = self.set_start()
@@ -59,8 +64,6 @@ class View:
 				break
 
 			print("No valid command given, please select a valid command")
-
-		return settings
 	
 	def enter_settings(self) -> dict:
 
@@ -71,13 +74,13 @@ class View:
 			answer = input()
 
 			if answer == "y" or answer == "yes":
-				settings = self.change_settings()
+				self.change_settings(settings)
 				continue
 			elif answer == "n" or answer == "no":
 				break
 
 			print("No valid command given, please enter valid command.")
-
+		print(settings)
 		return settings
 
 		
