@@ -1,5 +1,5 @@
 import csv
-
+import io
 class CsvHandler:
 
     # Read a csv file in the same folder as the python script and return to user
@@ -15,7 +15,7 @@ class CsvHandler:
         rows = []
 
         try:
-            file = open(file_name)
+            file = open(file_name, encoding="latin-1")
         except OSError:
             print("ERROR: Unable to open the file " + file_name)
             return None
@@ -31,7 +31,7 @@ class CsvHandler:
             "rows"      : rows
         }
 
-        print(csvDict["rows"])
+        #print(csvDict["rows"])
 
         file.close()
 
@@ -47,17 +47,18 @@ class CsvHandler:
             \n
         If a call to this function is made try to handle the different errors.
         """
-        print("begin writing to file...")
+        print("creating file...")
         
         try:
             file = open(wanted_file_name, 'w+', newline='')
-        except:
+        except Exception as e:
+            print(e)
             return "OPEN_FILE_ERROR"
 
         csv_writer = csv.writer(file)
 
         try: 
-            print(data["header"])
+            #print(data["header"])
             csv_writer.writerow(data["header"])
             csv_writer.writerows(data["rows"])
         except:

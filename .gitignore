@@ -29,9 +29,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+#/////////////////////////////////////////                 CUSTOM IGNORE FILES
 Log_*
 temp_name.csv
+results.csv
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
