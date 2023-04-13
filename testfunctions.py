@@ -59,10 +59,15 @@ def test_logger_generate_new_file_name():
     logger = Logger()
 
     print(logger.get_new_generated_file_name())
+
+
+def test_select_tokens():
+    view = View()
+
+    print(view.get_tokens())
 #test_create_and_get_data_from_repository()
 #test_save_interval_from_view()
 #test_set_stop_from_view()
 #test_create_csv_file()
 #asyncio.run(test_get_rate_limit())
-
-test_logger_generate_new_file_name() 
+test_select_tokens()

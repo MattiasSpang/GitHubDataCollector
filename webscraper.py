@@ -25,12 +25,8 @@ class WebScraper:
         self.nr_of_errors: int = 0
         self.nr_of_repos_scraped = 1
         self.remaining_calls_min = 2
-        self.token_list = ["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", 
-                           "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", 
-                           "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",
-                           "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",
-                           "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",
-                           "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"]
+        self.token_list = []
+        self.run_time = time.time()
 
         # settings
         self.wanted_file_name = "temp_name.csv"
@@ -93,6 +89,7 @@ class WebScraper:
         # --------------------------
         self.file_name = view.set_input_file_name()
         self.delimiter = view.set_input_file_delimiter()
+        self.token_list = view.get_tokens()
 
         settings = view.enter_settings()
         self.repo_index_start_from = settings["startline"]
@@ -148,7 +145,7 @@ class WebScraper:
             reset_time = 0
         
             for token in self.token_list:
-                tasks = []
+                #tasks = []
 
                 req_headers = {
                     "Authorization" : "token " + token
@@ -181,15 +178,16 @@ class WebScraper:
                     print("###########################" + str(loop_index))
 
                     for i in range(int(nr_of_urls_done),int(loop_index)): 
-                        tasks.append(asyncio.create_task(self.fetch(session, self.urls[i], i)))
+                        repositories.append(await self.fetch(session=session, url=self.urls[i], id=i))
+                        nr_of_urls_done += 1
                         
                     #repositories.extend(await asyncio.gather(*tasks))
-                    completed_tasks, pending_tasks = await asyncio.wait(tasks)
+                    #completed_tasks, pending_tasks = await asyncio.wait(tasks)
 
-                    print("ahsjdhasdhjkahsdkjahsdjhaskjdhskjadhkj: " + str(len(pending_tasks)))
-                    for task in completed_tasks:
+                    
+                    """for task in tasks:
                         repositories.append(task.result())
-                        nr_of_urls_done += 1
+                        nr_of_urls_done += 1"""
                     
 
                     print("starting to write csv file...")
@@ -207,7 +205,12 @@ class WebScraper:
                     CsvHandler.write_to_csv_file(data=data_dict,file_name=self.wanted_file_name)
                     print("done writing to file!")
                     print(await self.get_remaining_calls_rate_limit(session=session))
-                    reset_time = float(await self.get_token_refresh_time(session=session))
+
+                    now = time.time()
+
+                    print("Elapsed time: " + self.run_time - now)
+                    if reset_time == 0:
+                        reset_time = float(await self.get_token_refresh_time(session=session))
 
                     if nr_of_urls_done >= len(self.urls):
                         print("breaking for loop, all urls done")
@@ -219,9 +222,10 @@ class WebScraper:
                 break
 
             current_time = time.time()
-            self.logger.write_to_log("wating for rate limit reset time  :  seconds:  " + str((reset_time - current_time)))
-            print("sleeping for: " + str(reset_time - current_time) + " seconds.")
-            time.sleep((reset_time - current_time))
+            if reset_time - current_time > 0:
+                self.logger.write_to_log("wating for rate limit reset time  :  seconds:  " + str((reset_time - current_time)))
+                print("sleeping for: " + str(reset_time - current_time) + " seconds.")
+                time.sleep((reset_time - current_time))
 
             
         self.logger.write_to_log("Repos scraped: " + str(self.nr_of_repos_scraped))
@@ -289,6 +293,7 @@ class WebScraper:
                 else:
                     return False
             except Exception as e:
+                print("Get GHA ERROR")
                 self.logger.write_to_log(url + "  ERROR: " + str(e) + "   : Trouble getting if has GHA")
                 return False
             
@@ -315,6 +320,7 @@ class WebScraper:
                     return median
                 return 0
             except Exception as e:
+                print("Get Median PULL REQUEST TIME ERROR")
                 self.logger.write_to_log(url + "  ERROR: " + str(e) + "   : Trouble with getting PR closed time")
                 return 0
         
@@ -343,6 +349,7 @@ class WebScraper:
                     return median
                 return 0
             except Exception as e:
+                print("GET MEDIAN ISSUE TIME ERROR")
                 self.logger.write_to_log(url + "  ERROR: " + str(e) + "   : Trouble with getting issues closed time")
                 return 666
             
@@ -375,6 +382,7 @@ class WebScraper:
                              "Response not a list",
                              "Response not a list"]
              except:
+                 print("GET CONTRIBUTORS ERROR")
                  self.logger.write_to_log(url + "   : Trouble getting the reposonse for top 10 contributions")
                  self.logger.write_to_log(str(resp))
                  return ["Response not a list",

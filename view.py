@@ -82,5 +82,27 @@ class View:
 			print("No valid command given, please enter valid command.")
 		print(settings)
 		return settings
+	
+	def get_tokens(self):
+		print("Please select file the has the wanted tokens:")
+		file_name = input()
+
+		file_rows = open(file_name, "r").readlines()
+
+		print("Please enter first token out of: " + str(len(file_rows)) + " tokens:")
+
+		first_token = input()
+
+		print("Please enter last token out of: " + str(len(file_rows)) + " tokens:")
+
+		last_token = input()
+
+		list_of_tokens = list()
+		for i in range(int(first_token), int(last_token)):
+			list_of_tokens.append(file_rows[i].strip("\n"))
+			
+		return list_of_tokens
+		
+
 
 		
