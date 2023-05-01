@@ -97,6 +97,7 @@ class WebScraper:
         self.wanted_file_name = settings["filename"]
 
         print("///////" + str(self.repo_index_start_from), " : " + str(self.repo_index_stop_from))
+        print("TOKENS: " + str(self.token_list))
         #---------------------------
         # Get repo list here
         #---------------------------
@@ -139,13 +140,14 @@ class WebScraper:
             length_of_urls = len(self.urls)
         else:
             length_of_urls = self.repo_index_stop_from
-        repositories = []
+            
         done = False
         while True:
             reset_time = 0
         
             for token in self.token_list:
                 #tasks = []
+                repositories = []
 
                 req_headers = {
                     "Authorization" : "token " + token
@@ -164,20 +166,21 @@ class WebScraper:
                     print("calls_left: " + str(current_rate_limit))
                     print("repo_capacity: " + str(repo_capacity))
                     print("nr_of_urls_done: " + str(nr_of_urls_done))
-                    if nr_of_urls_done > 0:
-                        nr_of_urls_done + 1
+                    #if nr_of_urls_done > 0:
+                    #    nr_of_urls_done + 1
                     if repo_capacity < 1:
                         continue
                     #length_of_urls = len(self.urls)
                     loop_index = 0
                     if length_of_urls - nr_of_urls_done > repo_capacity:
-                        loop_index = nr_of_urls_done + repo_capacity
+                        loop_index = int(nr_of_urls_done + repo_capacity)
                     else:
                         loop_index = length_of_urls
                     
                     print("###########################" + str(loop_index))
 
-                    for i in range(int(nr_of_urls_done),int(loop_index)): 
+                    range_start = nr_of_urls_done
+                    for i in range(int(range_start),int(loop_index)): 
                         repositories.append(await self.fetch(session=session, url=self.urls[i], id=i))
                         nr_of_urls_done += 1
                         
@@ -206,9 +209,10 @@ class WebScraper:
                     print("done writing to file!")
                     print(await self.get_remaining_calls_rate_limit(session=session))
 
+                    
                     now = time.time()
 
-                    print("Elapsed time: " + self.run_time - now)
+                    print("Elapsed time: " + str((now - self.run_time)))
                     if reset_time == 0:
                         reset_time = float(await self.get_token_refresh_time(session=session))
 
@@ -239,16 +243,16 @@ class WebScraper:
         for row in self.repo_list["rows"]:
             self.urls.append(row[RepositoryData.NAME.value])
             
-    def extract_stars_from_dict(self, id: int) -> int:
+    def extract_stars_from_dict(self, id: int):
         return self.repo_list["rows"][id][RepositoryData.NR_OF_STARS.value]
             
-    def extract_contributors_from_dict(self, id: int) -> int:
+    def extract_contributors_from_dict(self, id: int):
         return self.repo_list["rows"][id][RepositoryData.NR_OF_CONTRIBUTORS.value]
     
-    def extract_total_issues_from_dict(self, id: int) -> int:
+    def extract_total_issues_from_dict(self, id: int):
         return self.repo_list["rows"][id][RepositoryData.TOTAL_ISSUES.value]
     
-    def extract_total_pr_from_dict(self, id: int) -> int:
+    def extract_total_pr_from_dict(self, id: int):
         try:
             return self.repo_list["rows"][id][RepositoryData.TOTAL_PR.value]
         except:
@@ -258,8 +262,8 @@ class WebScraper:
     def extract_main_programming_lang_from_dict(self, id: int) -> str:
         return self.repo_list["rows"][id][RepositoryData.MAIN_LANGUAGE.value]
 
-    def extract_total_amount_of_commits_from_dict(self, id: int) -> int:
-        return int(self.repo_list["rows"][id][RepositoryData.TOTAL_COMMITS.value])
+    def extract_total_amount_of_commits_from_dict(self, id: int):
+        return self.repo_list["rows"][id][RepositoryData.TOTAL_COMMITS.value]
         
     async def get_remaining_calls_rate_limit(self, session: aiohttp.ClientSession):
         async with session.get("https://api.github.com/rate_limit", ssl=False) as response:
@@ -283,11 +287,14 @@ class WebScraper:
     async def check_if_has_gha(self, session: aiohttp.ClientSession, url: str) -> bool:
          #print("https://api.github.com/repos/"+url+"/actions/workflows")
          async with session.get("https://api.github.com/repos/"+url+"/actions/workflows", ssl=False) as response:
-            json_resp = json.dumps(await response.json())
-
-            json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
+            
 
             try:
+
+                json_resp = json.dumps(await response.json())
+
+                json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
+
                 if json_object.total_count > 0:
                     return True
                 else:
@@ -300,12 +307,14 @@ class WebScraper:
     async def get_median_pull_request_time_in_seconds(self, session: aiohttp.ClientSession, url: str) -> float:
 
         async with session.get("https://api.github.com/repos/"+url+"/pulls?state=closed&per_page=100", ssl=False) as response:
-            json_resp = json.dumps(await response.json())
-
-            json_object = json.loads(json_resp)
-            number_of_closed_pulls = 0
-            total_seconds = 0
+            
             try: #this try is here because the json object has no lenght sometimes and crashes, find a better solution
+                json_resp = json.dumps(await response.json())
+
+                json_object = json.loads(json_resp)
+                number_of_closed_pulls = 0
+                total_seconds = 0
+
                 if len(json_object) > 0:
                     for issue in json_object:
                         if issue["closed_at"] != None:
@@ -328,13 +337,15 @@ class WebScraper:
 
         #print(url)
         async with session.get("https://api.github.com/repos/"+url+"/issues?state=closed&per_page=100", ssl=False) as response:
-            json_resp = json.dumps(await response.json())
-
-            json_object = json.loads(json_resp)
-            number_of_closed_issues = 0
-            total_seconds = 0
+            
             try: #this try is here because the json object has no lenght sometimes and crashes, find a better solution
                 
+                json_resp = json.dumps(await response.json())
+
+                json_object = json.loads(json_resp)
+                number_of_closed_issues = 0
+                total_seconds = 0
+
                 if len(json_object) > 0:
                     for issue in json_object:
                         if issue["closed_at"] != None:
@@ -359,8 +370,11 @@ class WebScraper:
 
          #print(url)
          async with session.get("https://api.github.com/repos/"+url+"/contributors?per_page=10&anon=true", ssl=False) as response:
-             resp = await response.json()
+            
              try:
+                 
+                 resp = await response.json()
+
                  if type(resp) == list:
                      user_list = []
                      for user in resp:
@@ -370,7 +384,6 @@ class WebScraper:
                          
                      return user_list
                  else:
-                     self.logger.write_to_log(resp)
                      return ["Response not a list",
                              "Response not a list",
                              "Response not a list",
@@ -384,7 +397,6 @@ class WebScraper:
              except:
                  print("GET CONTRIBUTORS ERROR")
                  self.logger.write_to_log(url + "   : Trouble getting the reposonse for top 10 contributions")
-                 self.logger.write_to_log(str(resp))
                  return ["Response not a list",
                              "Response not a list",
                              "Response not a list",

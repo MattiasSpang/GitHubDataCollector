@@ -33,6 +33,11 @@ MANIFEST
 Log_*
 temp_name.csv
 results.csv
+instance_*.csv
+fixed_results.csv
+final_dataset_unedited.csv
+default_name.csv
+tokens2.txt
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
