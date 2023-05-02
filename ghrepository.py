@@ -31,24 +31,25 @@ class GHRepository:
     def to_csv_row(self):
         csv_row = []
         csv_row.append(self.url)
-        csv_row.append(self.data[RepositoryData.HAS_GHA.name])
-        csv_row.append(self.data[RepositoryData.MEDIAN_PR_TIME.name])
-        csv_row.append(self.data[RepositoryData.TOTAL_PR.name])
-        csv_row.append(self.data[RepositoryData.MEDIAN_ISSUES_TIME.name])
-        csv_row.append(self.data[RepositoryData.TOTAL_ISSUES.name])
-        csv_row.append(self.data[RepositoryData.NR_OF_CONTRIBUTORS.name])
-        csv_row.append(self.data[RepositoryData.NR_OF_STARS.name])
-        csv_row.append(self.data[RepositoryData.MAIN_LANGUAGE.name])
-        csv_row.append(self.data[RepositoryData.TOTAL_COMMITS.name])
+        #csv_row.append(self.data[RepositoryData.HAS_GHA.name])
+        #csv_row.append(self.data[RepositoryData.MEDIAN_PR_TIME.name])
+        #csv_row.append(self.data[RepositoryData.TOTAL_PR.name])
+        #csv_row.append(self.data[RepositoryData.MEDIAN_ISSUES_TIME.name])
+        #csv_row.append(self.data[RepositoryData.TOTAL_ISSUES.name])
+        #csv_row.append(self.data[RepositoryData.NR_OF_CONTRIBUTORS.name])
+        #csv_row.append(self.data[RepositoryData.NR_OF_STARS.name])
+        #csv_row.append(self.data[RepositoryData.MAIN_LANGUAGE.name])
+        #csv_row.append(self.data[RepositoryData.TOTAL_COMMITS.name])
+        csv_row.append(self.data[RepositoryData.CREATED_AT.name])
 
         
-        for value in range(1,10):
+        """for value in range(1,10):
             
             contributor_name = "CONTRIBUTOR_" + str(value)
             try:
                 csv_row.append(self.data[contributor_name])
             except:
                 print("ERROR: URL: " + self.url + "  CONTRIBUTOR_NAME: " + contributor_name)
-                csv_row.append("name error")
+                csv_row.append("name error")"""
 
         return csv_row

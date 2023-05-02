@@ -50,6 +50,9 @@ class WebScraper:
 
         repo = GHRepository(url=url)
 
+        repo.data[RepositoryData.CREATED_AT.name] = await self.get_created_at_for_repo(session=session, url=url)
+
+        """
         repo.data[RepositoryData.HAS_GHA.name] = await self.check_if_has_gha(session=session, url=url)
         repo.data[RepositoryData.MEDIAN_PR_TIME.name] = await self.get_median_pull_request_time_in_seconds(session=session, url=url)
         repo.data[RepositoryData.TOTAL_PR.name] = self.extract_total_pr_from_dict(id=id)
@@ -64,6 +67,8 @@ class WebScraper:
         for index, user in enumerate(contributors):
             contributor_name = "CONTRIBUTOR_" + str(index +1)
             repo.data[contributor_name] = user
+            
+        """
 
         
         
@@ -110,27 +115,32 @@ class WebScraper:
 
         # prepare a task for every repository
 
-        headers = [RepositoryData.NAME.name, 
-                   RepositoryData.HAS_GHA.name, 
-                   RepositoryData.MEDIAN_PR_TIME.name,
-                     RepositoryData.TOTAL_PR.name, 
-                     RepositoryData.MEDIAN_ISSUES_TIME.name, 
-                     RepositoryData.TOTAL_ISSUES.name, 
-                     RepositoryData.NR_OF_CONTRIBUTORS.name, 
-                     RepositoryData.NR_OF_STARS.name,
-                     RepositoryData.MAIN_LANGUAGE.name,
-                     RepositoryData.TOTAL_COMMITS.name,
-                     RepositoryData.CONTRIBUTOR_1.name,
-                     RepositoryData.CONTRIBUTOR_2.name,
-                     RepositoryData.CONTRIBUTOR_3.name,
-                     RepositoryData.CONTRIBUTOR_4.name,
-                     RepositoryData.CONTRIBUTOR_5.name,
-                     RepositoryData.CONTRIBUTOR_6.name,
-                     RepositoryData.CONTRIBUTOR_7.name,
-                     RepositoryData.CONTRIBUTOR_8.name,
-                     RepositoryData.CONTRIBUTOR_9.name,
-                     RepositoryData.CONTRIBUTOR_10.name
-                     ]
+        headers = [
+            RepositoryData.NAME.name,
+            RepositoryData.CREATED_AT.name
+            ]
+        # Should be in the list above.
+        """
+            RepositoryData.HAS_GHA.name, 
+            RepositoryData.MEDIAN_PR_TIME.name,
+            RepositoryData.TOTAL_PR.name, 
+            RepositoryData.MEDIAN_ISSUES_TIME.name, 
+            RepositoryData.TOTAL_ISSUES.name, 
+            RepositoryData.NR_OF_CONTRIBUTORS.name, 
+            RepositoryData.NR_OF_STARS.name,
+            RepositoryData.MAIN_LANGUAGE.name,
+            RepositoryData.TOTAL_COMMITS.name,
+            RepositoryData.CONTRIBUTOR_1.name,
+            RepositoryData.CONTRIBUTOR_2.name,
+            RepositoryData.CONTRIBUTOR_3.name,
+            RepositoryData.CONTRIBUTOR_4.name,
+            RepositoryData.CONTRIBUTOR_5.name,
+            RepositoryData.CONTRIBUTOR_6.name,
+            RepositoryData.CONTRIBUTOR_7.name,
+            RepositoryData.CONTRIBUTOR_8.name,
+            RepositoryData.CONTRIBUTOR_9.name,
+            RepositoryData.CONTRIBUTOR_10.name
+        """  
         rows = []
         data_dict = {"header": headers, "rows" : rows}
         CsvHandler.createCsvFile(data=data_dict,wanted_file_name=self.wanted_file_name)
@@ -408,3 +418,24 @@ class WebScraper:
                              "Response not a list",
                              "Response not a list"]
 
+    async def get_created_at_for_repo(self, session: aiohttp.ClientSession, url: str) -> str:
+         #print("https://api.github.com/repos/"+url+"/actions/workflows")
+         async with session.get("https://api.github.com/repos/"+url) as response:
+
+            try:
+
+                json_resp = json.dumps(await response.json())
+
+                json_object = json.loads(json_resp, object_hook=lambda d: SimpleNamespace(**d))
+
+                created_at = json_object.created_at
+
+                format_string = '%Y-%m-%dT%H:%M:%SZ'
+                created_at_datetime = datetime.strptime(created_at, format_string)
+
+                return str(created_at_datetime.date())
+
+            except Exception as e:
+                print("Could not get date created")
+                self.logger.write_to_log(url + "  ERROR: " + str(e) + "   : Trouble getting time created")
+                return "Error"
